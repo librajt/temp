@@ -151,8 +151,10 @@ body{min-width:1200px;background:#F4F4EE;overflow-x:auto!important;font-family:"
 .protfolioCardWrap{margin-right:-10px;}
 .protfolioCard{width:275px;margin-right:10px;margin-bottom:30px;}
 .protfolioCard .main{font-size:14px;line-height:22px;}
-.protfolioCard .img{margin-bottom:10px;}
+.protfolioCard .img{margin-bottom:10px;position:relative;}
 .protfolioCard img{width:100%;}
+.protfolioCard .img span{position:absolute;top:0;left:0;right:0;bottom:0;background:#000 url(../image/hover.png) no-repeat center;opacity:0;filter: alpha(opacity=0);transition:opacity .2s;}
+.protfolioCard :hover span{opacity:.35;filter: alpha(opacity=35);}
 .protfolioCard .title{font-weight:bold;}
 .protfolioCard .title,.protfolioCard .title a{color:#333333;}
 .protfolioCard .info,.protfolioCard .info a{color:#353535;}
