@@ -41,7 +41,7 @@ body{min-width:1200px;background:#F4F4EE;overflow-x:auto!important;font-family:"
 /* pageFoot */
 .pageFoot{background:#FFF url(../image/saw.jpg) repeat-x center top;padding-top:75px;margin-top:60px;}
 .pageFoot .footer{width:1200px;margin:auto;}
-.pageFoot .widgets{padding-bottom:50px;border-bottom:1px solid #DDDDD7;}
+.pageFoot .widgets{padding-bottom:50px;border-bottom:1px solid #DDDDD7;position:relative;}
 .pageFoot .siteinfo{padding:20px 0 30px 0;}
 
 /* footer widgets */
@@ -52,6 +52,7 @@ body{min-width:1200px;background:#F4F4EE;overflow-x:auto!important;font-family:"
 
 .footer .widget1 h3 img{position:relative;top:-10px;}
 .hostInfo .info{margin-bottom:20px;}
+.footer .widget1:after{content:'';position:absolute;bottom:-1px;border-bottom:1px solid #FFF;width:10px;left:300px;}
 
 .blogCardMin .title{font-weight:bold;}
 .blogCardMin .title,.blogCardMin .title a{color:#333333;}
