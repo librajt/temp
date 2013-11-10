@@ -160,6 +160,7 @@ body{min-width:1200px;background:#F4F4EE;overflow-x:auto!important;font-family:"
 .protfolioCard .info,.protfolioCard .info a{color:#353535;}
 
 /* blogCards */
+.blogCards{overflow:hidden;}
 .blogCards .blogCard{float:left;}
 
 /* blogCard */
