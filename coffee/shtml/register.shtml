@@ -1,0 +1,48 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="page pageRegister">
+            <form action="" class="form formA reg">
+                <div class="field help">已有帐户，请直接 <a href="#3">登录</a></div>
+                <div class="field result"></div><!-- @后端：这里显示错误提示 -->
+                <label class="field email">
+                    <div class="desc">邮箱</div>
+                    <div class="data"><input type="text"></div>
+                </label>
+                <label class="field pwd">
+                    <div class="desc">密码</div>
+                    <div class="data"><input type="password"></div>
+                </label>
+                <label class="field confirem">
+                    <div class="desc">确认密码</div>
+                    <div class="data"><input type="password"></div>
+                </label>
+                <label class="field nick">
+                    <div class="desc">昵称</div>
+                    <div class="data"><input type="text"></div>
+                </label>
+                <label class="field phone">
+                    <div class="desc">手机</div>
+                    <div class="data"><input type="text"></div>
+                </label>
+                <div class="field btns">
+                    <div class="submit"><button type="submit" class="btn btnB btnB1">注册</button></div>
+                </div>
+
+            </form>
+    
+        </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

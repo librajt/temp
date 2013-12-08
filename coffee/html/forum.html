@@ -1,0 +1,593 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/coffee.js"></script>
+
+
+<title></title>
+<link rel="stylesheet" type="text/css" href="../css/g.css" media="all">
+
+</head>
+<body>
+
+<div class="head pageHead">
+    <div class="wrap headWrap frame">
+        <div class="logo topLogo">
+            <h1><a href="/"><img src="../image/topLogo.jpg" alt="桔子咖啡"></a></h1>
+        </div>
+        <div class="nav topNav">
+            <ul class="wrap itWrap">
+                <li class="it on"><a href="#3"><b>关于桔子咖啡</b></a></li><!-- @后端：当前页面增加类名 on -->
+                <li class="it"><a href="#3"><b>最新活动</b></a></li>
+                <li class="it"><a href="#3"><b>IT业界</b></a></li>
+                <li class="it"><a href="#3"><b>招聘信息</b></a></li>
+                <li class="it"><a href="#3"><b>桔子咖啡论坛</b></a></li>
+                <li class="it"><a href="#3"><b>联系我们</b></a></li>
+            </ul>
+        </div>
+        <div class="band userPop">
+            <div class="wrap userActions">
+                <div class="action login"><a href="#3" class="btn btnA btnA1"><b>登录</b></a></div>
+                <div class="action register"><a href="#3" class="btn btnA btnA1"><b>注册</b></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="nav forumNav">
+            <div class="wrap navWrap">
+                <div class="it on"><a href="#3"><b>首页</b></a></div><!-- @后端：当前页面增加类名 on -->
+                <div class="it"><a href="#3"><b>it特快新闻</b></a></div>
+                <div class="it"><a href="#3"><b>技术交流</b></a></div>
+                <div class="it"><a href="#3"><b>it业界八卦</b></a></div>
+                <div class="it"><a href="#3"><b>代码PK</b></a></div>
+                <div class="it"><a href="#3"><b>约会</b></a></div>
+                <div class="it"><a href="#3"><b>意见栏</b></a></div>
+            </div>
+        </div>
+
+        <div class="head forumHead">
+            <div class="wrap headWrap">
+                <div class="newPost"><a href="#3" class="btn btnB btnB2"><b>发帖</b></a></div>
+                <div class="nav pageNav">
+                    <div class="wrap navWrap">
+                        <a href="#3" class="it back"><i class="i iG iG_A1"></i><b>返回</b></a>
+                        <a href="#3" class="it"><b>1 ...</b></a>
+                        <a href="#3" class="it previous"><i class="i iG iG_A1"></i><b></b></a>
+                        <a href="#3" class="it"><b>2</b></a>
+                        <b href="#3" class="it on"><b>3</b></b>
+                        <a href="#3" class="it"><b>4</b></a>
+                        <a href="#3" class="it"><b>... 35</b></a>
+                        <label class="it jump">
+                            <b>
+                                <input type="text" name="custompage" size="2" title="输入页码，按回车快速跳转" value="3" onkeydown="if(event.keyCode==13) {window.location='forum.php?mod=forumdisplay&amp;fid=43&amp;page='+this.value;}">
+                                <span title="共 35 页"> / 35 页</span>
+                            </b>
+                        </label>
+                        <a href="#3" class="it next"><b>下一页</b><i class="i iG iG_A2"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="forumList">
+            <div class="wrap listWrap">
+                <div class="table">
+                    <div class="th">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="title">
+                                        <div class="wrap sortWrap">
+                                            <a href="#3" class="sort">全部主题<i class="i iG iG_B1"></i></a>
+                                            <a href="#3" class="sort">最新</a>
+                                            <a href="#3" class="sort">热门</a>
+                                            <a href="#3" class="sort">热帖</a>
+                                            <a href="#3" class="sort">精华</a>
+                                            <a href="#3" class="sort">更多<i class="i iG iG_B1"></i></a>
+                                        </div>
+                                    </td>
+                                    <td class="by">作者</td>
+                                    <td class="num">回复/查看</td>
+                                    <td class="by">最后发表</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tbody">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3" style="color:red;">标题标题标题标题标题标题标题标题标题</a></td><!-- @后端：标题高亮时a标签增加样式属性 style="color:red;" -->
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3">标题标题标题标题标题标题标题标题标题</a></td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quickPost">
+            <div class="h3">快速发贴</div>
+            <form class="form formB postForm">
+                <div class="field cnt">
+                    <textarea></textarea>
+                </div>
+                <div class="field verify">
+                    验证码 <input type="text" size="4"> <img src="../image/verify.png" alt="">
+                </div>
+                <div class="field attachment">
+                    附件 <input type="file">
+                </div>
+                <div class="field submit">
+                    <div class="submit"><button type="submit" class="btn btnB btnB1">发表帖子</button></div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="foot pageFoot">
+    <div class="wrap footWrap frame">
+        <div class="info support">赞助单位：清华科技园</div>
+        <div class="info copyright">Copyright &copy; 2013 orange-coffee.com | 桔子咖啡,IT互联网xxxxxxx商业信息服务</div>
+    </div>
+</div>
+
+
+</body>
+</html>

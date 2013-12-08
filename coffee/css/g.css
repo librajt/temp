@@ -1,0 +1,236 @@
+/* reset */
+*{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:normal;}
+ul,ol,li{list-style:none;}
+em,i,b,th{font-style:normal;font-weight:normal;}
+input,button,textarea,select,img{border:0;outline:none;vertical-align:middle;}
+body,input,button,textarea,select{font-family:Tahoma,Helvetica,'SimSun',sans-serif;}
+a{text-decoration:none;}
+
+/* tools */
+.wrap,
+.cfx
+{zoom:1;}
+.wrap:after,
+.cfx:after
+{content:'';display:block;height:0;overflow:hidden;clear:both;}
+
+/* ico   iG_A1代表global图片中的A行1列图标 */
+.i{width:10px;height:10px;display:inline-block;vertical-align:middle;overflow:hidden;}
+
+
+.iG{background:url("../image/arr.png") no-repeat;}
+.iG_A1{background-position:0 0;}
+.iG_A2{background-position:-10px 0;}
+.iG_B1{background-position:0 -10px;}
+
+
+/* btn */
+.btn{text-align:center;}
+
+.btnA{display:inline-block;vertical-align:middle;background:#7DBA00;color:#FFF;}
+.btnB{display:inline-block;vertical-align:middle;background:#FF6600;color:#FFF;}
+
+/* form */
+.form{}
+.form .field{display:block;}
+.form .field .desc{font-size:14px;color:#666666;}
+.form .field .data{padding-right:20px;}
+.form .field .data input{font-size:14px;color:#666666;height:16px;padding:8px;border:1px solid #CCCCCC;display:block;width:100%;}
+
+.formA .field{position:relative;margin:20px 0;}
+.formA .field .desc{position:absolute;left:-10px;width:70px;margin-left:-70px;top:9px;text-align:right;line-height:16px;}
+.formA .submit{text-align:right;}
+.formA .submit .btn{width:70px;height:27px;font-size:12px;}
+.formA .help{margin-bottom:50px;font-size:12px;color:#666666;}
+.formA .help a{color:#FF6600;}
+.formA .result{font-size:12px;color:#B00;}
+
+.formB .field{margin-bottom:10px;font-size:12px;}
+.formB .cnt{padding-right:10px;}
+.formB .cnt textarea{width:100%;height:100px;border:1px solid #CDCDCD;padding:4px;}
+.formB .verify input{width:60px;border:1px solid #CDCDCD;height:16px;padding:4px;}
+.formB .verify img{height:24px;}
+.formB .submit{text-align:right;}
+.formB .submit .btn{width:80px;height:27px;}
+
+
+/* table */
+.forumList{margin:10px 0;}
+.table{background:#FFF;border:1px solid #ECE8E8;}
+.table table{width:100%;table-layout:fixed;}
+.table td{border-top:1px solid #ECE8E8;}
+.table .th{background:#F2F2F2;font-size:12px;color:#333;}
+.table .th a{color:#336699;}
+.table .th td{border-top:1px solid #FFF;}
+.table .title{padding:10px;}
+.table .title .sort{margin-right:10px;}
+.table .side{width:160px;font-size:12px;}
+.table .by{width:105px;font-size:12px;}
+.table .num{width:60px;font-size:12px;}
+.table .num a,.table .by a,.table .num em,.table .by em{display:block;line-height:14px;}
+.table .by a{color:#333333;}
+.table .num a{color:#336699;}
+.table .num em,.table .by em{color:#999999;}
+.table .tbody .title a{color:#333333;font-size:14px;}
+
+/* frame */
+html{-webkit-text-size-adjust:none;height:100%;line-height:1;}
+body{background:#FAFAFA;min-height:100%;min-width:982px;margin:auto;}
+.frame{width:982px;margin:auto;}
+.pageHead{background:#F3F3F3;border-top:2px solid #FAFAFA;padding-top:20px;margin-bottom:10px;}
+.pageFoot{margin-top:30px;}
+.pageFoot .footWrap{border-top:1px dashed #DCDCDC;line-height:1.5;padding:10px 0 30px;}
+
+.page{border:1px solid #FF6D0C;background:#FFFFFF;margin-top:30px;padding:20px 30px 50px;min-height:600px;_height:600px;}
+.page h2{font-size:20px;line-height:24px;color:#6DA201;font-family:\5fae\8f6f\96c5\9ed1;}
+
+/* ---------- common -------- */
+.topLogo{width:215px;float:left;display:inline;}
+
+.topNav{float:left;display:inline;height:42px;margin-top:38px;}
+.topNav .wrap{float:left;display:inline;}
+.topNav .it{float:left;display:inline;margin-right:35px;}
+.topNav .it a{display:inline-block;font-size:14px;line-height:38px;height:44px;color:#6DA201;}
+.topNav .it b{display:inline-block;}
+.topNav .it a:hover,.topNav .on a{height:42px;}
+.topNav .it a:hover b,.topNav .on a b{border-bottom:4px solid #FF6600;}
+
+.userPop{float:right;display:inline;height:32px;margin-top:42px;}
+.userPop .wrap{float:right;display:inline;}
+.userActions .action{float:left;display:inline;margin-left:20px;}
+.userActions .action .btn{font-size:14px;width:48px;line-height:32px;}
+
+.pageFoot .info{font-size:12px;}
+.pageFoot .support{float:left;display:inline;}
+.pageFoot .support,.pageFoot .support a{color:#7DBA00;}
+.pageFoot .copyright{float:right;display:inline;}
+.pageFoot .copyright,.pageFoot .copyright a{color:#A0A09F;}
+
+.forumNav{background:#B7D578;padding:10px 0;margin-bottom:20px;}
+.forumNav .navWrap{overflow:hidden;}
+.forumNav .it{float:left;display:inline;}
+.forumNav .it a{display:block;position:relative;left:-1px;padding:0 20px;border-left:1px solid #FFFFFF;font-size:14px;line-height:20px;color:#FFFFFF;}
+.forumNav .on a b,.forumNav .it a:hover b{font-weight:bold;}
+
+.forumHead{}
+.forumHead .newPost{float:left;display:inline;}
+.forumHead .newPost .btn{width:78px;font-size:14px;line-height:40px;}
+.forumHead .newPost .btn b{font-weight:bold;}
+
+.forumHead .pageNav{float:right;display:inline;background:#FFF;margin:5px 0;}
+.forumHead .pageNav .wrap{float:right;display:inline;}
+.forumHead .pageNav .it{float:left;display:inline;margin-left:4px;padding:0 8px;height:26px;border:1px solid #C2D5E3;background:#FFF;font-size:12px;color:#333;overflow:hidden;_height:16px;_padding:5px 8px;}
+.forumHead .pageNav .it b{line-height:26px;_line-height:1;}
+.forumHead .pageNav .jump input{border:1px solid #808080;width:25px;height:16px;line-height:16px;font-size:12px;text-align:center;vertical-align:initial;}
+.forumHead .pageNav .on{background:#E5EDF2;border-color:#369;}
+.forumHead .pageNav .it:hover{border-color:#369;}
+
+
+/* ---------- 1-home -------- */
+.homeBanner{margin-bottom:25px;}
+
+.intro{margin-top:15px;background:#FFFFFF;border:1px solid #E9E6E6;padding:10px 20px;}
+.intro h2{font-size:16px;line-height:24px;color:#6DA201;font-family:\5fae\8f6f\96c5\9ed1;}
+
+.quickStart{background-image:url("../image/quickStartBg.jpg");background-position:center top;background-repeat:repeat-y;}
+.quickStart .card{width:48%;}
+.quickStart .card .cnt{margin:10px 0;overflow:hidden;font-size:12px;}
+.quickStart .card .cnt,.quickStart .card .cnt a{color:#6B6C6A;}
+.quickStart .card .it{padding-left:20px;background:url("../image/dot.jpg") no-repeat 0px 8px;line-height:26px;}
+.quickStart .briefInfo{float:left;display:inline;}
+.quickStart .latestActivity{float:right;display:inline;}
+.quickStart .latestActivity .it{background-position:0px 10px;line-height:32px;border-top:1px solid #EEEEEE;margin-top:-1px;}
+
+.introBrands .brand{float:left;display:inline;}
+.introBrands .brand a{width:164px;display:block;border:1px solid #EFEFEF;margin:10px 20px 5px 0px;}
+.introBrands .brand img{width:100%;}
+
+
+/* ---------- 2-login -------- */
+.pageLogin .login{width:230px;margin:100px auto;}
+.pageLogin .login .opt{font-size:12px;color:#666666;}
+.pageLogin .login .opt a{color:#FF6600;}
+.pageLogin .login .remember{float:left;display:inline;}
+.pageLogin .login .lost{float:right;display:inline;}
+
+/* ---------- 3-reg -------- */
+.pageRegister .reg{width:230px;margin:30px auto;}
+
+/* ---------- 4-about -------- */
+.pageAbout{font-family:\5fae\8f6f\96c5\9ed1;}
+.pageAbout .it{margin:10px 0;font-size:16px;line-height:28px;color:#6B6C6A;}
+
+/* ---------- 5-contact -------- */
+.pageContact{font-family:\5fae\8f6f\96c5\9ed1;}
+.pageContact .h2{font-size:12px;line-height:24px;color:#000;margin-bottom:10px;}
+.pageContact .map{float:left;display:inline;width:390px;}
+.pageContact .services{float:left;display:inline;width:490px;margin-left:30px;}
+.pageContact .services .it{font-size:12px;line-height:24px;color:#333;}
+.pageContact .services .h3{font-weight:bold;}
+
+/* ---------- 6-brands -------- */
+.pageBrands{padding:20px 15px 50px;}
+.pageBrands .brand{float:left;display:inline;}
+.pageBrands .brand a{width:282px;display:block;border:1px solid #E5E4E4;margin:10px 16px;}
+.pageBrands .brand img{width:100%;}
+
+/* ---------- 8-activity -------- */
+.activityDetail{border:1px solid #CDCDCD;background:#FFFFFF;margin:10px 0;}
+.activityDetail .head{background:#F2F2F2;border-top:1px solid #FFF;border-bottom:1px solid #CDCDCD;padding:0 10px;line-height:32px;}
+.activityDetail .head .h3{float:left;display:inline;font-size:16px;font-weight:bold;font-family:\5fae\8f6f\96c5\9ed1;}
+.activityDetail .head .datetime{float:right;display:inline;font-size:12px;}
+
+.activityDetail .cnt{width:600px;margin:30px auto;}
+.activityDetail .cnt .pic{margin:20px 0;overflow:hidden;}
+.activityDetail .cnt .pic img{max-width:100%;}
+.activityDetail .cnt .txt{line-height:1.5;font-size:14px;color:#696664;}
+.activityDetail .cnt .opt{margin:30px auto;text-align:right;}
+.activityDetail .cnt .opt .btn{width:110px;height:38px;line-height:38px;font-size:16px;}
+
+
+.mwMask{position:absolute;z-index:99;left:0;right:0;width:100%;top:0;background:#000;opacity:.4;filter:alpha(opacity=40);display:none;}
+.mw{position:absolute;z-index:100;display:none;}
+.mwActivitySign{background:#FFFFFF;padding:5px;width:360px;}
+.mwActivitySign .mwWrap{background:#FFFFFF;border:1px solid #D2D1D1;border-radius:3px;}
+.mwActivitySign .mwHead{border-radius:3px;background:#F2F2F2;border-bottom:1px solid #CDCDCD;padding:0 10px;line-height:32px;font-family:\5fae\8f6f\96c5\9ed1;}
+.mwActivitySign .mwHead .h3{font-size:14px;color:#E5630D;float:left;display:inline;}
+.mwActivitySign .mwHead .opt{float:right;display:inline;}
+.mwActivitySign .mwHead .opt .btn{width:40px;color:#E5630D;}
+.mwActivitySign .mwHead .opt .btn{width:40px;color:#E5630D;}
+
+.mwActivitySign .field{text-align:center;margin:20px auto;font-size:12px;color:#646464;}
+.mwActivitySign .field input{width:120px;border:1px solid #D9D8D8;padding:3px;}
+.mwActivitySign .submit .btn{width:100px;font-weight:bold;line-height:24px;}
+
+/* ---------- 10-forum -------- */
+.quickPost{border:1px solid #CDCDCD;background:#FFFFFF;margin-top:30px;}
+.quickPost .h3{background:#F2F2F2;border-top:1px solid #FFF;border-bottom:1px solid #CDCDCD;line-height:32px;font-size:12px;font-weight:bold;padding:0 10px;}
+.quickPost .postForm{padding:20px;width:500px;}
+
+.forumDetail{margin:10px auto;}
+.forumDetail .title{padding:10px 20px;}
+.forumDetail .th .side{text-align:center;border-right:1px solid #DFDFDF;color:#B3AEAB;}
+.forumDetail .th .side em{color:#FE7920;}
+.forumDetail .th .title{font-size:16px;font-family:\5fae\8f6f\96c5\9ed1;}
+.forumDetail .tbody td{vertical-align:top;}
+.forumDetail .tbody .side{background:#FDF2EA;}
+.forumDetail .tbody .title{padding:0 20px;}
+.forumDetail .tbody .title .head{font-size:14px;padding:10px 0;border-bottom:1px dashed #CCC;}
+.forumDetail .tbody .title .head .datetime{float:left;display:inline;}
+.forumDetail .tbody .title .head .stair{float:right;display:inline;}
+.forumDetail .tbody .title .main{padding:10px 0 30px;font-size:14px;color:#696664;line-height:1.5;}
+
+.userSide{}
+.userSide .uname{font-size:14px;font-weight:bold;padding:10px 15px;border-bottom:1px dashed #CCC;}
+.userSide .uname,.userSide .uname a{color:#333;}
+.userSide .avt{text-align:center;padding:10px 0;}
+.userSide .avt img{width:120px;border:4px solid #FFF;}
+.userSide .posts{padding:10px 15px;}
+.userSide .posts .inf{float:left;display:inline;width:33%;text-align:center;font-size:12px;line-height:18px;color:#767676;}
+.userSide .posts .inf a{color:#FE7920;}
+.userSide .des{padding:15px;line-height:18px;color:#767676;}
+.userSide .des .status{color:#030100;}
+.userSide .des .sc a{color:#FE7920;}
+.userSide .des .opt a{color:#767676;margin-right:20px;}

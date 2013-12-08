@@ -1,0 +1,28 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="page pageAbout">
+            <h2>简介</h2>
+            <div class="wrap aboutWrap">
+                <p class="it">我们也许不能写一辈子代码，但是可以做一辈子朋友，桔子咖啡，所有互联网人的家，有空来坐坐吧，来安静的写一段代码，和朋友聊聊天，参加不定期举办的互联网职业交流。</p>
+                <p class="it">
+                    我们会提供<br>
+                    1、极速wifi，<br>
+                    2、不定期的互联网职业和技术交流
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

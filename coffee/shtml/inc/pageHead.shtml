@@ -1,0 +1,23 @@
+<div class="head pageHead">
+    <div class="wrap headWrap frame">
+        <div class="logo topLogo">
+            <h1><a href="/"><img src="../image/topLogo.jpg" alt="桔子咖啡"></a></h1>
+        </div>
+        <div class="nav topNav">
+            <ul class="wrap itWrap">
+                <li class="it on"><a href="#3"><b>关于桔子咖啡</b></a></li><!-- @后端：当前页面增加类名 on -->
+                <li class="it"><a href="#3"><b>最新活动</b></a></li>
+                <li class="it"><a href="#3"><b>IT业界</b></a></li>
+                <li class="it"><a href="#3"><b>招聘信息</b></a></li>
+                <li class="it"><a href="#3"><b>桔子咖啡论坛</b></a></li>
+                <li class="it"><a href="#3"><b>联系我们</b></a></li>
+            </ul>
+        </div>
+        <div class="band userPop">
+            <div class="wrap userActions">
+                <div class="action login"><a href="#3" class="btn btnA btnA1"><b>登录</b></a></div>
+                <div class="action register"><a href="#3" class="btn btnA btnA1"><b>注册</b></a></div>
+            </div>
+        </div>
+    </div>
+</div>

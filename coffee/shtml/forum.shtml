@@ -1,0 +1,79 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+<!--#include file="inc/forumNav.shtml"-->
+        <div class="head forumHead">
+            <div class="wrap headWrap">
+                <div class="newPost"><a href="#3" class="btn btnB btnB2"><b>发帖</b></a></div>
+<!--#include file="inc/pageNav.shtml"-->
+            </div>
+        </div>
+
+        <div class="forumList">
+            <div class="wrap listWrap">
+                <div class="table">
+<!--#include file="inc/tableTh.shtml"-->
+                    <div class="tbody">
+                        <table>
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+                            <tbody>
+                                <tr>
+                                    <td class="title"><a href="#3" style="color:red;">标题标题标题标题标题标题标题标题标题</a></td><!-- @后端：标题高亮时a标签增加样式属性 style="color:red;" -->
+                                    <td class="by">
+                                        <a href="#3" class="userName">victoyHome</a>
+                                        <em class="time">2013-12-12</em>
+                                    </td>
+                                    <td class="num">
+                                        <a href="#3" class="view">12</a>
+                                        <em class="reply">202</em>
+                                    </td>
+                                    <td class="by">
+                                        <a href="#3" class="userName">无名式</a>
+                                        <em class="time">5天前</em>
+                                    </td>
+                                </tr>
+                            </tbody>
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+<!--#include file="inc/tbody.shtml"-->
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--#include file="inc/quickPost.shtml"-->
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

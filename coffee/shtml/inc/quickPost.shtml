@@ -1,0 +1,17 @@
+        <div class="quickPost">
+            <div class="h3">快速发贴</div>
+            <form class="form formB postForm">
+                <div class="field cnt">
+                    <textarea></textarea>
+                </div>
+                <div class="field verify">
+                    验证码 <input type="text" size="4"> <img src="../image/verify.png" alt="">
+                </div>
+                <div class="field attachment">
+                    附件 <input type="file">
+                </div>
+                <div class="field submit">
+                    <div class="submit"><button type="submit" class="btn btnB btnB1">发表帖子</button></div>
+                </div>
+            </form>
+        </div>

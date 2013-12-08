@@ -1,0 +1,63 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="banner homeBanner">
+            <div class="img"><img src="../image/homeBanner.jpg" alt=""></div>
+        </div>
+        
+        <div class="intro quickStart">
+            <div class="wrap introWrap">
+                <div class="card briefInfo">
+                    <h2>简介</h2>
+                    <div class="cnt">
+                        <p class="it">我们也许不能写一辈子代码，但是可以做一辈子朋友，桔子咖啡，所有互联网人的家，有空来坐坐吧，来安静的写一段代码，和朋友聊聊天，参加不定期举办的互联网职业交流。</p>
+                        <p class="it">
+                            我们会提供<br>
+                            1、极速wifi，<br>
+                            2、不定期的互联网职业和技术交流
+                        </p>
+                    </div>
+                </div>
+                <div class="card latestActivity">
+                    <h2>最新活动</h2>
+                    <div class="cnt">
+                        <div class="it"><a href="#3">MFCC微电影创作者大会 Node.js框架的实现与开发实践</a></div>
+                        <div class="it"><a href="#3">Demo Day第二十八期[北京]</a></div>
+                        <div class="it"><a href="#3">高企协创业之星俱乐部</a></div>
+                        <div class="it"><a href="#3">一个改变“奥巴马”命运的青年人</a></div>
+                        <div class="it"><a href="#3">游香山，赏红叶，认识新朋友，聊聊工作，互换资源。</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro introBrands">
+            <h2>IT业界</h2>
+            <div class="wrap brandWrap">
+                <div class="brand"><a href="#3"><img src="../image/brand/1.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/2.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/3.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/4.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/5.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/7.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/8.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/6.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/10.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/11.gif" alt=""></a></div>
+                <div class="brand"><a href="#3"><img src="../image/brand/9.gif" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

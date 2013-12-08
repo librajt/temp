@@ -1,0 +1,38 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="page pageContact">
+            <div class="wrap contactWrap">
+                <div class="h2">桔子地址：海淀西大街48号图书城步行街内鑫鼎宾馆二层</div>
+                <div class="wrap cntWrap">
+                    <div class="map"><img src="../image/map.jpg" alt=""></div>
+                    <div class="services">
+                        <p class="it h3">咨询、问路、预订</p>
+                        <p class="it">联系电话：010-82627127</p>
+                        <p class="it">官方微信：chekucafe_</p>
+                        <p class="it h3">活动洽谈、日常咨询</p>
+                        <p class="it">联系人：徐田海</p>
+                        <p class="it">联系电话：13661360238</p>
+                        <p class="it">联系邮箱：xutianhai@chekucafe.com</p>
+                        <p class="it h3">车库认证团队</p>
+                        <p class="it">咨询电话：010-82675852</p>
+                        <p class="it">服务网站：club.chekucafe.com</p>
+                        <p class="it">审核通过的团队，将获得更多创业资源，聚众创业者合力，获得成长及成功。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

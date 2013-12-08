@@ -1,0 +1,11 @@
+        <div class="nav forumNav">
+            <div class="wrap navWrap">
+                <div class="it on"><a href="#3"><b>首页</b></a></div><!-- @后端：当前页面增加类名 on -->
+                <div class="it"><a href="#3"><b>it特快新闻</b></a></div>
+                <div class="it"><a href="#3"><b>技术交流</b></a></div>
+                <div class="it"><a href="#3"><b>it业界八卦</b></a></div>
+                <div class="it"><a href="#3"><b>代码PK</b></a></div>
+                <div class="it"><a href="#3"><b>约会</b></a></div>
+                <div class="it"><a href="#3"><b>意见栏</b></a></div>
+            </div>
+        </div>
