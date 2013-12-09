@@ -1,11 +1,14 @@
         <div class="quickPost">
             <div class="h3">快速发贴</div>
-            <form class="form formB postForm">
+            <form class="form postForm">
+                <div class="field title">
+                    <input type="text">
+                </div>
                 <div class="field cnt">
                     <textarea></textarea>
                 </div>
                 <div class="field verify">
-                    验证码 <input type="text" size="4"> <img src="../image/verify.png" alt="">
+                    验证码 <input type="text" size="4"> <img src="../image/verify.png" alt=""> <a href="#3" class="change">换一个</a>
                 </div>
                 <div class="field attachment">
                     附件 <input type="file">

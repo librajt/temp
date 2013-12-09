@@ -1,0 +1,71 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+<!--#include file="inc/forumNav.shtml"-->
+        <div class="head forumHead">
+            <div class="wrap headWrap">
+                <div class="newPost"><a href="#3" class="btn btnB btnB2"><b>发活动</b></a></div>
+            </div>
+        </div>
+
+        <div class="activityPost">
+            <div class="head postHead">
+                <div class="wrap headWrap">
+                    <div class="h3">发布活动</div>
+                </div>
+            </div>
+            <div class="cnt">
+                <form class="form formA postActivity">
+                    <label class="field name">
+                        <div class="desc">活动名称</div>
+                        <div class="data"><input type="text"></div>
+                    </label>
+                    <label class="field total">
+                        <div class="desc">限定名额</div>
+                        <div class="data"><input type="text"></div>
+                    </label>
+                    <label class="field time">
+                        <div class="desc">活动时间</div>
+                        <div class="data"><input type="text"></div>
+                    </label>
+                    <label class="field limit">
+                        <div class="desc">报名截止</div>
+                        <div class="data"><input type="text"></div>
+                    </label>
+                    <label class="field place">
+                        <div class="desc">活动地点</div>
+                        <div class="data"><input type="text"></div>
+                    </label>
+                    <label class="field contact">
+                        <div class="desc">联系电话</div>
+                        <div class="data"><input type="text"></div>
+                    </label>
+                    <label class="field fee">
+                        <div class="desc">活动费用</div>
+                        <div class="data"><input type="text"></div>
+                    </label>
+                    <label class="field detail">
+                        <div class="desc">活动详情</div>
+                        <div class="data"><textarea name="" id="" cols="30" rows="10"></textarea></div>
+                    </label>
+                    <div class="field submit">
+                        <button class="btn btnB btnB1">发活动</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+
+</body>
+</html>

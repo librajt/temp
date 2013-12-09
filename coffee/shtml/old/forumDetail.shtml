@@ -27,8 +27,8 @@
                         <table>
                             <tbody>
                                 <tr>
-                                    <td class="side"><div class="overview">查看: <em>60</em> | 回复: <em>1</em></div></td>
-                                    <td class="title"><div class="h1">游香山，赏红叶，认识新朋友，聊聊工作，互换资源</div></td>
+                                    <td class="side">查看: <em>60</em> | 回复: <em>1</em></td>
+                                    <td class="title">游香山，赏红叶，认识新朋友，聊聊工作，互换资源</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -40,8 +40,29 @@
                                 <tr>
                                     <td class="side">
                                         <div class="userSide">
+                                            <div class="uname"><a href="#3">在水一方</a></div>
                                             <div class="avt"><img src="../image/avt.gif" alt=""></div>
-                                            <div class="username"><a href="#3">一棵小桔子</a></div>
+                                            <div class="posts">
+                                                <div class="wrap">
+                                                    <div class="inf">
+                                                        <div><a href="#3">2</a></div>
+                                                        <div>主题</div>
+                                                    </div>
+                                                    <div class="inf">
+                                                        <div><a href="#3">12</a></div>
+                                                        <div>帖子</div>
+                                                    </div>
+                                                    <div class="inf">
+                                                        <div><a href="#3">222</a></div>
+                                                        <div>积分</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="des">
+                                                <div class="status">管理员 <img src="../image/star_level3.gif" alt="">
+                                                <div class="sc">积分: <a href="#3">222</a></div>
+                                                <div class="opt"><a href="#3">收听TA</a><a href="#3">发消息</a></div>
+                                            </div>
                                         </div>
                                     </td>
                                     <td class="title">
@@ -49,7 +70,7 @@
                                             <div class="head">
                                                 <div class="wrap headWrap">
                                                     <div class="datetime">发表于 2013-9-26 12:33:39</div>
-                                                    <div class="stair"><a href="#3">楼主</a></div>
+                                                    <div class="stair">楼主</div>
                                                 </div>
                                             </div>
                                             <div class="main">

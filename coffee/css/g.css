@@ -37,7 +37,7 @@ a{text-decoration:none;}
 .form .field{display:block;}
 .form .field .desc{font-size:14px;color:#666666;}
 .form .field .data{padding-right:20px;}
-.form .field .data input{font-size:14px;color:#666666;height:16px;padding:8px;border:1px solid #CCCCCC;display:block;width:100%;}
+.form .field .data input,.form .field .data textarea{font-size:14px;color:#666666;height:16px;padding:8px;border:1px solid #CCCCCC;display:block;width:100%;}
 
 .formA .field{position:relative;margin:20px 0;}
 .formA .field .desc{position:absolute;left:-10px;width:70px;margin-left:-70px;top:9px;text-align:right;line-height:16px;}
@@ -47,33 +47,7 @@ a{text-decoration:none;}
 .formA .help a{color:#FF6600;}
 .formA .result{font-size:12px;color:#B00;}
 
-.formB .field{margin-bottom:10px;font-size:12px;}
-.formB .cnt{padding-right:10px;}
-.formB .cnt textarea{width:100%;height:100px;border:1px solid #CDCDCD;padding:4px;}
-.formB .verify input{width:60px;border:1px solid #CDCDCD;height:16px;padding:4px;}
-.formB .verify img{height:24px;}
-.formB .submit{text-align:right;}
-.formB .submit .btn{width:80px;height:27px;}
 
-
-/* table */
-.forumList{margin:10px 0;}
-.table{background:#FFF;border:1px solid #ECE8E8;}
-.table table{width:100%;table-layout:fixed;}
-.table td{border-top:1px solid #ECE8E8;}
-.table .th{background:#F2F2F2;font-size:12px;color:#333;}
-.table .th a{color:#336699;}
-.table .th td{border-top:1px solid #FFF;}
-.table .title{padding:10px;}
-.table .title .sort{margin-right:10px;}
-.table .side{width:160px;font-size:12px;}
-.table .by{width:105px;font-size:12px;}
-.table .num{width:60px;font-size:12px;}
-.table .num a,.table .by a,.table .num em,.table .by em{display:block;line-height:14px;}
-.table .by a{color:#333333;}
-.table .num a{color:#336699;}
-.table .num em,.table .by em{color:#999999;}
-.table .tbody .title a{color:#333333;font-size:14px;}
 
 /* frame */
 html{-webkit-text-size-adjust:none;height:100%;line-height:1;}
@@ -119,13 +93,14 @@ body{background:#FAFAFA;min-height:100%;min-width:982px;margin:auto;}
 .forumHead .newPost .btn{width:78px;font-size:14px;line-height:40px;}
 .forumHead .newPost .btn b{font-weight:bold;}
 
-.forumHead .pageNav{float:right;display:inline;background:#FFF;margin:5px 0;}
+.forumHead .pageNav{float:right;display:inline;margin:5px 0;}
 .forumHead .pageNav .wrap{float:right;display:inline;}
 .forumHead .pageNav .it{float:left;display:inline;margin-left:4px;padding:0 8px;height:26px;border:1px solid #C2D5E3;background:#FFF;font-size:12px;color:#333;overflow:hidden;_height:16px;_padding:5px 8px;}
 .forumHead .pageNav .it b{line-height:26px;_line-height:1;}
 .forumHead .pageNav .jump input{border:1px solid #808080;width:25px;height:16px;line-height:16px;font-size:12px;text-align:center;vertical-align:initial;}
 .forumHead .pageNav .on{background:#E5EDF2;border-color:#369;}
 .forumHead .pageNav .it:hover{border-color:#369;}
+.forumHead .pageNav .blank,.forumHead .pageNav .blank:hover{border:0;background:0;}
 
 
 /* ---------- 1-home -------- */
@@ -176,7 +151,7 @@ body{background:#FAFAFA;min-height:100%;min-width:982px;margin:auto;}
 .pageBrands .brand a{width:282px;display:block;border:1px solid #E5E4E4;margin:10px 16px;}
 .pageBrands .brand img{width:100%;}
 
-/* ---------- 8-activity -------- */
+/* ---------- 7-activity -------- */
 .activityDetail{border:1px solid #CDCDCD;background:#FFFFFF;margin:10px 0;}
 .activityDetail .head{background:#F2F2F2;border-top:1px solid #FFF;border-bottom:1px solid #CDCDCD;padding:0 10px;line-height:32px;}
 .activityDetail .head .h3{float:left;display:inline;font-size:16px;font-weight:bold;font-family:\5fae\8f6f\96c5\9ed1;}
@@ -189,44 +164,104 @@ body{background:#FAFAFA;min-height:100%;min-width:982px;margin:auto;}
 .activityDetail .cnt .opt{margin:30px auto;text-align:right;}
 .activityDetail .cnt .opt .btn{width:110px;height:38px;line-height:38px;font-size:16px;}
 
-
 .mwMask{position:absolute;z-index:99;left:0;right:0;width:100%;top:0;background:#000;opacity:.4;filter:alpha(opacity=40);display:none;}
 .mw{position:absolute;z-index:100;display:none;}
 .mwActivitySign{background:#FFFFFF;padding:5px;width:360px;}
-.mwActivitySign .mwWrap{background:#FFFFFF;border:1px solid #D2D1D1;border-radius:3px;}
+.mwActivitySign .mwWrap{background:#FFFFFF;border:1px solid #D2D1D1;border-radius:3px;height:310px;}
 .mwActivitySign .mwHead{border-radius:3px;background:#F2F2F2;border-bottom:1px solid #CDCDCD;padding:0 10px;line-height:32px;font-family:\5fae\8f6f\96c5\9ed1;}
-.mwActivitySign .mwHead .h3{font-size:14px;color:#E5630D;float:left;display:inline;}
+.mwActivitySign .mwHead .h3{font-size:16px;color:#E5630D;float:left;display:inline;}
 .mwActivitySign .mwHead .opt{float:right;display:inline;}
 .mwActivitySign .mwHead .opt .btn{width:40px;color:#E5630D;}
 .mwActivitySign .mwHead .opt .btn{width:40px;color:#E5630D;}
 
+.mwActivitySign .cnt{height:190px;}
 .mwActivitySign .field{text-align:center;margin:20px auto;font-size:12px;color:#646464;}
 .mwActivitySign .field input{width:120px;border:1px solid #D9D8D8;padding:3px;}
+.mwActivitySign .help{font-size:14px;}
 .mwActivitySign .submit .btn{width:100px;font-weight:bold;line-height:24px;}
+.mwActivitySign_success .help{padding:30px 0;}
+.mwActivitySign_success .success{text-align:center;font-size:18px;font-weight:bold;}
+
+
+.activityPost{border:1px solid #CDCDCD;background:#FFFFFF;margin:10px 0;}
+.activityPost .head{background:#F2F2F2;border-top:1px solid #FFF;border-bottom:1px solid #CDCDCD;padding:0 10px;line-height:32px;}
+.activityPost .head .h3{font-size:12px;color:#336699;}
+.activityPost .cnt{width:700px;margin:auto;}
+.activityPost .cnt .field{width:200px;}
+.activityPost .cnt .field .data input, .activityPost .cnt .field .data textarea{padding:5px;}
+.activityPost .cnt .field .desc{top:6px;}
+.activityPost .cnt .detail,.activityPost .cnt .submit{width:auto;}
+.activityPost .cnt .detail textarea{height:300px;}
+.activityPost .cnt .submit{text-align:right;}
 
 /* ---------- 10-forum -------- */
+.forumList{margin:10px 0;}
+.forumList .table{background:#FFF;border:1px solid #ECE8E8;}
+.forumList .table table{width:100%;table-layout:fixed;}
+.forumList .table td{border-top:1px solid #ECE8E8;}
+.forumList .table .th{background:#F2F2F2;font-size:12px;color:#333;}
+.forumList .table .th a{color:#336699;}
+.forumList .table .th td{border-top:1px solid #FFF;}
+.forumList .table .title{padding:10px;}
+.forumList .table .title .sort{margin-right:10px;}
+.forumList .table .side{width:160px;font-size:12px;}
+.forumList .table .by{width:105px;font-size:12px;}
+.forumList .table .num{width:60px;font-size:12px;}
+.forumList .table .num a,.forumList .table .by a,.forumList .table .num em,.forumList .table .by em{display:block;line-height:14px;}
+.forumList .table .by a{color:#333333;}
+.forumList .table .num a{color:#336699;}
+.forumList .table .num em,.table .by em{color:#999999;}
+.forumList .table .tbody .title a{color:#333333;font-size:14px;}
+
+
 .quickPost{border:1px solid #CDCDCD;background:#FFFFFF;margin-top:30px;}
 .quickPost .h3{background:#F2F2F2;border-top:1px solid #FFF;border-bottom:1px solid #CDCDCD;line-height:32px;font-size:12px;font-weight:bold;padding:0 10px;}
 .quickPost .postForm{padding:20px;width:500px;}
+.quickPost .postForm .field{margin-bottom:10px;font-size:12px;}
+.quickPost .postForm .title input{width:360px;border:1px solid #CDCDCD;height:16px;padding:4px;}
+.quickPost .postForm .cnt{padding-right:10px;}
+.quickPost .postForm .cnt textarea{width:100%;height:100px;border:1px solid #CDCDCD;padding:4px;}
+.quickPost .postForm .verify input{width:60px;border:1px solid #CDCDCD;height:16px;padding:4px;}
+.quickPost .postForm .verify img{height:24px;}
+.quickPost .postForm .verify .change{margin-left:10px;color:#336699;}
+.quickPost .postForm .submit{text-align:right;}
+.quickPost .postForm .submit .btn{width:80px;height:27px;}
 
+
+
+/* ---------- 11-forum -------- */
 .forumDetail{margin:10px auto;}
-.forumDetail .title{padding:10px 20px;}
-.forumDetail .th .side{text-align:center;border-right:1px solid #DFDFDF;color:#B3AEAB;}
-.forumDetail .th .side em{color:#FE7920;}
-.forumDetail .th .title{font-size:16px;font-family:\5fae\8f6f\96c5\9ed1;}
+.forumDetail .table{background:#FFF;border:1px solid #ECE8E8;}
+.forumDetail .table table{width:100%;table-layout:fixed;}
+.forumDetail .table td{border-top:1px solid #ECE8E8;}
+.forumDetail .table .th{background:#F2F2F2;font-size:12px;color:#333;}
+.forumDetail .table .th td{border-top:1px solid #FFF;}
+.forumDetail .table .side{width:160px;}
+.forumDetail .table .side .overview{padding:0 10px;font-size:12px;}
+
+.forumDetail .table .title{padding:10px 20px;}
+.forumDetail .table .th .side{border-right:1px solid #DFDFDF;color:#B3AEAB;}
+.forumDetail .table .th .side em{color:#FE7920;}
+.forumDetail .table .th .title{font-size:16px;font-family:\5fae\8f6f\96c5\9ed1;}
+
 .forumDetail .tbody td{vertical-align:top;}
 .forumDetail .tbody .side{background:#FDF2EA;}
 .forumDetail .tbody .title{padding:0 20px;}
-.forumDetail .tbody .title .head{font-size:14px;padding:10px 0;border-bottom:1px dashed #CCC;}
+.forumDetail .tbody .title .head{font-size:12px;padding:10px 20px;border-bottom:1px dashed #CCC;margin:0 -20px;}
 .forumDetail .tbody .title .head .datetime{float:left;display:inline;}
 .forumDetail .tbody .title .head .stair{float:right;display:inline;}
+.forumDetail .tbody .title .head .stair a{color:#FE7920;}
 .forumDetail .tbody .title .main{padding:10px 0 30px;font-size:14px;color:#696664;line-height:1.5;}
 
+
+
 .userSide{}
+.userSide .avt{text-align:center;padding:15px 0;}
+.userSide .avt img{width:120px;border:4px solid #FFF;}
+.userSide .username{text-align:center;font-size:12px;}
+.userSide .username,.userSide .username a{color:#FE7920;}
 .userSide .uname{font-size:14px;font-weight:bold;padding:10px 15px;border-bottom:1px dashed #CCC;}
 .userSide .uname,.userSide .uname a{color:#333;}
-.userSide .avt{text-align:center;padding:10px 0;}
-.userSide .avt img{width:120px;border:4px solid #FFF;}
 .userSide .posts{padding:10px 15px;}
 .userSide .posts .inf{float:left;display:inline;width:33%;text-align:center;font-size:12px;line-height:18px;color:#767676;}
 .userSide .posts .inf a{color:#FE7920;}

@@ -1,12 +1,14 @@
                 <div class="nav pageNav">
                     <div class="wrap navWrap">
                         <a href="#3" class="it back"><i class="i iG iG_A1"></i><b>返回</b></a>
-                        <a href="#3" class="it"><b>1 ...</b></a>
+                        <span class="it on"><b>1</b></span>
                         <a href="#3" class="it previous"><i class="i iG iG_A1"></i><b></b></a>
                         <a href="#3" class="it"><b>2</b></a>
-                        <b href="#3" class="it on"><b>3</b></b>
-                        <a href="#3" class="it"><b>4</b></a>
-                        <a href="#3" class="it"><b>... 35</b></a>
+                        <a href="#3" class="it"><b>3</b></a>
+                        <span class="it blank"><b>......</b></span>
+                        <a href="#3" class="it"><b>33</b></a>
+                        <a href="#3" class="it"><b>32</b></a>
+                        <a href="#3" class="it"><b>35</b></a>
                         <label class="it jump">
                             <b>
                                 <input type="text" name="custompage" size="2" title="输入页码，按回车快速跳转" value="3" onkeydown="if(event.keyCode==13) {window.location='forum.php?mod=forumdisplay&amp;fid=43&amp;page='+this.value;}">
