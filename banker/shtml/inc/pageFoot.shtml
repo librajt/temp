@@ -1,0 +1,15 @@
+<div class="foot pageFoot">
+    <div class="wrap footWrap frame">
+        <div class="announce">
+            <a href="#">关于我们</a>
+            |
+            <a href="#">联系我们</a>
+            |
+            <a href="#">服务条款</a>
+            |
+            <a href="#">加入我们</a>
+        </div>
+
+        <div class="copyright">copyright &copy; 2013 yinhangjia.com</div>
+    </div>
+</div>

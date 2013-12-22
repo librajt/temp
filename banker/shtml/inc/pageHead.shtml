@@ -1,0 +1,16 @@
+<div class="head pageHead">
+    <div class="wrap headWrap frame cfx">
+        <div class="logo"><img src="../image/logo.jpg" alt="银行家"></div>
+        <div class="userSide">
+            <div class="opts quickEntry">
+                <span class="opt icon"><img src="../image/01.gif" alt=""></span>
+                <span class="opt toSignIn"><a href="#3">用户注册</a></span>
+                <span class="opt vhr">|</span>
+                <span class="opt toLogin"><a href="#3">登录</a></span>
+            </div>
+            <div class="opts toAdmin">
+                <span class="opt toUserCenter"><a href="#3" class="btn btnA"><img src="../image/02.gif" alt=""> 个人管理中心</a></span>
+            </div>
+        </div>
+    </div>
+</div>

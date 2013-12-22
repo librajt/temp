@@ -1,0 +1,297 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="siteSpot">
+        <div class="wrap spotWrap frame">
+            <div class="spotBg"></div>
+            <div class="spots">
+                <div class="spot on"><!-- @后端：高亮增加类名on -->
+                    <div class="spotBg"></div>
+                    <div class="title">源出清华</div>
+                    <div class="desc">卢洪峰毕业于清华大学与康奈尔大学，注册金融分析师前花旗银行副总裁回国创办，获清华科技园厚德投资、专业服务工薪族!</div>
+                </div>
+                <div class="spot">
+                    <div class="spotBg"></div>
+                    <div class="title">华尔街财富增值揭秘</div>
+                    <div class="desc">卢洪峰毕业于清华大学与康奈尔大学，注册金融分析师前花旗银行副总裁回国创办，获清华科技园厚德投资、专业服务工薪族!2</div>
+                </div>
+                <div class="spot">
+                    <div class="spotBg"></div>
+                    <div class="title">高达8-15%固定收益</div>
+                    <div class="desc">卢洪峰毕业于清华大学与康奈尔大学，注册金融分析师前花旗银行副总裁回国创办，获清华科技园厚德投资、专业服务工薪族!3</div>
+                </div>
+                  </div>
+      </div>
+    </div>
+
+    <div class="wrap bodyWrap frame">
+        <div class="ap apAbout">
+            <div class="hd cfx">
+                <div class="h2">什么是银行家？</div>
+                <div class="more"><a href="#3">专业理财投资揭秘</a></div>
+            </div>
+            <div class="bd">
+                <div class="cnt">　　银行家.com提供金融产品的专业评级与精品推荐，通过银行家的服务，你可以购买到专业筛选过的、高收益的、针对工薪族、由金融机构100%担保的金融产品，并获得价值回报和财富积累。</div>
+            </div>
+        </div>
+
+        <div class="ap apNews cfx">
+            <div class="topSpot">
+                <img src="../image/04.gif" alt="">
+            </div>
+            <div class="spotList">
+                <div class="topTwo cfx">
+                    <div class="img"><img src="../image/05.jpg" alt=""></div>
+                    <ul class="list">
+                        <li><a href="#3">清华科技园金融创新企业</a></li>
+                        <li><a href="#3">前华尔街高管回国创办</a></li>
+                    </ul>
+                </div>
+                <div class="spotMore">
+                    <div class="h3">媒体报道</div>
+                    <ul class="list">
+                        <li><a href="#3">·银行家.com， 助力工薪族加速财富积累</a></li>
+                        <li><a href="#3">·银行家.com, 落户清华科技园获得厚德投资</a></li>
+                        <li><a href="#3">·银行家卢洪峰：一个团队两个目标一条心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="ap apProduces">
+            <div class="hd cfx">
+                <div class="h2">理财投资产品</div>
+                <div class="opts">
+                    <span class="opt hot"><a href="#3"><img src="../image/06.gif" alt="">热门推荐</a></span>
+                    <span class="opt more"><a href="#3">更多&gt;&gt;</a></span>
+                </div>
+            </div>
+            <div class="bd">
+                <div class="table list">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <div class="img"><img src="../image/p/01.jpg" alt=""></div>
+                                    <div class="name">工商·货币基金</div>
+                                </td>
+                                <td class="score">
+                                    <div class="rank rank_5"><div class="star"></div></div> <!-- @后端： 5对应星数 -->
+                                </td>
+                                <td class="desc">
+                                    <div class="cnt">国际一流的货币基金管理团队，收益率高于同业，只投资无风险的货币市场产品，100%安全。投资门槛低，任意金额起存。</div>
+                                </td>
+                                <td class="earning">
+                                    <div class="percentage">5.3%</div>
+                                </td>
+                                <td class="popularity">
+                                    <div class="quote">人气指数</div>
+                                    <div class="opt"><a href="#3"><img src="../image/07.gif" alt="">(632)</a></div>
+                                </td>
+                                <td class="toDetail">
+                                    <div class="opt"><a href="#3" class="btn btnA">查看详情</a></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <div class="img"><img src="../image/p/02.jpg" alt=""></div>
+                                    <div class="name">民生·理财</div>
+                                </td>
+                                <td class="score">
+                                    <div class="rank rank_4"><div class="star"></div></div> <!-- @后端： 4对应星数 -->
+                                </td>
+                                <td class="desc">
+                                    <div class="cnt">方便快捷，资金有保障，投资款转入民生银行旗下的货币基金，本息安全。投资门槛低，任意金额起存。</div>
+                                </td>
+                                <td class="earning">
+                                    <div class="percentage">5.1%</div>
+                                </td>
+                                <td class="popularity">
+                                    <div class="quote">人气指数</div>
+                                    <div class="opt"><a href="#3"><img src="../image/07.gif" alt="">(632)</a></div>
+                                </td>
+                                <td class="toDetail">
+                                    <div class="opt"><a href="#3" class="btn btnA">查看详情</a></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <div class="img"><img src="../image/p/03.jpg" alt=""></div>
+                                    <div class="name">民生·理财</div>
+                                </td>
+                                <td class="score">
+                                    <div class="rank rank_5"><div class="star"></div></div> <!-- @后端： 5对应星数 -->
+                                </td>
+                                <td class="desc">
+                                    <div class="cnt">大型金融机构100%本息担保，银行家精选，资金出借给有信用和担保的个人或企业，固定高收益回报。</div>
+                                </td>
+                                <td class="earning">
+                                    <div class="percentage">6.5%</div>
+                                </td>
+                                <td class="popularity">
+                                    <div class="quote">人气指数</div>
+                                    <div class="opt"><a href="#3"><img src="../image/07.gif" alt="">(632)</a></div>
+                                </td>
+                                <td class="toDetail">
+                                    <div class="opt"><a href="#3" class="btn btnA">查看详情</a></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td class="title">
+                                    <div class="img"><img src="../image/p/04.jpg" alt=""></div>
+                                    <div class="name">民生·理财</div>
+                                </td>
+                                <td class="score">
+                                    <div class="rank rank_5"><div class="star"></div></div> <!-- @后端： 5对应星数 -->
+                                </td>
+                                <td class="desc">
+                                    <div class="cnt">平安集团旗下的陆金所发行，中国平安旗下担保公司承担连带担保责任，资金出借给个人或企业，收益率高，100%担保。</div>
+                                </td>
+                                <td class="earning">
+                                    <div class="percentage">8.6%</div>
+                                </td>
+                                <td class="popularity">
+                                    <div class="quote">人气指数</div>
+                                    <div class="opt"><a href="#3"><img src="../image/07.gif" alt="">(632)</a></div>
+                                </td>
+                                <td class="toDetail">
+                                    <div class="opt"><a href="#3" class="btn btnA">查看详情</a></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="ap apAds">
+            <div class="wrap adWrap cfx">
+                <div class="ad left"><a href="#3"><img src="../image/ad/01.gif" alt=""></a></div>
+                <div class="ad right"><a href="#3"><img src="../image/ad/02.jpg" alt=""></a></div>
+            </div>
+        </div>
+
+        <div class="ap apAds">
+            <div class="wrap adWrap">
+                <div class="ad"><a href="#3"><img src="../image/ad/03.gif" alt=""></a></div>
+            </div>
+        </div>
+
+        <div class="ap apIntro apBankerIntro">
+            <div class="hd"><div class="h2">银行家介绍</div></div>
+            <div class="bd">
+                <div class="bankerIntros">
+                    <div class="wrap introWrap cfx">
+                        <div class="bankerIntro on"><!-- @后端：高亮增加类名on -->
+                            <div class="title cfx">
+                                <div class="h3">银行家俱乐部</div>
+                                <div class="opts"><div class="opt more"><a href="#3">更多&gt;&gt;</a></div></div>
+                            </div>
+                            <div class="list">
+                                <ul class="wrap itWrap cfx">
+                                    <li class="it"><a href="#3"><img src="../image/b/01.gif" alt=""></a></li>
+                                    <li class="it"><a href="#3"><img src="../image/b/02.gif" alt=""></a></li>
+                                    <li class="it"><a href="#3"><img src="../image/b/03.gif" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bankerIntro">
+                            <div class="title cfx">
+                                <div class="h3">管理层介绍</div>
+                                <div class="opts"><div class="opt more"><a href="#3">更多&gt;&gt;</a></div></div>
+                            </div>
+                            <div class="list">
+                                <ul class="wrap itWrap cfx">
+                                    <li class="it"><a href="#3"><img src="../image/b/01.gif" alt=""></a></li>
+                                    <li class="it"><a href="#3"><img src="../image/b/02.gif" alt=""></a></li>
+                                    <li class="it"><a href="#3"><img src="../image/b/03.gif" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bankerIntro">
+                            <div class="title cfx">
+                                <div class="h3">专家顾问团</div>
+                                <div class="opts"><div class="opt more"><a href="#3">更多&gt;&gt;</a></div></div>
+                            </div>
+                            <div class="list">
+                                <ul class="wrap itWrap cfx">
+                                    <li class="it"><a href="#3"><img src="../image/b/01.gif" alt=""></a></li>
+                                    <li class="it"><a href="#3"><img src="../image/b/02.gif" alt=""></a></li>
+                                    <li class="it"><a href="#3"><img src="../image/b/03.gif" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ap apIntro apBrandIntro">
+            <div class="hd"><div class="h2">银行机构</div></div>
+            <div class="bd">
+                <div class="brands">
+                    <div class="wrap brandWrap cfx">
+                        <div class="brand"><a href="#3"><img src="../image/brand/01.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/02.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/03.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/04.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/05.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/06.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/07.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/08.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/09.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/10.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/11.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/12.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/13.jpg" alt=""></a></div>
+                        <div class="brand"><a href="#3"><img src="../image/brand/14.jpg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ap apAdvantages">
+            <div class="wrap itWrap cfx">
+                <div class="it it_01">
+                    <div class="h4">专业意见</div>
+                    <div class="cnt">产品由银行家.com、监管机构、银行等共同把关，多级审核，提供最专业的意见和服务</div>
+                </div>
+                <div class="it it_02">
+                    <div class="h4">公信评级</div>
+                    <div class="cnt">作为第三方专家为你评判所有金融产品，鉴定金融产品的风险与收益</div>
+                </div>
+                <div class="it it_03">
+                    <div class="h4">安全可靠</div>
+                    <div class="cnt">为客户匹配最合适、高收益、低风险的产品，并尽可能新生活招待费和复杂性</div>
+                </div>
+                <div class="it it_04">
+                    <div class="h4">低成本控风险</div>
+                    <div class="cnt">以最低成本实现金融产品购买，节省中介和销售费，并控制金融风险</div>
+                </div>
+                <div class="it it_05">
+                    <div class="h4">高服务效率</div>
+                    <div class="cnt">在线提交贷款和理财申请，经预评估通过后推荐多家合作机构，缩短办理周期</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

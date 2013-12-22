@@ -1,0 +1,64 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="subPageBanner"></div>
+
+<div class="pageBody">
+    <div class="miniBanner"></div>
+    <div class="wrap bodyWrap frame">
+        <div class="subPage subPage_02">
+            <div class="h2">产品详情</div>
+            <div class="A">
+                <div class="AM AML"></div>
+                <div class="AM AMR"></div>
+                <div class="B cfx">
+                    <div class="inf rank rank_5"><div class="star"></div></div>
+                    <div class="inf rankT">评级：五星</div>
+                    <div class="inf population"><a href="#3"><img src="../image/07.gif" alt="">(632)</a></div>
+                    <div class="inf help"><a href="#3"><img src="../image/13.gif" alt=""> 如何选择理财投资</a></div>
+                </div>
+                <div class="B cfx">
+                    <div class="inf ico"><img src="../image/15.jpg" alt=""></div>
+                    <div class="inf des">工行·货币基金</div>
+                    <div class="inf sort">产品种类：货币基金</div>
+                    <div class="inf earning">收益：<span class="percentage">5.3%</span></div>
+                </div>
+                <div class="C cfx">
+                    <div class="cnt">
+                        <div class="h4">评级详情</div>
+                        <div class="it">
+                            <div class="title">收益评级：</div>
+                            <div class="des">工商行的货币基金收益高于货币基金的平均水平，属于行业中的领先者。</div>
+                        </div>
+                        <div class="it">
+                            <div class="title">信用评级：</div>
+                            <div class="des">本货币基金只投资于短期货币工具，如国债、央行票据、商业票据、银行定期存单、政府短期债券、企业债券、同业存款等短期有价证券，资金的安全有保障。</div>
+                        </div>
+                        <div class="it">
+                            <div class="title">机构评级：</div>
+                            <div class="des">货币基金的发行机构工商银行属于大型国有银行，信用等级为AAA。</div>
+                        </div>
+                        <div class="it">
+                            <div class="title">管理评级：</div>
+                            <div class="des">一流的基金管理团队，团队评级为五星。</div>
+                        </div>
+                    </div>
+                    <div class="graph"><img src="../image/14.jpg" alt=""></div>
+                </div>
+                <div class="D"><a href="#3" class="btn btnA">购买产品</a></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>
