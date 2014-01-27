@@ -1,0 +1,51 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="ap apGps mt20">
+            <div class="map">
+                <img src="../image/5.gif" alt="">
+            </div>
+         </div>
+
+         <div class="cfx mt15">
+             <div class="ap apContactus fl">
+                 <div class="h2"><i></i>联系我们</div>
+                 <div class="cnt">
+                     <div class="it"><strong>地址：</strong>武汉市江岸区吉庆民俗街特1号4层</div>
+                     <div class="it"><strong>电话：</strong>027-82882666</div>
+                     <div class="it"><strong>传真：</strong>027-82882666</div>
+                     <div class="it"><strong>邮编：</strong>430014</div>
+                     <div class="it"><strong>官网：</strong>im@whzm.cn</div>
+                     <div class="it"><strong>网址：</strong>htp://www.whzm.cn</div>
+                     <div class="it"><strong>招聘：</strong>hr@whzm.cn</div>
+                 </div>
+             </div>
+
+             <div class="ap apFeedback fr">
+                 <div class="h2"><i></i>留言</div>
+                 <div class="form formFeedback">
+                     <form action="">
+                         <div class="field"><div class="data"><input type="text" value="姓名（Name）*必填"></div></div>
+                         <div class="field"><div class="data"><input type="text" value="联系电话（TEL）*必填"></div></div>
+                         <div class="field"><div class="data"><input type="text" value="邮箱（E-mail）"></div></div>
+                         <div class="field"><div class="data"><textarea>留言内容（Message）*必填</textarea></div></div>
+                         <div class="field submit"><button type="submit" class="btn">提交</button></div>
+                     </form>
+                 </div>
+             </div>
+
+         </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

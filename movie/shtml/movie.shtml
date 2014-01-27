@@ -1,0 +1,106 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="slide movieSlide">
+        <div id="movieSlide"></div>
+        <link type="text/css" rel="stylesheet" href="../css/posterTvGrid.css">
+        <script language="javascript" type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+        <script language="javascript" type="text/javascript" src="../js/posterTvGrid.js"></script>
+        <script type="text/javascript">
+        var movieSlide = new posterTvGrid(
+            'movieSlide',
+            {className: "posterTvGrid"},
+            [
+                {"showid":"","img":"../image/s1.jpg","url":"#3","title":"\u6307\u5c16\u4e0a\u7684\u4e2d\u56fd"},
+                {"showid":"","img":"../image/s2.jpg","url":"#3","title":"\u539f\u521b\u7cbe\u9009"},
+                {"showid":"","img":"../image/s3.jpg","url":"#3","title":"\u725b\u4eba\u76db\u5178"},
+                {"showid":"","img":"../image/s4.jpg","url":"#3","title":"\u6349\u97f3\u8005"},
+                {"showid":"","img":"../image/s5.jpg","url":"#3","title":"\u5929\u7a7a\u4e4b\u57ce"}
+            ]
+        );
+        </script>
+    </div>
+
+    <div class="wrap bodyWrap frame">
+        <div class="cfx mt10">
+            <div class="movieMain fl">
+                <div class="search cfx">
+                    <form action="">
+                        <div class="txt"><input type="text" class="key"></div>
+                        <button type="submit" class="submit">搜索</button>
+                    </form>
+                    <div class="hot">
+                        <span class="h3">热门：</span>
+                        <a href="#3">爸爸去哪儿</a>
+                        <a href="#3">我是歌手</a>
+                        <a href="#3">被偷走的那五年</a>
+                    </div>
+                </div>
+
+                <div class="ap apMart mt10">
+                    <div class="aside"><a href="#3" class="more">更多&gt;&gt;</a></div>
+                    <div class="h2"><i></i>掌印出品</div>
+<!--#include file="inc/apMartCfx.shtml"-->
+                </div>
+
+                <div class="ap apMart mt10">
+                    <div class="aside"><a href="#3" class="more">更多&gt;&gt;</a></div>
+                    <div class="h2"><i></i>校园风采</div>
+<!--#include file="inc/apMartCfx.shtml"-->
+                </div>
+
+                <div class="ap apMart mt10">
+                    <div class="aside"><a href="#3" class="more">更多&gt;&gt;</a></div>
+                    <div class="h2"><i></i>海纳百川</div>
+<!--#include file="inc/apMartCfx.shtml"-->
+                </div>
+            </div>
+
+            <div class="movieSide fr">
+                <div class="ap apTotalRaking raking rakingA">
+                    <div class="h2"><i></i>风云榜</div>
+                    <div class="list">
+                        <div class="it"><div class="num num_top3">1</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">2</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">3</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">4</div><div class="cnt"><a href="#3">一二三四五六<div class="s">S</div></a></div></div>
+                        <div class="it"><div class="num">5</div><div class="cnt"><a href="#3">一二三四五六<div class="s">S</div></a></div></div>
+                        <div class="it"><div class="num">6</div><div class="cnt"><a href="#3">一二三四五六<div class="s">S</div></a></div></div>
+                        <div class="it"><div class="num">7</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">8</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">9</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">10</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                    </div>
+                </div>
+                <div class="ap apDailyRaking raking rakingA mt10">
+                    <div class="h2"><i></i>每周更新</div>
+                    <div class="list">
+                        <div class="it"><div class="num num_top3">1</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">2</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">3</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">4</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">5</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">6</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">7</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">8</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">9</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">10</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                    </div>
+                </div>
+
+            </div>
+
+         </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

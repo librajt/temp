@@ -1,0 +1,22 @@
+                    <div class="cfx">
+                        <div class="top fl">
+                            <div class="ma ma_spot">
+                                <div class="pic">
+                                    <div class="img"><a href="#3"><img src="../image/3.jpg" alt=""></a></div>
+                                    <div class="length">00:12:39</div>
+                                </div>
+                                <div class="title"><a href="#3">告别演唱会</a></div>
+                                <div class="desc">漂在北京的歌手丁海天，事业、爱情纷纷受挫，在梦想和现实摇摆中的他，最后决定要在33岁的最后一天离开北京……</div>
+                            </div>
+                        </div>
+                        <div class="main fr">
+                            <div class="wrap mainWrap">
+<!--#include file="ma.shtml"-->
+<!--#include file="ma.shtml"-->
+<!--#include file="ma.shtml"-->
+<!--#include file="ma.shtml"-->
+<!--#include file="ma.shtml"-->
+<!--#include file="ma.shtml"-->
+                            </div>
+                        </div>
+                    </div>

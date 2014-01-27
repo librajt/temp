@@ -1,0 +1,53 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="siteNav">
+            <a href="#3">首页</a> &gt; <a href="#3">公司动态</a>
+        </div>
+
+        <div class="cfx">
+            <div class="newsMain fl">
+                <div class="ap apNewsDetail">
+                    富文本新闻内容<br><br><br><br><br><br>
+                    富文本新闻内容<br><br><br><br><br><br>
+                    富文本新闻内容<br><br><br><br><br><br>
+                    富文本新闻内容<br><br><br><br><br><br>
+                    富文本新闻内容<br><br><br><br><br><br>
+
+                </div>
+            </div>
+
+            <div class="newsSide fr">
+                <div class="ap apNewsRaking raking rakingA">
+                    <div class="h2"><i></i>更多动态</div>
+                    <div class="list">
+                        <div class="it"><div class="num num_top3">1</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">2</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">3</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">4</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">5</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">6</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">7</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">8</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">9</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">10</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                    </div>
+                </div>
+
+            </div>
+
+         </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

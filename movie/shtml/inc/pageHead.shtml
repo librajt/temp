@@ -1,0 +1,14 @@
+<div class="head pageHead">
+    <div class="wrap headWrap frame">
+        <div class="logo topLogo">
+            <h1><a href="/"><img src="../image/topLogo.jpg" alt="掌映中国"></a></h1>
+        </div>
+        <ul class="nav topNav">
+            <li class="it it_on"><a href="#3"><b>首页</b></a></li><!-- @后端：当前页面增加类名 it_on -->
+            <li class="it"><a href="#3"><b>公司介绍</b></a></li>
+            <li class="it"><a href="#3"><b>微电影</b></a></li>
+            <li class="it"><a href="#3"><b>专题</b></a></li>
+            <li class="it"><a href="#3"><b>联系我们</b></a></li>
+        </ul>
+    </div>
+</div>

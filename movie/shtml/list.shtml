@@ -1,0 +1,54 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="wrap bodyWrap frame">
+        <div class="siteNav">
+            <a href="#3">首页</a> &gt; <a href="#3">微电影</a> &gt; <a href="#3">掌映出品</a>
+        </div>
+
+        <div class="cfx">
+            <div class="listSide fl">
+                <div class="ap apNavList">
+                    <div class="list">
+                        <div class="it it_on"><i></i><a href="#3">掌印出品</a></div>
+                        <div class="it"><i></i><a href="#3">校园风采</a></div>
+                        <div class="it"><i></i><a href="#3">海纳百川</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="listMain fr">
+                <div class="ap apFeeds">
+                    <div class="wrap feedWrap cfx">
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+<!--#include file="inc/feed.shtml"-->
+                    </div>
+<!--#include file="inc/pageNav.shtml"-->
+                </div>
+
+
+            </div>
+
+         </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

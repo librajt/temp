@@ -1,0 +1,105 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="spot siteSpot">
+        <div class="cnt">
+            <a href="#3" class="c c_on"><img src="../image/2.jpg" alt=""></a>
+            <a href="#3" class="c"><img src="../image/2.jpg" alt=""></a>
+            <a href="#3" class="c"><img src="../image/2.jpg" alt=""></a>
+            <a href="#3" class="c"><img src="../image/2.jpg" alt=""></a>
+        </div>
+    </div>
+    <link type="text/css" rel="stylesheet" href="../css/jquery.bxslider.css">
+    <script language="javascript" type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $('.siteSpot .cnt').bxSlider({
+            controls: false,
+            slideWidth: 1400,
+            infiniteLoop: false
+        });
+
+    </script>
+
+    <div class="wrap bodyWrap frame">
+        <div class="intro cfx mt20">
+            <div class="ap apNews fl">
+                <div class="h2"><i></i>公司动态</div>
+                <ul class="list">
+                    <li class="it"><a href="#3">领航视频H.265解码技术 携MTK开启移动视频1080P时</a><span class="time">2013-11-20</span></li>
+                    <li class="it"><a href="#3">全网独播赵宝刚情感大戏《老有所依》</a><span class="time">2013-11-16</span></li>
+                    <li class="it"><a href="#3">“开启全新视界”营销分享会上海站开幕 马东工作室正式成立</a><span class="time">2013-11-15</span></li>
+                    <li class="it"><a href="#3">向全网用户开放1080P 拟推“类电视化”视频服务</a><span class="time">2013-11-15</span></li>
+                    <li class="it"><a href="#3">领跑视频云计算 爱奇艺受邀参与OpenStack峰会</a><span class="time">2013-11-15</span></li>
+                    <li class="it"><a href="#3">移动端引入“快传”功能 聚焦实景视频分享服务</a><span class="time">2013-11-5</span></li>
+                    <li class="it"><a href="#3">独家版权重磅来袭 爱奇艺引领2014独播时代</a><span class="time">2013-11-1</span></li>
+                </ul>
+            </div>
+
+            <div class="ap apHomeRaking fr">
+                <div class="h2"><i></i>微排行</div>
+                <div class="list">
+                    <div class="it">
+                        <div class="num num_top3">1</div>
+                        <div class="mv mv_card">
+                            <div class="pic">
+                                <div class="img"><a href="#3"><img src="../image/3.jpg" alt=""></a></div>
+                            </div>
+                            <div class="cnt">
+                                <a href="#3" class="inf title">幸福ELIFE之给爸爸的照片</a>
+                                <div class="inf type">类型：<em>剧情 短片</em></div>
+                                <div class="inf major">主演：<em>阮经天 孙松 朱佳煜</em></div>
+                                <div class="inf count"><em>播放数：857,788</em></div>
+                                <div class="trade"><div class="i iG iTrade iTrade_up"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="it">
+                        <div class="num num_top3">2</div>
+                        <div class="mv mv_tile">
+                            <a href="#3" class="title">私处地带</a>
+                            <div class="inf count"><em>857,788</em></div>
+                            <div class="trade"><div class="i iG iTrade iTrade_down"></div></div>
+                        </div>
+                    </div>
+                    <div class="it">
+                        <div class="num num_top3">3</div>
+                        <div class="mv mv_tile">
+                            <a href="#3" class="title">一夜情深</a>
+                            <div class="inf count"><em>857,788</em></div>
+                            <div class="trade"><div class="i iG iTrade iTrade_up"></div></div>
+                        </div>
+                    </div>
+                    <div class="it">
+                        <div class="num">4</div>
+                        <div class="mv mv_tile">
+                            <a href="#3" class="title">坐台</a>
+                            <div class="inf count"><em>857,788</em></div>
+                            <div class="trade"><div class="i iG iTrade iTrade_down"></div></div>
+                        </div>
+                    </div>
+                    <div class="it">
+                        <div class="num">5</div>
+                        <div class="mv mv_tile">
+                            <a href="#3" class="title">色字当头 微电影</a>
+                            <div class="inf count"><em>857,788</em></div>
+                            <div class="trade"><div class="i iG iTrade iTrade_up"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>

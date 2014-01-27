@@ -1,0 +1,114 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<!--#include file="inc/pageHead.shtml"-->
+
+<div class="pageBody">
+    <div class="moviePlayer">
+        <div class="wrap playerWrap frame">
+            <div class="inf">
+                <div class="title">《囧女二三事》第一集</div>
+                <div class="nav"><a href="#3">首页</a>&gt;<a href="#3">电影</a>&gt;<a href="#3">微电影</a> <span class="type">剧情片/社会/喜剧</span></div>
+            </div>
+            <div class="player"><img src="../image/8.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <div class="wrap bodyWrap frame">
+        <div class="movieOpts">
+            <div class="opts optScore">
+                <a href="#3" class="opt opt_up"><i class="i iG iG_A3"></i>190</a>
+                <a href="#3" class="opt opt_down"><i class="i iG iG_A4"></i>19</a>
+            </div>
+            <div class="opts optShare">
+                分享至
+                <a href="#3" class="opt opt_s1"><i class="i iG iG_B1"></i></a>
+                <a href="#3" class="opt opt_s2"><i class="i iG iG_B2"></i></a>
+                <a href="#3" class="opt opt_s3"><i class="i iG iG_B3"></i></a>
+                <a href="#3" class="opt opt_s4"><i class="i iG iG_B4"></i></a>
+                <a href="#3" class="opt opt_s5"><i class="i iG iG_B5"></i></a>
+                <a href="#3" class="opt opt_s6"><i class="i iG iG_B6"></i></a>
+            </div>
+
+        </div>
+
+        <div class="cfx mt10">
+            <div class="movieMain fl">
+                <div class="ap apMovieInfo">
+                    <div class="aside">
+                        <div class="inf update">上传日期：2014-1-21</div>
+                        <div class="inf count">播放次数：6.4万</div>
+                        <div class="inf director">导演：张纪中</div>
+                    </div>
+                    <div class="h2"><i></i>视频信息</div>
+                    <div class="cnt">
+                        <div class="h3">视频简介</div>
+                        <div class="txt">林泰是当地名噪一方的富豪，近来正筹备自己人生中的另一件大事，与钟爱多年的女友结婚。不料此时传来噩耗，准新娘被人杀死在公寓的地下停车场，林泰闻讯如雷击顶。警方把怀疑的目光瞄向了他的独女林萌萌，检方提起诉讼后，林泰花重金聘请著名律师周莉为其女辩护，周莉曾为诸多有名的案件做过代理人，对打赢这场官司信心满满</div>
+                    </div>
+                </div>
+
+                <div class="ap apMovieComment mt15">
+                    <div class="h2"><i></i>视频评论</div>
+                    <div class="cmtForm cfx">
+                        <div class="avt"><div class="img"><a href="#3"><img src="../image/7.jpg" alt=""></a></div></div>
+                        <form action="">
+                            <div class="cnt"><textarea name=""></textarea></div>
+                            <div class="opt"><button type="submit" class="submit">评论</button></div>
+                        </form>
+                    </div>
+                    <div class="cmtList">
+<!--#include file="inc/cmtFeed.shtml"-->
+<!--#include file="inc/cmtFeed.shtml"-->
+<!--#include file="inc/cmtFeed.shtml"-->
+<!--#include file="inc/cmtFeed.shtml"-->
+<!--#include file="inc/cmtFeed.shtml"-->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="movieSide fr">
+                <div class="ap apTotalRaking raking rakingA">
+                    <div class="h2"><i></i>风云榜</div>
+                    <div class="list">
+                        <div class="it"><div class="num num_top3">1</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">2</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">3</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">4</div><div class="cnt"><a href="#3">一二三四五六<div class="s">S</div></a></div></div>
+                        <div class="it"><div class="num">5</div><div class="cnt"><a href="#3">一二三四五六<div class="s">S</div></a></div></div>
+                        <div class="it"><div class="num">6</div><div class="cnt"><a href="#3">一二三四五六<div class="s">S</div></a></div></div>
+                        <div class="it"><div class="num">7</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">8</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">9</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">10</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                    </div>
+                </div>
+                <div class="ap apDailyRaking raking rakingA mt10">
+                    <div class="h2"><i></i>每周更新</div>
+                    <div class="list">
+                        <div class="it"><div class="num num_top3">1</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">2</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num num_top3">3</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">4</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">5</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">6</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">7</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">8</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">9</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                        <div class="it"><div class="num">10</div><div class="cnt"><a href="#3">一二三四五六</a></div></div>
+                    </div>
+                </div>
+
+            </div>
+
+         </div>
+    </div>
+</div>
+
+<!--#include file="inc/pageFoot.shtml"-->
+
+</body>
+</html>
