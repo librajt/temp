@@ -86,8 +86,8 @@
 <div class="pageOpts fixed">
     <div class="wrap optWrap">
         <div class="opt goBack"><a href="javascript:;" class="btn btnC"><b>返回</b></a></div>
-        <div class="opt toBuy"><a href="javascript:;" class="btn btnC"><b>立即购买</b></a></div>
-        <div class="opt toCart"><a href="#3" class="btn btnB"><b>加入购物车</b></a></div>
+        <div class="opt toBuy fat"><a href="javascript:;" class="btn btnC"><b>立即购买</b></a></div>
+        <div class="opt toCart fat"><a href="#3" class="btn btnB"><b>加入购物车</b></a></div>
     </div>
 </div>
 

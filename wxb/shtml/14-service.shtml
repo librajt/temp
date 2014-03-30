@@ -1,0 +1,38 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<div class="help">
+
+    <div class="ap apHelp">
+        <div class="bd">
+            <div class="helpHotline">
+                <div class="banner"><div class="img"><img src="../image/hotline.jpg" alt=""></div></div>
+                <div class="contact">
+                    <div class="des">联系方式：</div>
+                    <div class="contNumbers">
+                        <div class="cont cont_wx">微信：345645778</div>
+                        <div class="cont cont_phone">电话：<a href="#3">4008801068</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ft">
+            <div class="inf helpDetailNav"><i class="i iG iG_C3"></i>周一至周五</div>
+            <div class="inf helpDetailNav"><i class="i iG iG_C3"></i>早9点至晚7点</div>
+            <div class="inf helpDetailNav"><i class="i iG iG_C3"></i>意见或建议，请点击“<a href="#3">反馈</a>”</div>
+        </div>
+    </div>
+
+    <div class="pageOpts fixed">
+        <div class="wrap optWrap single">
+            <div class="opt goBack"><a href="#3" class="btn btnD"><b>返回</b></a></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

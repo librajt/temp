@@ -4,7 +4,10 @@
                 <div class="pic pic_cover"><div class="img"><img src="../image/d/1.jpg" alt=""></div></div>
                 <div class="cid">商品号：<b>1236</b></div>
                 <div class="count">购买数：<b>2</b></div>
-                <div class="price"><b>￥1236</b></div>
+                <div class="price price_discount"><!-- @后端：满足批发条件时增加类 price_discount 调换价格颜色 -->
+                    <div class="cond total"><span class="ico">零</span>￥1254</div>
+                    <div class="cond discount"><span class="ico">批</span>￥254</div>
+                </div>
                 <a href="javascript:;" class="delete"><b><i class="i iG iG_A4"></i></b></a>
             </div>
         </div>

@@ -18,9 +18,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .cfx:after{content:'';display:table;clear:both;}
 
 .ap .cnt,
-.sell .main,
-.category .main,
-.filters,
+.cartItem .main,
 .process .step,
 .order .main,
 .btnA,
@@ -45,6 +43,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 
 .iG_C1{background-position:0 -50px;width:20px;height:20px;}
 .iG_C2{background-position:-25px -50px;width:20px;height:20px;}
+.iG_C3{background-position:-50px -50px;width:10px;height:10px;}
 
 .iG_D1{background-position:0 -75px;width:25px;height:25px;}
 
@@ -65,6 +64,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 
 .pageOpts .call .btn .i{vertical-align:-6px;margin-right:5px;}
 .pageOpts .single .opt{margin:0 25%;}
+.pageOpts .opt.fat{-webkit-box-flex:2;-webkit-flex:2 1 0;-ms-flex:2 1 0;flex:2 1 0;}
 
 
 /*ap*/
@@ -132,15 +132,18 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .order .toDetail{position:absolute;right:10px;top:50%;margin-top:-10px;}
 
 
-/* cartItem
+/* cartItem */
 .cartItem{}
-.cartItem .main{display:block;padding:10px;background:#FFFFFF;padding-left:90px;position:relative;min-height:60px;font-size:12px;line-height:20px;color:#585858;}
+.cartItem .main{display:block;padding:10px;background:#FFFFFF;padding-left:90px;position:relative;min-height:60px;font-size:12px;line-height:20px;color:#888888;}
+.cartItem .name{font-size:15px;color:#585858;}
 .cartItem .pic{position:absolute;left:0;top:0;width:80px;height:80px;background:#CECECE;}
 .cartItem .img img{max-width:80px;max-height:80px;}
-.cartItem .price{position:absolute;right:10px;bottom:10px;font-size:15px;color:#FF7700;}
+.cartItem .price{position:absolute;right:10px;bottom:10px;}
+.cartItem .price .cond{display:inline-block;margin-left:10px;font-size:15px;}
+.cartItem .price .ico{display:inline-block;line-height:1;margin-right:3px;}
 .cartItem .delete{position:absolute;top:0;right:0;padding:0 0 20px 20px;}
 .cartItem .delete b{background:#C8C8C8;padding:5px;line-height:1;display:block;width:12px;height:12px;text-align:center;}
-.cartItem .delete i{vertical-align:0;} */
+.cartItem .delete i{vertical-align:0;}
 
 /*prod*/
 .prod{display:block;}
@@ -160,6 +163,8 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .price .discount{color:#C4C4C4;}
 .price .discount .ico{background:#63D470;}
 
+.price_discount .total{color:#C4C4C4;}
+.price_discount .discount{color:#FF7700;}
 
 /* ---------- 1- home -------- */
 .prodType{padding:0 10px;border-top:2px solid #FF7700;background:#FFF;}
@@ -172,28 +177,6 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .prodList .prod{width:48%;float:left;margin-bottom:10px;}
 .prodList .prod:nth-child(2n+1){margin-right:2%;}
 .prodList .prod:nth-child(2n){margin-left:2%;}
-
-
-/* ---------- 7- seller ---------- */
-.aboutSeller{overflow:hidden;}
-.apBrand .pic img{width:100%;}
-
-.apIntro .desc{font-size:18px;color:#585858;min-height:100px;}
-.apIntro .call .btn .i{vertical-align:-6px;margin-right:5px;}
-
-.apProgress{overflow:hidden;}
-.apProgress .step{margin:10px 0;position:relative;background:#FFFFFF;padding:10px 10px 10px 45px;line-height:28px;min-height:28px;}
-.apProgress .step .sOrder{font-size:18px;color:#FFFFFF;position:absolute;top:12px;left:10px;width:24px;height:24px;line-height:24px;text-align:center;background:#CD9C71;}
-.apProgress .step .todos{font-size:15px;color:#585858;}
-.apProgress .call .btn .i{vertical-align:-6px;margin-right:5px;}
-
-/* ---------- 9- calls ---------- */
-/* calls */
-.calls{}
-.callList .call{display:block;border-bottom:1px solid #AEAEAE;padding:15px 10px;position:relative;}
-.callList .call .name{font-size:18px;color:#585858;}
-.callList .call .number{font-size:18px;color:#FF7700;}
-.callList .call .toCall{position:absolute;right:10px;top:50%;margin-top:-12px;}
 
 
 /* ---------- 3- detail ---------- */
@@ -285,7 +268,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .addressInfo .frm .data textarea{height:66px;padding:9px;width:200px;border:1px solid #B1B1B1;}
 
 
-/*orderSuccess*/
+/* ---------- 6 orderSuccess ---------- */
 .orderSuccess{text-align:center;}
 .orderSuccess h2{font-size:24px;color:#FF7700;padding:130px 0 30px 0;}
 .orderSuccess h3{font-size:15px;color:#585858;padding-bottom:10px;}
@@ -293,7 +276,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .orderSuccess .toOrder .btn{display:inline-block;border:1px solid #C3C3C3;padding:0 10px;height:40px;line-height:40px;}
 
 
-/*orderDetail*/
+/* ---------- 7 orderDetail ---------- */
 .orderDetail{}
 .orderDetail .ap{background:#FFF;margin:10px;padding:0;border-top:0;}
 .orderDetail .infs{padding:10px;}
@@ -305,6 +288,85 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .addressInfs{border-top:1px solid #D9D6CA;}
 .addressInfs .frmS{display:block;position:relative;margin:0 0 5px 0;padding-left:4em;font-size:15px;color:#585858;line-height:1.5;}
 .addressInfs .frmS .des{position:absolute;left:0;top:0px;}
+
+/* ---------- 8- calls ---------- */
+.calls{}
+.callList .call{display:block;border-bottom:1px solid #AEAEAE;padding:15px 10px;position:relative;}
+.callList .call .name{font-size:18px;color:#585858;}
+.callList .call .number{font-size:18px;color:#FF7700;}
+.callList .call .toCall{position:absolute;right:10px;top:50%;margin-top:-12px;}
+
+
+
+/* ---------- 9- seller ---------- */
+.aboutSeller{overflow:hidden;}
+.apBrand .pic img{width:100%;}
+
+.apIntro .desc{font-size:18px;color:#585858;min-height:100px;}
+.apIntro .call .btn .i{vertical-align:-6px;margin-right:5px;}
+
+.apProgress{overflow:hidden;}
+.apProgress .step{margin:10px 0;position:relative;background:#FFFFFF;padding:10px 10px 10px 45px;line-height:28px;min-height:28px;}
+.apProgress .step .sOrder{font-size:18px;color:#FFFFFF;position:absolute;top:12px;left:10px;width:24px;height:24px;line-height:24px;text-align:center;background:#CD9C71;}
+.apProgress .step .todos{font-size:15px;color:#585858;}
+.apProgress .call .btn .i{vertical-align:-6px;margin-right:5px;}
+
+
+
+/* ---------- 10 cart ---------- */
+
+.apCart .cartItem{margin:10px 0;}
+.apCart .totalPrice{margin-top:20px;text-align:right;font-size:20px;color:#9F9F9F;}
+.apCart .totalPrice span{color:#FF7700;}
+.apCart .tip{font-size:15px;color:#9F9F9F;text-align:right;margin:10px 0 30px;}
+.apCart .opts{margin:20px 30px;}
+
+/*------------ 11 help -------------------*/
+.apHelp{margin:10px;background:#FFF;}
+.apHelp .hd{margin:0 -10px;padding:0 20px 10px;border-bottom:1px solid #EBEBEB;font-size:18px;}
+.apHelp .hd h1{text-align:center;color:#585858;}
+.apHelp .hd h2{color:#000;}
+.apHelp .bd{padding:10px;}
+.apHelp .ft{margin:0 -10px -10px;padding:10px 20px;border-top:1px solid #EBEBEB;background:#FBFBFB;}
+.apHelp .ft{font-size:15px;color:#585858;}
+.apHelp .ft .inf{margin:5px 0;}
+.apHelp .ft a{color:#006CFF;text-decoration:underline;}
+.apHelp .ft .i{margin:3px;}
+
+.helpBlock{line-height:40px;margin-bottom:20px;}
+.helpBlock dt{font-size:18px;color:#585858;}
+.helpBlock dd{font-size:17px;margin-left:16px;border-bottom:1px solid #EBEBEB;}
+.helpBlock dd a{display:block;color:#585858;position:relative;}
+.helpBlock dd .toDetail{position:absolute;right:10px;top:50%;margin-top:-9px;line-height:1;}
+
+.helpDetail{padding:10px 0 20px;}
+.helpDetail p{line-height:24px;font-size:15px;color:#585858;min-height:24px;}
+
+
+/*-------------- 13 feedback ----------------*/
+.apFeedback{}
+.apFeedback .app{margin-bottom:10px;}
+.apFeedback .banner{text-align:center;}
+.apFeedback .banner img{max-width:100%;}
+.apFeedback .app .tarea,.apFeedback .app .txt{border:1px solid #B3B3B3;overflow:hidden;}
+.apFeedback .app .tarea textarea,.apFeedback .app .txt input{display:block;width:100%;padding:10px;font-size:15px;color:#9F9F9F;}
+.apFeedback .app .tarea textarea{height:160px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

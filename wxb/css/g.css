@@ -21,6 +21,7 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .ap,
 .order .cnt,
 .tabs,
+.client,
 .btn,
 .box{-webkit-box-shadow:1px 1px 1px rgba(0,0,0,.07);-moz-box-shadow:1px 1px 1px rgba(0,0,0,.07);box-shadow:1px 1px 1px rgba(0,0,0,.07);}
 
@@ -31,9 +32,10 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .i3{background:url("../image/i3.png") no-repeat;-webkit-background-size:100% auto;background-size:100% auto;width:21px;height:21px;}
 
 .iG{background:url("../image/iGlobal.png") no-repeat;-webkit-background-size:100px auto;background-size:100px auto;width:25px;height:25px;}
-.iG_A1{background-position:0 0;width:20px;height:20px;}
+.iG_A1{background-position:0 0;width:10px;height:16px;}
 .iG_C1{background-position:0 -50px;width:20px;height:20px;}
 .iG_C2{background-position:-25px -50px;width:20px;height:20px;}
+.iG_C3{background-position:-50px -50px;width:10px;height:10px;}
 
 .iN{background:url("../image/iNav.png") no-repeat;-webkit-background-size:125px auto;background-size:125px auto;width:25px;height:25px;}
 .iN_A1{background-position:0 0;width:28px;}
@@ -76,6 +78,13 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .noBorder tbody:first-child tr:first-child td{border-top:0;}
 .noBorder tbody:last-child tr:last-child td{border-bottom:0;}
 
+/*card*/
+.card{}
+.cardWrap{overflow:hidden;}
+.card .main{display:block;position:relative;background:#FFFFFF;}
+.card .title{padding:20px;font-size:18px;line-height:24px;color:#585858;}
+.card .title .sub{font-size:15px;color:#B1B1B1;margin-left:10px;}
+.card .toDetail{position:absolute;right:20px;top:50%;margin-top:-8px;}
 
 /* pic */
 .pic_cover{display:table;}
@@ -87,10 +96,6 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 
 /* ap */
 .ap{margin-bottom:10px;}
-.ap .hd{background:#DDDDDD;padding:0 5px 0 10px;}
-.ap .h2{font-size:15px;line-height:35px;float:left;}
-.ap .aside{float:right;}
-.ap .aside .btn{line-height:27px;font-size:15px;display:inline-block;width:55px;margin:4px 0 4px 5px;}
 .ap .cnt{background:#FFFFFF;}
 
 
@@ -99,6 +104,10 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .pageOpts .opt{-webkit-box-flex:1;-webkit-flex:1 1 0;-ms-flex:1 1 0;flex:1 1 0;padding:0 5px;}
 .pageOpts.fixed{height:70px;z-index:999;}
 .pageOpts.fixed .optWrap{position:fixed;bottom:0;left:0;right:0;}
+
+.pageOpts .single .opt{margin:0 25%;}
+.pageOpts .opt.fat{-webkit-box-flex:2;-webkit-flex:2 1 0;-ms-flex:2 1 0;flex:2 1 0;}
+
 
 /* toolbar */
 .siteNavs{height:52px;margin-top:20px;}
@@ -139,9 +148,10 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .order .opts{position:relative;}
 .order .opt.quickPush{position:absolute;top:5px;right:5px;z-index:1;}
 .order .opt.quickPush a{display:block;line-height:26px;font-size:15px;color:#585858;background:#E5E5E5;width:62px;text-align:center;}
-.order .ft{border-top:1px solid #E2E2E2;color:#585858;font-size:15px;line-height:38px;background:#FBFBFB;padding:0 10px;}
-.order .ft .oId{float:left;}
-.order .ft .date{float:right;}
+.order .ft{border-top:1px solid #E2E2E2;color:#585858;font-size:15px;line-height:38px;background:#FBFBFB;}
+.order .ft .oId{float:left;padding:0 10px;}
+.order .ft .opt_push{float:right;border-left:1px solid #F2F2F2;}
+.order .ft .opt_push a{display:block;width:5em;text-align:center;color:#585858;}
 .order .blank{font-size:24px;color:#888888;text-align:center;padding:120px 0;}
 
 /*mw*/
@@ -279,6 +289,7 @@ body.guide_show > .prodAdd{display:none;}
 
 
 .orderList .order{margin:10px;}
+.orderList .orderDate{font-size:15px;color:#585858;padding:10px;}
 
 /* ---------- 3 order detail ------------- */
 .orderDetail{padding:10px;}
@@ -331,10 +342,65 @@ body.guide_show > .prodAdd{display:none;}
 
 
 
+/*------------ 11 help -------------------*/
+.apHelp{margin:10px;background:#FFF;padding:10px;}
+.apHelp .hd{margin:0 -10px;padding:0 20px 10px;border-bottom:1px solid #EBEBEB;font-size:18px;}
+.apHelp .hd h1{text-align:center;color:#585858;}
+.apHelp .hd h2{color:#000;}
+.apHelp .bd{padding:10px;}
+.apHelp .ft{margin:0 -10px -10px;padding:10px 20px;border-top:1px solid #EBEBEB;background:#FBFBFB;}
+.apHelp .ft{font-size:15px;color:#585858;}
+.apHelp .ft .inf{margin:10px 0;}
+.apHelp .ft a{color:#006CFF;text-decoration:underline;}
+.apHelp .ft .i{margin:3px;}
+
+.helpBlock{line-height:40px;margin-bottom:20px;}
+.helpBlock dt{font-size:18px;color:#585858;}
+.helpBlock dd{font-size:17px;margin-left:16px;border-bottom:1px solid #EBEBEB;}
+.helpBlock dd a{display:block;color:#585858;position:relative;}
+.helpBlock dd .toDetail{position:absolute;right:10px;top:50%;margin-top:-9px;line-height:1;}
+
+.helpDetail{padding:10px 0 20px;}
+.helpDetail p{line-height:24px;font-size:15px;color:#585858;min-height:24px;}
+
+.helpHotline{}
+.helpHotline .banner{margin:-20px -20px 0;text-align:center;}
+.helpHotline .banner img{max-width:100%;}
+.helpHotline .contact{margin:10px 0;font-size:15px;color:#585858;line-height:1.5;}
+.helpHotline .contact .des{margin-bottom:10px;}
+.helpHotline .contact a{color:#006CFF;}
+
+/*-------------- 13 about ----------------*/
+.apAbout,.apToSite,.apToAgeement{margin:10px;}
+
+.apAbout{background:#FFF;}
+.apAbout .banner{text-align:center;}
+.apAbout .banner img{max-width:100%;}
+.apAbout .des{padding:10px 20px;}
+.apAbout .des p{font-size:15px;color:#585858;line-height:1.4;margin:10px 0;}
 
 
+/*-------------- 15 feedback ----------------*/
+.apFeedback{padding:10px;box-shadow:none;}
+.apFeedback .app{margin-bottom:10px;}
+.apFeedback .banner{text-align:center;}
+.apFeedback .banner img{max-width:100%;}
+.apFeedback .app .tarea,.apFeedback .app .txt{border:1px solid #B3B3B3;overflow:hidden;}
+.apFeedback .app .tarea textarea,.apFeedback .app .txt input{display:block;width:100%;padding:10px;font-size:15px;color:#9F9F9F;}
+.apFeedback .app .tarea textarea{height:160px;}
+
+/*-------------- 16 morenav ----------------*/
+.moreNav .card{margin:10px;}
+.moreNav .opt{margin:30px;}
 
 
+/*-------------- 21 client ----------------*/
+.client{background:#FFF;padding:10px;font-size:12px;color:#585858;line-height:1.4;}
+.client .inf{margin:5px 0;}
+.client .name{font-size:18px;}
+.client .consumption{text-align:right;margin:-25px 0px 9px;}
+
+.clientList .client{margin:10px;}
 
 
 
