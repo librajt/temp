@@ -1,0 +1,44 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+<div class="help">
+
+    <div class="ap apHelp">
+        <div class="hd"><h1>微批卖家产品使用指南</h1></div>
+        <div class="bd">
+            <div class="helpList">
+                <dl class="helpBlock">
+                    <dt>1 微批简介</dt>
+                    <dd><a href="#3">什么是微批<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">为什么开通微信公众号<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">微批套餐介绍<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">如何注册微信公众号<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">如何注册微批卖家平台<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                </dl>
+                <dl class="helpBlock">
+                    <dt>2 卖家管理</dt>
+                    <dd><a href="#3">商铺设置<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">商品管理<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">订单管理<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">客户管理<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="ft">
+            <div class="inf toFeedback"><i class="i iG iG_C3"></i>意见或建议，请点击“<a href="#3">反馈</a>”</div>
+            <div class="inf toService"><i class="i iG iG_C3"></i>或通过“<a href="#3">客户服务</a>”寻求帮助。</div>
+        </div>
+    </div>
+
+    <div class="pageOpts fixed">
+        <div class="wrap optWrap single">
+            <div class="opt goBack"><a href="#3" class="btn btnD"><b>返回</b></a></div>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>

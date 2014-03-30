@@ -1,0 +1,38 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+<div class="help">
+
+    <div class="ap apHelp">
+        <div class="hd"><h1>微批买家产品使用指南</h1></div>
+        <div class="bd">
+            <div class="helpList">
+                <dl class="helpBlock">
+                    <dt>1 微批简介</dt>
+                    <dd><a href="#3">什么是微批<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">为什么使用微批<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">如何查看更多商家<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                </dl>
+                <dl class="helpBlock">
+                    <dt>2 购买指南</dt>
+                    <dd><a href="#3">如何下单<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">如何支付<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                    <dd><a href="#3">联系商家<div class="toDetail"><i class="i iG iG_A1"></i></div></a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="ft"><div class="inf toFeedback"><i class="i iG iG_C3"></i>意见或建议，请点击“<a href="#3">反馈</a>”</div></div>
+    </div>
+
+    <div class="pageOpts fixed">
+        <div class="wrap optWrap single">
+            <div class="opt goBack"><a href="#3" class="btn btnC"><b>返回</b></a></div>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>

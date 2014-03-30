@@ -1,0 +1,26 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<div class="feedback">
+
+    <div class="ap apFeedback">
+        <div class="app banner"><div class="pic"><div class="img"><img src="../image/thanks.jpg" alt=""></div></div></div>
+        <div class="app msg"><div class="tarea"><textarea name="" id="" placeholder="您的问题或建议"></textarea></div></div>
+        <div class="app contact"><div class="txt"><input type="text" placeholder="您的微信号或手机号（可以不填）"></div></div>
+    </div>
+
+
+    <div class="pageOpts fixed">
+        <div class="wrap optWrap">
+            <div class="opt goBack"><a href="javascript:;" class="btn btnC"><b>返回</b></a></div>
+            <div class="opt toSubmit fat"><a href="#3" class="btn btnB"><b>提交</b></a></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

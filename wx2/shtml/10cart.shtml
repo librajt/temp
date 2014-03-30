@@ -1,0 +1,32 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<div class="cart">
+    <div class="ap apCart">
+        <div class="hd"><h3>商品清单 </h3></div>
+        <div class="bd">
+            <div class="cartItems">
+<!--#include file="inc/cartItem.shtml"-->
+<!--#include file="inc/cartItem.shtml"-->
+<!--#include file="inc/cartItem.shtml"-->
+            </div>
+            <div class="totalPrice">合计：<span>￥5027</span></div>
+            <div class="tip">已满足批发条件，共节省￥876</div>
+            
+            <div class="opts">
+                <div class="opt buy"><a href="#3" class="btn btnB"><b>确定购买</b></a></div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!--#include file="inc/toolbar.shtml"-->
+
+</body>
+</html>

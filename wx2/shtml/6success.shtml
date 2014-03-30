@@ -5,7 +5,7 @@
 <body>
 
 <div class="orderSuccess">
-    <h2>支付成功！</h2>
+    <h2>提交成功！</h2>
     <h3>系统已经为您生成订单！</h3>
     <h3>请联系商户咨询支付方式。</h3>
     <div class="toOrder"><a href="#3" class="btn btnC">查看订单 <i class="i iG iG_A1"></i></a></div>

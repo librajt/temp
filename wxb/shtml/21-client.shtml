@@ -1,0 +1,17 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<div class="clientList">
+<!--#include file="inc/client.shtml"-->
+<!--#include file="inc/client.shtml"-->
+<!--#include file="inc/client.shtml"-->
+<!--#include file="inc/client.shtml"-->
+</div>
+
+<!--#include file="inc/toolbar.shtml"-->
+
+</body>
+</html>
