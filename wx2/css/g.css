@@ -289,27 +289,18 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .addressInfs .frmS{display:block;position:relative;margin:0 0 5px 0;padding-left:4em;font-size:15px;color:#585858;line-height:1.5;}
 .addressInfs .frmS .des{position:absolute;left:0;top:0px;}
 
-/* ---------- 8- calls ---------- */
-.calls{}
-.callList .call{display:block;border-bottom:1px solid #AEAEAE;padding:15px 10px;position:relative;}
-.callList .call .name{font-size:18px;color:#585858;}
-.callList .call .number{font-size:18px;color:#FF7700;}
-.callList .call .toCall{position:absolute;right:10px;top:50%;margin-top:-12px;}
 
+/* ---------- 8- seller ---------- */
+.aboutSeller .ap{border:0;margin:10px;background:#FFFFFF;}
+.apIntro .brand img{width:100%;}
+.apIntro .intro{padding:20px 10px;}
+.apIntro .intro p{font-size:18px;color:#585858;min-height:1em;}
 
+.apProgress .steps{margin:10px 0;font-size:15px;color:#585858;line-height:1.6;}
 
-/* ---------- 9- seller ---------- */
-.aboutSeller{overflow:hidden;}
-.apBrand .pic img{width:100%;}
-
-.apIntro .desc{font-size:18px;color:#585858;min-height:100px;}
-.apIntro .call .btn .i{vertical-align:-6px;margin-right:5px;}
-
-.apProgress{overflow:hidden;}
-.apProgress .step{margin:10px 0;position:relative;background:#FFFFFF;padding:10px 10px 10px 45px;line-height:28px;min-height:28px;}
-.apProgress .step .sOrder{font-size:18px;color:#FFFFFF;position:absolute;top:12px;left:10px;width:24px;height:24px;line-height:24px;text-align:center;background:#CD9C71;}
-.apProgress .step .todos{font-size:15px;color:#585858;}
-.apProgress .call .btn .i{vertical-align:-6px;margin-right:5px;}
+.callSeller{margin:10px;}
+.callSeller .btn{width:9em;margin:auto;}
+.callSeller .btn .i{vertical-align:-6px;margin-right:5px;}
 
 
 
