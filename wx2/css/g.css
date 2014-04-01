@@ -208,10 +208,11 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 
 .orderItem{position:relative;padding-left:50px;line-height:26px;margin-bottom:10px;font-size:15px;color:#585858;}
 .orderItem .title{position:absolute;top:1px;left:0;}
+.orderItem .value{font-size:0;}
 
-.orderItem .choice{display:inline-block;vertical-align:middle;min-width:60px;text-align:center;margin-bottom:10px;}
+.orderItem .choice{display:inline-block;vertical-align:middle;min-width:60px;text-align:center;margin:0 5px 10px 0;}
 .orderItem .choice input{display:none;}
-.orderItem .choice .cnt{background:#FFFFFF;padding:1px 5px;border:1px solid #B1B1B1;}
+.orderItem .choice .cnt{background:#FFFFFF;padding:1px 5px;border:1px solid #B1B1B1;font-size:15px;}
 .orderItem .choice input:checked + .cnt{padding:0px 4px;border:2px solid #FF7700;}
 
 .orderItem .num{height:60px;width:130px;position:relative;z-index:1;}
