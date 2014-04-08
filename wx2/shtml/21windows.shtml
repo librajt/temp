@@ -1,0 +1,55 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+
+<style>
+/* 静态页面显示用样式，不用加到开发页面中 */
+.mw{position:relative;height:500px;margin-bottom:20px;}
+</style>
+
+</head>
+<body>
+
+<div class="mw">
+    <div class="wrap">
+        <div class="main">
+            <div class="cnt">标准弹窗结构<br>换行了</div>
+            <div class="opts">
+                <div class="opt"><a href="#3">左按钮</a></div>
+                <div class="opt"><a href="#3">右按钮</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mw">
+    <div class="wrap">
+        <div class="main">
+            <div class="cnt">简要弹窗，没有按钮</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="mw">
+    <div class="wrap">
+        <div class="main">
+            <div class="cnt">商品已加入购物车</div>
+            <div class="opts">
+                <div class="opt"><a href="#3">再逛逛</a></div>
+                <div class="opt"><a href="#3">去结算</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mw">
+    <div class="wrap">
+        <div class="main">
+            <div class="cnt"><img src="../image/loading.gif" alt="loading..." style="width:62px;height:62px"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
