@@ -105,7 +105,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .siteNav .btn{display:block;padding:4px 0;font-size:12px;color:#000;text-align:center;position:relative;}
 .siteNav .btn b{display:block;line-height:18px;}
 .siteNavs .on{background:#DCDCDC;}
-.siteNavs .reminder{position:absolute;width:12px;height:12px;border-radius:999px;background:#B00;top:3px;left:50%;margin-left:10px;font-size:9px;line-height:12px;text-align:center;color:#FFF;}
+.siteNavs .reminder{position:absolute;min-width:8px;padding:0 2px;height:12px;border-radius:999px;background:#B00;top:3px;left:50%;margin-left:10px;font-size:9px;line-height:12px;text-align:center;color:#FFF;}
 
 /* sellPics */
 .sellPics{overflow:hidden;}
@@ -164,7 +164,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .cartItem .img img{max-width:80px;max-height:80px;}
 .cartItem .price{text-align:right;}
 .cartItem .price .cond{display:inline-block;vertical-align:1px;margin-left:10px;font-size:15px;}
-.cartItem .price .ico{display:inline-block;line-height:1;margin-right:3px;font-size:12px;}
+.cartItem .price .ico{display:inline-block;vertical-align:2px;line-height:1;margin-right:3px;font-size:12px;}
 .cartItem .delete{position:absolute;top:0;right:0;padding:0 0 20px 20px;}
 .cartItem .delete b{background:#C8C8C8;padding:5px;line-height:1;display:block;width:12px;height:12px;text-align:center;}
 .cartItem .delete i{vertical-align:0;}
