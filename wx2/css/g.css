@@ -198,9 +198,9 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .prodType .hd .toMore{font-size:12px;color:#585858;}
 .prodType .hd .count{font-size:15px;color:#FF7700;}
 
-.prodList .prod{width:48%;float:left;margin-bottom:10px;}
+.prodList .prod{width:48%;float:left;clear:left;margin-bottom:10px;}
 .prodList .prod:nth-child(2n+1){margin-right:2%;}
-.prodList .prod:nth-child(2n){margin-left:2%;}
+.prodList .prod:nth-child(2n){margin-left:2%;float:right;clear:right;}
 
 
 /* ---------- 3- detail ---------- */
