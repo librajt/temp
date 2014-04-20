@@ -1,0 +1,51 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+
+</head>
+<body>
+
+<div class="landingGuideDetail">
+    <div class="apGuideDetail">
+        <div class="banner">
+            <div class="img"><img src="../image/logo.png" alt=""></div>
+            <div class="slogan">把店开到客户的微信里！</div>
+        </div>
+
+        <div class="landingSteps">
+            <div class="landingStep step_1">
+                <div class="h4">1、注册容易</div>
+                <div class="des">
+                    <div class="text">您只需要提供您的联系方式，我们的客服人员会帮助您完成微信店铺的开通注册。</div>
+                    <div class="btns"><a href="#3" class="btn btnB">我要开店</a></div>
+                </div>
+            </div>
+            <div class="landingStep step_2">
+                <div class="h4">2、商品上传</div>
+                <div class="des">
+                    <div class="text">商户登录后，进入商品列表，点击右下角的“+加号”按钮，进入商品上传页。</div>
+                    <div class="pic"><div class="img"><img src="../image/landingStep2_1.gif" alt=""></div></div>
+                    <div class="pic"><div class="img"><img src="../image/landingStep2_2.gif" alt=""></div></div>
+                </div>
+            </div>
+            <div class="landingStep step_3">
+                <div class="h4">3、订单管理</div>
+                <div class="des">
+                    <div class="text">客户在微信店铺里下单后，在商户界面会看到这笔订单，商户可以核实客户信息，给客户发货等操作。。。</div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="landingFoot">
+        <div class="tech">服务提供商：北京杰力优众科技有限公司</div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

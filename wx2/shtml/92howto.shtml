@@ -1,0 +1,58 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+
+</head>
+<body>
+
+<div class="landingHowto">
+    <div class="apHowto">
+        <div class="banner"><div class="img"><img src="../image/howtoBanner.jpg" alt=""></div></div>
+        <div class="ways">
+            <div class="way">
+                <div class="h4">开店方式1</div>
+                <div class="h5">联系销售人员，了解产品并且上门签约</div>
+                <div class="des">
+                    <div class="contLine">
+                        <p><i class="i iG iG_D2"></i>微信  weipi2014</p>
+                        <p><i class="i iG iG_D3"></i>电话  13611282767</p>
+                    </div>
+                </div>
+            </div>
+            <div class="way">
+                <div class="h4">开店方式2</div>
+                <div class="h5">留下您的联系方式，我们会在1天之内联系您</div>
+                <div class="des">
+                    <form class="contForm">
+                        <div class="frm frm_name">
+                            <div class="des">姓名：</div>
+                            <div class="data"><div class="txt"><input type="text"></div></div>
+                        </div>
+                        <div class="frm frm_cont">
+                            <div class="des">联系方式:</div>
+                            <div class="data"><div class="txt"><input type="text"></div></div>
+                        </div>
+                        <div class="frm frm_ps">
+                            <div class="des">备注（可以不填）</div>
+                            <div class="data"><div class="tar"><textarea></textarea></div></div>
+                        </div>
+                        <div class="frm frm_btns cfx">
+                            <a href="#3" class="btn btnD">返 回</a>
+                            <button class="btn btnB">提 交</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="landingFoot">
+        <div class="tech">服务提供商：北京杰力优众科技有限公司</div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
