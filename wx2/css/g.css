@@ -46,6 +46,8 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .iG_C3{background-position:-50px -50px;width:10px;height:10px;}
 
 .iG_D1{background-position:0 -75px;width:25px;height:25px;}
+.iG_D2{background-position:-25px -75px;width:25px;height:22px;}
+.iG_D3{background-position:-50px -75px;width:25px;height:22px;}
 
 .iN{background:url("../image/iNav.png") no-repeat;-webkit-background-size:125px auto;background-size:125px auto;width:25px;height:25px;}
 .iN_A1{background-position:0 0;}
@@ -81,6 +83,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .btnA{display:block;background:#CD9C71;line-height:44px;color:#FFF;font-size:18px;}
 .btnB{display:block;background:#FF7700;line-height:44px;color:#FFF;font-size:18px;}
 .btnC{display:block;background:#FFF;line-height:44px;color:#585858;font-size:18px;}
+.btnD{display:block;background:#BFBFBF;line-height:44px;color:#FFF;font-size:18px;}
 
 .btn_disabled{background:#CCC;}
 
@@ -363,24 +366,97 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .apFeedback .app .tarea textarea{height:160px;}
 
 
+/*-----------------------------------------------------------------------------------------*/
+.landingFoot{margin-top:20px;}
+.landingFoot .tech{background:#DEDEDE;font-size:15px;color:#585858;text-align:center;padding:10px 0;}
+
+.case{display:block;padding:10px;}
+.case .main{position:relative;height:75px;padding:0 20px 0 90px;}
+.case .pic{position:absolute;top:0;left:0;}
+.case .pic .img{width:75px;height:75px;}
+.case .pic img{width:100%;height:100%;}
+.case .des{height:75px;
+    display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-ms-flex;display:flex;
+    -webkit-box-orient:vertical;-moz-box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+    -webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;justify-content:center;
+}
+.case .des .sname{font-size:18px;color:#585858;}
+.case .des .sdesc{font-size:15px;color:#999999;}
+.case .toDetail{position:absolute;right:0;top:50%;margin-top:-10px;}
 
 
+/*-------------- 91 home ----------------*/
+.landingHome{background:#F0F0F0;}
+.landingHome .ap{border-top:0px;padding:9px 12px;}
+.landingHome .ap .cnt{background:#FFF;}
+.landingHome .ap .hd{-webkit-box-shadow:0 1px 1px rgba(0,0,0,.07);-moz-box-shadow:0 1px 1px rgba(0,0,0,.07);box-shadow:0 1px 1px rgba(0,0,0,.07);padding:10px;}
+
+.landingBanner{background:url("../image/landingBannerBg.jpg") repeat-x;}
+.landingBanner .wrap{background:url("../image/landingBanner.jpg") no-repeat;width:320px;height:246px;margin:auto;position:relative;}
+.landingBanner,.landingBanner .wrap{-webkit-background-size:auto 246px;background-size:auto 246px;}
+.landingBanner .wrap a{position:absolute;width:120px;height:42px;right:0;top:173px;}
+
+.apLandingGuide{}
+.apLandingGuide .bd{padding:10px;}
+.apLandingGuide .hd .aside a{color:#FF7700;font-size:12px;}
+.apLandingGuide .bd .text{font-size:15px;color:#585858;line-height:1.6;}
+
+.apContact .bd{padding:10px;}
+.apContact .bd .text{font-size:15px;color:#585858;line-height:1.6;}
+.apContact .bd .text a{color:#585858;}
+
+.apCase .cases .case{border-top:1px solid #D3D3D3;}
+.apCase .cases .case:first-child{border-top:0;}
+
+/*-------------- 92 how to ----------------*/
+.landingHowto{background:#FCFCFC;}
+
+.apHowto{}
+.apHowto .banner{text-align:center;}
+.apHowto .banner img{max-width:100%;}
+
+.way{padding:20px 5px;}
+.way .h4{font-size:24px;color:#FF7700;}
+.way .h5{font-size:15px;color:#585858;padding:5px 0;}
+
+.apHowto .ways{padding:0 18px;}
+.apHowto .ways .way{border-top:1px solid #D2D2D2;}
+.apHowto .ways .way:first-child{border-top:0;}
+
+.contLine{}
+.contLine p{font-size:15px;color:#585858;padding:5px 0;}
+.contLine a{color:#585858;}
+.contLine .i{margin-right:5px;vertical-align:-3px;}
 
 
+.contForm .frm{display:block;margin:5px 0;}
+.contForm .frm .des{font-size:15px;color:#585858;}
+.contForm .frm .data{padding:3px;}
+.contForm .frm .data input{height:36px;padding:9px;width:100%;border:1px solid #B1B1B1;}
+.contForm .frm .data textarea{height:66px;padding:9px;width:100%;border:1px solid #B1B1B1;}
+.contForm .frm_btns{padding:0 2%;}
+.contForm .frm_btns .btn{float:left;width:46%;margin:0 2%;}
 
 
+/*-------------- 93 apGuideDetail ----------------*/
+.landingGuideDetail{background:#FCFCFC;}
 
+.apGuideDetail .banner{height:200px;position:relative;text-align:center;background:url("../image/landingGuideDetailBg.jpg") repeat-x;-webkit-background-size:auto 100%;background-size:auto 100%;}
+.apGuideDetail .banner .img{padding-top:20px;}
+.apGuideDetail .banner .img img{width:110px;height:110px;}
+.apGuideDetail .banner .slogan{font-size:15px;color:#424242;padding-top:10px;}
 
+.landingStep{padding:20px 5px;}
+.landingStep .h4{font-size:18px;color:#585858;margin-bottom:10px;}
+.landingStep .text{font-size:15px;color:#585858;line-height:1.8;margin-bottom:20px;}
+.landingStep .btns{margin:10px 0;text-align:center;}
+.landingStep .btns .btn{display:inline-block;padding:0 2em;}
+.landingStep .pic{margin-top:20px;text-align:center;}
+.landingStep .pic img{max-width:100%;}
 
-
-
-
-
-
-
-
-
-
+.landingSteps{padding:0 18px;}
+.landingSteps .landingStep{border-top:1px solid #D2D2D2;}
+.landingSteps .landingStep:first-child{border-top:0;}
 
 
 
