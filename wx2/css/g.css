@@ -412,7 +412,8 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .landingHowto{background:#FCFCFC;}
 
 .apHowto{}
-.apHowto .banner img{width:100%;}
+.apHowto .banner{text-align:center;}
+.apHowto .banner img{max-width:100%;}
 
 .way{padding:20px 5px;}
 .way .h4{font-size:24px;color:#FF7700;}
@@ -450,8 +451,8 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 .landingStep .text{font-size:15px;color:#585858;line-height:1.8;margin-bottom:20px;}
 .landingStep .btns{margin:10px 0;text-align:center;}
 .landingStep .btns .btn{display:inline-block;padding:0 2em;}
-.landingStep .pic{margin-top:20px;}
-.landingStep .pic img{width:100%;}
+.landingStep .pic{margin-top:20px;text-align:center;}
+.landingStep .pic img{max-width:100%;}
 
 .landingSteps{padding:0 18px;}
 .landingSteps .landingStep{border-top:1px solid #D2D2D2;}
