@@ -1,4 +1,4 @@
-/* reset */
+/* reset 前台 */
 *{margin:0;padding:0;}
 table{border-collapse:collapse;border-spacing:0;}
 h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:normal;}
@@ -12,7 +12,7 @@ a{text-decoration:none;color:#008AFF;}
 body,button,input,select,textarea{font-family:\5fae\8f6f\96c5\9ed1,Arial,Helvetica,sans-serif;}
 
 html{height:100%;-webkit-text-size-adjust:none;}
-body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
+body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:break-all;}
 
 /* tools */
 .cfx:after{content:'';display:table;clear:both;}
@@ -174,7 +174,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;}
 
 /*prod*/
 .prod{display:block;}
-.prod .pic{background:#F5F5F5;width:100%;margin-bottom:5px;}
+.prod .pic{background:#F5F5F5;width:100%;height:165px;margin-bottom:5px;}
 .prod .pic img{max-width:100%;max-height:165px;}
 .prod .ttl{font-size:15px;color:#585858;margin-bottom:5px;}
 .prod .price .cond{margin-bottom:3px;position:relative;padding-left:30px;}
