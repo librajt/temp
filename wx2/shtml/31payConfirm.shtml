@@ -1,0 +1,37 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<div class="payConfirm">
+
+    <div class="ap apPayReview">
+        <div class="tip">订单提交成功，请尽快支付。</div>
+        <div class="cnt">
+            <div class="payReviewInf">
+                <p>订单号编：JD001891</p>
+                <p>应付金额：<span class="price">15680.00</span> 元</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="apPayNext">
+        <a href="#3" class="btn btnB"><b>下一步</b></a>
+    </div>
+
+    <div class="apWayToPay">
+        <div class="h3">付款方式</div>
+        <div class="payWays">
+            <div class="payWay">
+                <label class="radio"><input type="radio" name="payWay">支付宝支付</label>
+            </div>
+        </div>
+        <div class="tip">“付款后，资金将直接转入店主账户，如需退款换货，请及时与店主联系，微批官方不介入交易纠纷处理。”</div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -9,8 +9,8 @@
         <div class="cnt">
             <div class="infs orderInfs cfx">
                 <div class="inf oid">订单号：<span>792889092</span></div>
-                <div class="inf price">合计：<span>￥123456.78</span></div>
-                <div class="inf status">状态：<span>示发货</span></div>
+                <div class="inf price">合　计：<span>￥123456.78</span></div>
+                <div class="inf status">状态：<span>等待付款/已付款</span></div>
             </div>
             <div class="infs addressInfs">
                 <div class="frmS reveive">
@@ -24,6 +24,10 @@
                 <div class="frmS address">
                     <div class="des">地　址：</div>
                     <div class="data">北京海淀区五环到六环之间北京市海淀区农大南路1号硅谷亮城9号楼2层</div>
+                </div>
+                <div class="frmS weixin">
+                    <div class="des">微信号：</div>
+                    <div class="data">dongpixiu</div>
                 </div>
             </div>
         </div>
@@ -67,12 +71,26 @@
         </div>
     </div>
 
+    <div class="pageOpts apOrderOpts">
+        <div class="wrap optWrap">
+            <div class="opt goBack"><a href="javascript:;" class="btn btn_s btnE"><b>取消订单</b></a></div>
+            <div class="opt toSeller"><a href="#3" class="btn btn_s btnF"><b>联系商户</b></a></div>
+        </div>
+    </div>
+
+    <!-- 另一种状态 -->
+    <div class="pageOpts apOrderOpts">
+        <div class="wrap optWrap single">
+            <div class="opt toSeller"><a href="#3" class="btn btn_s btnF"><b>联系商户</b></a></div>
+        </div>
+    </div>
+
 </div>
 
 <div class="pageOpts fixed">
     <div class="wrap optWrap">
-        <div class="opt goBack"><a href="javascript:;" class="btn btnA"><b>返回列表</b></a></div>
-        <div class="opt toSeller"><a href="#3" class="btn btnB"><b>联系商户</b></a></div>
+        <div class="opt goBack"><a href="javascript:;" class="btn btnC"><b>返回</b></a></div>
+        <div class="opt toSeller"><a href="#3" class="btn btnB"><b>立即购买</b></a></div>
     </div>
 </div>
 

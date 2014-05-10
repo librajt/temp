@@ -17,6 +17,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 /* tools */
 .cfx:after{content:'';display:table;clear:both;}
 
+.tabs,
 .ap .cnt,
 .cartItem .main,
 .process .step,
@@ -84,13 +85,22 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .btnB{display:block;background:#FF7700;line-height:44px;color:#FFF;font-size:18px;}
 .btnC{display:block;background:#FFF;line-height:44px;color:#585858;font-size:18px;}
 .btnD{display:block;background:#BFBFBF;line-height:44px;color:#FFF;font-size:18px;}
+.btnE{display:block;background:#818182;line-height:44px;color:#FFF;font-size:18px;}
+.btnF{display:block;background:#00BD8A;line-height:44px;color:#FFF;font-size:18px;}
 
 .btn_disabled{background:#CCC;}
+
+.btn_s{line-height:36px;}
 
 /* sel
 .sel{background:#FFFFFF;display:block;text-align:center;position:relative;}
 .sel select{display:block;width:100%;padding:0 10px;background-color:transparent;position:relative;z-index:1;}
 .sel:after{content:'';position:absolute;z-index:0;width:16px;height:16px;right:10px;top:50%;margin-top:-8px;background:url("../image/iSel.png") no-repeat;-webkit-background-size:16px auto;background-size:16px auto;} */
+
+/* radio */
+.radio{}
+.radio input{margin-right:3px;}
+
 
 /* pic */
 .pic_cover{display:table;}
@@ -147,6 +157,13 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .mw .main .opt:first-child a{border-left:0;}
 
 
+/* tabs */
+.tabs .tabWrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-ms-flex;display:flex;}
+.tabs .tab{width:100%;-webkit-box-flex:1;-webkit-flex:1 1 0;-ms-flex:1 1 0;flex:1 1 0;border-left:1px solid #F3F3F3;background:#FFFFFF;}
+.tabs .tab:first-child{border-left:0;}
+.tabs .tab .choice{display:block;line-height:45px;height:45px;font-size:15px;color:#585858;text-align:center;}
+.tabs .tab .choice{padding:0 5px;}
+.tabs .tab .choice_on{background:#A9A9A9;color:#FFF;}
 
 
 /* order */
@@ -156,7 +173,9 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .order .pic{position:absolute;left:0;top:0;width:140px;height:140px;background:#CECECE;}
 .order .img img{max-width:140px;max-height:140px;}
 .order .price b{color:#FF7700;}
-.order .toDetail{position:absolute;right:10px;top:50%;margin-top:-10px;}
+.order .toDetail{position:absolute;right:10px;top:20px;}
+.order .toQuickPay{position:absolute;right:10px;margin-top:-50px;padding:10px;}
+.order .toQuickPay b{display:block;padding:5px 10px;background:#FF6600;border-radius:5px;font-size:15px;color:#FFF;}
 
 
 /* cartItem */
@@ -257,6 +276,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .orderList .order{margin:10px;}
 .orderList .order .blank{text-align:center;line-height:80px;}
 
+.orderListTabs{margin:10px;}
 
 /* ---------- 5- confirm ---------- */
 .orderConfirm{background:#FFF;}
@@ -287,28 +307,36 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .addressInfo .frm .data{}
 .addressInfo .frm .data input{height:36px;padding:9px;width:200px;border:1px solid #B1B1B1;}
 .addressInfo .frm .data textarea{height:66px;padding:9px;width:200px;border:1px solid #B1B1B1;}
+.addressInfo .frm .dataTip{margin-top:8px;font-size:15px;color:#585858;}
 
 
-/* ---------- 6 orderSuccess ---------- */
-.orderSuccess{text-align:center;}
-.orderSuccess h2{font-size:24px;color:#FF7700;padding:130px 0 30px 0;}
-.orderSuccess h3{font-size:15px;color:#585858;padding-bottom:10px;}
-.orderSuccess .toOrder{padding-top:20px;}
-.orderSuccess .toOrder .btn{display:inline-block;border:1px solid #C3C3C3;padding:0 10px;height:40px;line-height:40px;}
-
+/* ---------- 6 payResult: success fail ---------- */
+.payResult{text-align:center;}
+.payResult h2{font-size:24px;padding:130px 0 20px 0;}
+.payResult h2.fail{color:#333333;}
+.payResult h2.success{color:#FF7700;}
+.payResult h3{font-size:15px;color:#FF7700;padding-bottom:20px;}
+.payResult .payResultInfo{padding:20px;text-align:left;font-size:14px;color:#585858;line-height:24px;}
+.payResult .toOrder{padding-top:20px;}
+.payResult .toOrder .btn{display:inline-block;border:1px solid #C3C3C3;padding:0 10px;height:40px;line-height:40px;}
 
 /* ---------- 7 orderDetail ---------- */
 .orderDetail{}
 .orderDetail .ap{background:#FFF;margin:10px;padding:0;border-top:0;}
 .orderDetail .infs{padding:10px;}
 
+.orderDetail .orderInfs{padding:0 10px;}
 .orderInfs .cnt{font-size:14px;color:#585858;}
-.orderInfs .inf{float:left;width:50%;}
+.orderInfs .inf{float:left;width:50%;font-size:15px;color:#585858;line-height:1.5;}
 .orderInfs .price span{color:#FF7700;}
+.orderInfs .oid{padding:10px;margin:0 -10px 10px;border-bottom:1px solid #D9D6CA;float:none;width:auto;}
 
-.addressInfs{border-top:1px solid #D9D6CA;}
-.addressInfs .frmS{display:block;position:relative;margin:0 0 5px 0;padding-left:4em;font-size:15px;color:#585858;line-height:1.5;}
+.addressInfs{}
+.addressInfs .frmS{display:block;position:relative;margin:0 0 10px 0;padding-left:4em;font-size:15px;color:#585858;line-height:1.5;}
 .addressInfs .frmS .des{position:absolute;left:0;top:0px;}
+
+.apOrderOpts{margin:30px;}
+.apOrderOpts .optWrap{border:0;}
 
 
 /* ---------- 8- seller ---------- */
@@ -458,6 +486,27 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .landingSteps .landingStep{border-top:1px solid #D2D2D2;}
 .landingSteps .landingStep:first-child{border-top:0;}
 
+
+
+/* ---------- 31 payConfirm ---------- */
+.apPayReview .tip{font-size:14px;color:#DF9339;text-align:center;margin:5px;}
+
+.payReviewInf{background:#FFF;font-size:18px;color:#585858;overflow:hidden;}
+.payReviewInf p{line-height:1.2;margin:20px;}
+.payReviewInf .price{color:#FF7700;}
+
+.apPayNext{margin:10px;}
+
+.apWayToPay{margin:10px;}
+.apWayToPay .h3{font-size:15px;color:#333333;padding:10px;}
+
+.payWay{font-size:15px;color:#333333;}
+.payWay .radio{display:block;padding:10px;}
+
+.payWays{border:1px solid #AAAAAA;border-width:1px 0;}
+.apWayToPay .tip{font-size:14px;color:#6F6F6F;padding:10px;}
+
+/* ---------- 32 payResult ---------- */
 
 
 

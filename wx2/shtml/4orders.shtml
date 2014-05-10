@@ -5,14 +5,37 @@
 <body>
 
 <div class="orders orderList">
+
+    <div class="orderListTabs tabs">
+        <div class="wrap tabWrap">
+            <div class="tab"><a href="#3" class="choice">全部订单</a></div>
+            <div class="tab"><a href="#3" class="choice choice_on">未付款</a></div><!-- @后端：选中状态为 choice_on -->
+            <div class="tab"><a href="#3" class="choice">已付款</a></div>
+        </div>
+    </div>
+    
+    <div class="wrap orderWrap">
+        <div class="order">
+            <div class="blank">当前页面无订单信息。</div>
+        </div>
+    </div>
+
+    <!-- //////////////////////////////////////////// -->
+    
+    <div class="orderListTabs tabs">
+        <div class="wrap tabWrap">
+            <div class="tab"><a href="#3" class="choice choice_on">全部订单</a></div><!-- @后端：选中状态为 choice_on -->
+            <div class="tab"><a href="#3" class="choice">未付款</a></div>
+            <div class="tab"><a href="#3" class="choice">已付款</a></div>
+        </div>
+    </div>
+    
     <div class="wrap orderWrap">
 <!--#include file="inc/order.shtml"-->
 <!--#include file="inc/order.shtml"-->
 <!--#include file="inc/order.shtml"-->
-        <div class="order">
-            <div class="blank">您当前还未下任何订单</div>
-        </div>
     </div>
+    
 </div>
 
 
