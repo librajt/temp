@@ -49,6 +49,11 @@
         </div>
     </div>
 
+    <div class="app appAlipay">
+        <div class="hd">支付宝账号</div>
+        <div class="bd"><div class="ownerPhone"><div class="txt"><input type="text"></div></div><div class="tip">在线支付功用，需要填写支付宝账号</div></div>
+    </div>
+
     <div class="opt"><input type="submit" class="btn btnA" value="保 存"></div>
 
 </div>
