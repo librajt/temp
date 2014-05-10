@@ -12,7 +12,7 @@
         </a>
         <div class="ft cfx">
             <div class="des oId">订单编号：<b>12345678</b></div>
-            <div class="des opt_push"><a href="javascript:">发货</a></div>
+            <!--<div class="des opt_push"><a href="javascript:">发货</a></div>-->
         </div>
     </div>
 </div>

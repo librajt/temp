@@ -25,6 +25,11 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .btn,
 .box{-webkit-box-shadow:1px 1px 1px rgba(0,0,0,.07);-moz-box-shadow:1px 1px 1px rgba(0,0,0,.07);box-shadow:1px 1px 1px rgba(0,0,0,.07);}
 
+
+/* reminder */
+.reminder{min-width:8px;padding:0 2px;height:12px;border-radius:999px;background:#EC0000;font-size:9px;line-height:12px;text-align:center;color:#FFF;}
+
+
 /* ico   iG_A1代表global图片中的A行1列图标 */
 .i{width:16px;height:16px;display:inline-block;vertical-align:-3px;background:#CCC;}
 .i1{background:url("../image/prodAdd.png") no-repeat;-webkit-background-size:100% auto;background-size:100% auto;width:44px;height:44px;}
@@ -36,6 +41,7 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .iG_C1{background-position:0 -50px;width:20px;height:20px;}
 .iG_C2{background-position:-25px -50px;width:20px;height:20px;}
 .iG_C3{background-position:-50px -50px;width:10px;height:10px;}
+.iG_D2{background-position:-25px -75px;width:20px;height:20px;}
 
 .iN{background:url("../image/iNav.png") no-repeat;-webkit-background-size:125px auto;background-size:125px auto;width:25px;height:25px;}
 .iN_A1{background-position:0 0;width:28px;}
@@ -116,7 +122,7 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .siteNav .btn{display:block;padding:4px 0 3px;font-size:12px;color:#000;text-align:center;position:relative;}
 .siteNav .btn b{display:block;line-height:18px;}
 .siteNavs .on{background:#DCDCDC;}
-.siteNavs .reminder{position:absolute;width:12px;height:12px;border-radius:999px;background:#B00;top:3px;left:50%;margin-left:10px;font-size:9px;line-height:12px;text-align:center;color:#FFF;}
+.siteNavs .reminder{position:absolute;top:3px;left:50%;margin-left:10px;}
 
 /* sell */
 .sell .main{display:block;padding:10px;background:#FFFFFF;padding-left:150px;position:relative;min-height:120px;font-size:12px;color:#888888;}
@@ -143,6 +149,7 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .order .inf{line-height:1.5;}
 .order .address{padding-right:20px;min-height:54px;}
 .order .name,.order .price{color:#585858;font-size:15px;}
+.order .price b{color:#FF6600;}
 .order .name{line-height:1.1;}
 .order .toDetail{position:absolute;right:10px;top:50%;margin-top:-10px;}
 .order .opts{position:relative;}
@@ -282,25 +289,30 @@ body.guide_show > .prodAdd{display:none;}
 /* ---------- 3 orders ------------- */
 .orderFilter{margin:10px;}
 .orderFilter .wrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-ms-flex;display:flex;}
-.orderFilter .tab{-webkit-box-flex:1;-webkit-flex:1 1 0;-ms-flex:1 1 0;flex:1 1 0;}
+.orderFilter .tab{-webkit-box-flex:1;-webkit-flex:1 1 0;-ms-flex:1 1 0;flex:1 1 0;position:relative;}
 .orderFilter .tab a{display:block;border-left:1px solid #E2E2E2;background:#FFF;font-size:15px;color:#585858;text-align:center;line-height:38px;}
 .orderFilter .tab:first-child a{border-left:0;}
 .orderFilter .tab_on a{background:#A9A9A9;color:#FFF;}
+.orderFilter .tab .reminder{position:absolute;top:3px;right:0;margin-right:10px;}
+
 
 
 .orderList .order{margin:10px;}
-.orderList .orderDate{font-size:15px;color:#585858;padding:10px;}
+.orderList .orderStatus{font-size:15px;color:#585858;padding:10px 10px 0;float:right;}
+.orderList .orderStatus .i{margin-right:3px;margin-bottom:-2px;}
+.orderList .orderDate{font-size:15px;color:#585858;padding:10px 10px 0;}
 
 /* ---------- 3 order detail ------------- */
 .orderDetail{padding:10px;}
-.orderDetail .total{position:relative;}
-.orderDetail .total .cnt{position:absolute;top:0;right:5px;z-index:1;font-size:18px;color:#585858;text-align:right;line-height:29px;}
 
 .oBasicInf{}
-.oBasicInf .frm{position:relative;padding:5px;}
+.oBasicInf .frms{padding:5px 0;}
+.oBasicInf .frm{position:relative;padding:5px;clear:both;}
 .oBasicInf .frm .des{position:absolute;top:6px;left:10px;font-size:15px;}
 .oBasicInf .frm .data{margin-left:4.5em;font-size:15px;line-height:1.2;}
-.oBasicInf .oId{border-bottom:1px solid #EAEAEA;}
+.oBasicInf .oId{border-bottom:1px solid #EAEAEA;margin-bottom:5px;}
+.oBasicInf .totalPrice,.oBasicInf .orderStatus{clear:none;float:left;width:50%;box-sizing:border-box;}
+.oBasicInf .totalPrice .price{font-size:18px;}
 
 .oDetail .main{display:block;padding:10px;background:#FFFFFF;padding-left:150px;position:relative;min-height:120px;font-size:12px;color:#888888;}
 .oDetail .pic{position:absolute;left:0;top:0;width:140px;height:140px;}
@@ -317,7 +329,10 @@ body.guide_show > .prodAdd{display:none;}
 .ownerSetting{padding:10px;}
 .ownerSetting .app{margin-bottom:10px;}
 .ownerSetting .app .hd{padding:5px;font-size:18px;line-height:1.4;}
+.ownerSetting .app .bd .tip{padding:5px;font-size:14px;line-height:1.4;color:#585858;}
 .ownerSetting .opt{margin-top:30px;}
+
+
 
 .ownerPicAdd{min-height:120px;}
 .ownerPicAdd .des{position:absolute;z-index:1;left:0;right:0;top:50%;height:20px;margin-top:-10px;text-align:center;font-size:16px;}

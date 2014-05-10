@@ -5,15 +5,17 @@
 <body>
 
 <div class="orderDetail">
-    <div class="total"><div class="cnt">合计：￥680</div></div>
 
     <div class="ap apInfs">
         <div class="cnt oBasicInf">
             <div class="frms">
                 <div class="frm oId"><div class="des">订单号：</div><div class="data">12345678</div></div>
+                <div class="frm totalPrice"><div class="des">合　计：</div><div class="data"><div class="price">￥680</div></div></div>
+                <div class="frm orderStatus"><div class="des">状　态：</div><div class="data">已付款</div></div>
                 <div class="frm reveiver"><div class="des">收件人：</div><div class="data">丛老湿</div></div>
                 <div class="frm phone"><div class="des">电　话：</div><div class="data">12345678901</div></div>
                 <div class="frm address"><div class="des">地　址：</div><div class="data">丛老湿 丛老湿 丛老湿 丛老湿 丛老湿 丛老湿</div></div>
+                <div class="frm weixin"><div class="des">微信号：</div><div class="data">dongpixiu</div></div>
             </div>
         </div>
     </div>
@@ -61,10 +63,11 @@
     <div class="pageOpts fixed">
         <div class="wrap optWrap">
             <div class="opt goBack"><a href="javascript:;" class="btn btnD"><b>返回</b></a></div>
-            <div class="opt toCancel"><a href="javascript:;" class="btn btnD"><b>取消订单</b></a></div>
+            <div class="opt toCancel"><a href="javascript:;" class="btn btnD"><b>取消订单</b></a></div><!-- 另一种状态，删掉就可以了 -->
             <div class="opt toFinish"><a href="#3" class="btn btnA"><b>确认发货</b></a></div>
         </div>
     </div>
+
 
 </div>
 

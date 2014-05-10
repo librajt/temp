@@ -15,7 +15,8 @@
 <div class="orders">
     <div class="tabs orderFilter">
         <div class="wrap tabWrap cfx">
-            <div class="tab tab_on"><a href="javascript:">未发货</a></div><!-- @后端： 增加类名 tab_on 为选中状态 -->
+            <div class="tab tab_on"><a href="javascript:">已付款<div class="reminder">9</div></a></div><!-- @后端： 增加类名 tab_on 为选中状态 -->
+            <div class="tab"><a href="javascript:">未付款</a></div>
             <div class="tab"><a href="javascript:">已发货</a></div>
             <div class="tab"><a href="javascript:">已取消</a></div>
         </div>
@@ -28,7 +29,8 @@
     </div>
     
     <div class="orderList">
-        <div class="orderDate">2014/02/13（今天）</div>
+        <div class="orderStatus"><i class="i iG iG_D2"></i>已付款</div>
+        <div class="orderDate">2014-02-13 购买</div>
 <div class="order">
     <div class="cnt">
         <a href="#3"  class="main">
@@ -43,50 +45,15 @@
         </a>
         <div class="ft cfx">
             <div class="des oId">订单编号：<b>12345678</b></div>
-            <div class="des opt_push"><a href="javascript:">发货</a></div>
-        </div>
-    </div>
-</div>
-<div class="order">
-    <div class="cnt">
-        <a href="#3"  class="main">
-            <div class="pic pic_cover"><div class="img"><img src="../image/d/1.jpg" alt=""></div></div>
-            <div class="name"><h4>丛老湿</h4></div>
-            <div class="infs">
-                <div class="inf phone"><b>12361235123</b></div>
-                <div class="inf address"><b>丛老湿丛老湿丛老湿 丛老湿丛老湿</b></div>
-            </div>
-            <div class="price">总价：<b>￥120</b></div>
-            <div class="toDetail"><i class="i iG iG_A1"></i></div>
-        </a>
-        <div class="ft cfx">
-            <div class="des oId">订单编号：<b>12345678</b></div>
-            <div class="des opt_push"><a href="javascript:">发货</a></div>
-        </div>
-    </div>
-</div>
-<div class="order">
-    <div class="cnt">
-        <a href="#3"  class="main">
-            <div class="pic pic_cover"><div class="img"><img src="../image/d/1.jpg" alt=""></div></div>
-            <div class="name"><h4>丛老湿</h4></div>
-            <div class="infs">
-                <div class="inf phone"><b>12361235123</b></div>
-                <div class="inf address"><b>丛老湿丛老湿丛老湿 丛老湿丛老湿</b></div>
-            </div>
-            <div class="price">总价：<b>￥120</b></div>
-            <div class="toDetail"><i class="i iG iG_A1"></i></div>
-        </a>
-        <div class="ft cfx">
-            <div class="des oId">订单编号：<b>12345678</b></div>
-            <div class="des opt_push"><a href="javascript:">发货</a></div>
+            <!--<div class="des opt_push"><a href="javascript:">发货</a></div>-->
         </div>
     </div>
 </div>
     </div>
     
     <div class="orderList">
-        <div class="orderDate">2014/02/12（昨天）</div>
+        <div class="orderStatus">未付款</div>
+        <div class="orderDate">2014-02-12 购买</div>
 <div class="order">
     <div class="cnt">
         <a href="#3"  class="main">
@@ -101,43 +68,7 @@
         </a>
         <div class="ft cfx">
             <div class="des oId">订单编号：<b>12345678</b></div>
-            <div class="des opt_push"><a href="javascript:">发货</a></div>
-        </div>
-    </div>
-</div>
-<div class="order">
-    <div class="cnt">
-        <a href="#3"  class="main">
-            <div class="pic pic_cover"><div class="img"><img src="../image/d/1.jpg" alt=""></div></div>
-            <div class="name"><h4>丛老湿</h4></div>
-            <div class="infs">
-                <div class="inf phone"><b>12361235123</b></div>
-                <div class="inf address"><b>丛老湿丛老湿丛老湿 丛老湿丛老湿</b></div>
-            </div>
-            <div class="price">总价：<b>￥120</b></div>
-            <div class="toDetail"><i class="i iG iG_A1"></i></div>
-        </a>
-        <div class="ft cfx">
-            <div class="des oId">订单编号：<b>12345678</b></div>
-            <div class="des opt_push"><a href="javascript:">发货</a></div>
-        </div>
-    </div>
-</div>
-<div class="order">
-    <div class="cnt">
-        <a href="#3"  class="main">
-            <div class="pic pic_cover"><div class="img"><img src="../image/d/1.jpg" alt=""></div></div>
-            <div class="name"><h4>丛老湿</h4></div>
-            <div class="infs">
-                <div class="inf phone"><b>12361235123</b></div>
-                <div class="inf address"><b>丛老湿丛老湿丛老湿 丛老湿丛老湿</b></div>
-            </div>
-            <div class="price">总价：<b>￥120</b></div>
-            <div class="toDetail"><i class="i iG iG_A1"></i></div>
-        </a>
-        <div class="ft cfx">
-            <div class="des oId">订单编号：<b>12345678</b></div>
-            <div class="des opt_push"><a href="javascript:">发货</a></div>
+            <!--<div class="des opt_push"><a href="javascript:">发货</a></div>-->
         </div>
     </div>
 </div>
@@ -148,7 +79,7 @@
 <div class="siteNavs">
     <div class="wrap siteNavWrap">
         <div class="siteNav on"><a href="#3" class="btn"><i class="i iN iN_A1"></i><b>商品</b></a></div><!-- @后端：当前页面增加类名on -->
-        <div class="siteNav"><a href="#3" class="btn"><i class="i iN iN_A2"></i><b>订单</b></a></div>
+        <div class="siteNav"><a href="#3" class="btn"><i class="i iN iN_A2"></i><b>订单</b><div class="reminder">9</div></a></div>
         <div class="siteNav"><a href="#3" class="btn"><i class="i iN iN_A3"></i><b>商家</b></a></div>
         <div class="siteNav"><a href="#3" class="btn"><i class="i iN iN_A4"></i><b>客户</b></a></div>
         <div class="siteNav"><a href="#3" class="btn"><i class="i iN iN_A5"></i><b>更多</b></a></div>
