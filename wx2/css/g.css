@@ -57,6 +57,8 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .iN_A4{background-position:-75px 0;}
 .iN_A5{background-position:-100px 0;}
 
+.iD{background:url("../image/iDragLoading.png") no-repeat;-webkit-background-size:100% auto;background-size:100% auto;width:45px;height:45px;}
+
 .iL1{width:50px;height:15px;background:url("../image/loading.gif") no-repeat center;-webkit-background-size:50px auto;background-size:50px auto;}
 
 /* pageOpts */
@@ -173,7 +175,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .order .pic{position:absolute;left:0;top:0;width:140px;height:140px;background:#CECECE;}
 .order .img img{max-width:140px;max-height:140px;}
 .order .price b{color:#FF7700;}
-.order .toDetail{position:absolute;right:10px;top:20px;}
+.order .toDetail{position:absolute;right:10px;top:10px;}
 .order .toQuickPay{position:absolute;right:10px;margin-top:-50px;padding:10px;}
 .order .toQuickPay b{display:block;padding:5px 10px;background:#FF6600;border-radius:5px;font-size:15px;color:#FFF;}
 
@@ -275,6 +277,10 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .orderList{overflow:hidden;}
 .orderList .order{margin:10px;}
 .orderList .order .blank{text-align:center;line-height:80px;}
+.orderList .order .dragRefresh{text-align:center;margin:20px 0;}
+.orderList .order .dragRefresh .des{margin:10px 0;font-size:15px;color:#999999;}
+.orderList .order .dragRefresh.draging .i{-webkit-transform:rotate(180deg);}
+.orderList .order .dragRefresh.loading .i{opacity:0;}
 
 .orderListTabs{margin:10px;}
 

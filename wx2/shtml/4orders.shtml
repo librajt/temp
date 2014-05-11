@@ -17,6 +17,9 @@
     <div class="wrap orderWrap">
         <div class="order">
             <div class="blank">当前页面无订单信息。</div>
+            <div class="dragRefresh init"><i class="i iD"></i><div class="des">下拉刷新</div></div>
+            <div class="dragRefresh draging"><i class="i iD"></i><div class="des">松手开始刷新</div></div><!-- @后端：另外两种状态，增加对应class，修改文字 -->
+            <div class="dragRefresh loading"><i class="i iD"></i><div class="des">加载中</div></div>
         </div>
     </div>
 
