@@ -49,6 +49,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .iG_D1{background-position:0 -75px;width:25px;height:25px;}
 .iG_D2{background-position:-25px -75px;width:25px;height:22px;}
 .iG_D3{background-position:-50px -75px;width:25px;height:22px;}
+.iG_D4{background-position:-75px -75px;width:20px;height:20px;}
 
 .iN{background:url("../image/iNav.png") no-repeat;-webkit-background-size:125px auto;background-size:125px auto;width:25px;height:25px;}
 .iN_A1{background-position:0 0;}
@@ -168,16 +169,35 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .tabs .tab .choice_on{background:#A9A9A9;color:#FFF;}
 
 
+.tabs_pills{}
+.tabs_pills .tab{border:0;padding:6px;background:rgba(255,255,255,.9);}
+.tabs_pills .tab a{display:block;line-height:30px;text-align:center;font-size:15px;color:#033333;border-radius:5px;}
+.tabs_pills .tab_on a{color:#FFFFFF;background:rgba(255,94,81,0.9);}
+
 /* order */
 .order{}
-.order .main{display:block;padding:10px;background:#FFFFFF;padding-left:150px;position:relative;min-height:120px;font-size:12px;line-height:20px;color:#888888;line-height:1.8;}
-.order .oid h4{font-size:15px;color:#585858;}
-.order .pic{position:absolute;left:0;top:0;width:140px;height:140px;background:#CECECE;}
-.order .img img{max-width:140px;max-height:140px;}
-.order .price b{color:#FF7700;}
-.order .toDetail{position:absolute;right:10px;top:10px;}
-.order .toQuickPay{position:absolute;right:10px;margin-top:-50px;padding:10px;}
+.order .main{display:block;padding:10px;background:#FFFFFF;}
+.order .otime{float:right;font-size:12px;color:#585858;padding-top:5px;}
+.order .oid{font-size:13px;color:#585858;padding:5px 0;}
+.order .goodInf{position:relative;border-top:1px solid #E6E6E6;padding:10px 0 10px 90px;min-height:75px;margin-top:5px;
+    font-size:11px;line-height:16px;}
+.order .pic{position:absolute;left:0;top:10px;width:75px;height:75px;background:#CECECE;}
+.order .img img{max-width:75px;max-height:75px;}
+.order .goodPrice,.order .goodCount{float:right;clear:right;}
+.order .goodPrice{color:#000000;}
+.order .goodCount{color:#888888;}
+.order .goodname{color:#585858;margin-right:90px;height:32px;overflow:hidden;margin-bottom:10px;}
+.order .goodColor,.order .goodSize{color:#999999;}
+
+.order .orderInf{border-top:1px solid #E6E6E6;font-size:12px;line-height:20px;color:#888888;padding-top:10px;}
+.order .orderPrice b{color:#FF6600;}
+.order .orderCount b{color:#666666;}
+
+.order .orderStatus{position:absolute;right:10px;margin-top:-55px;line-height:20px;}
+.order .toQuickPay{display:inline-block;vertical-align:top;padding:10px;}
 .order .toQuickPay b{display:block;padding:5px 10px;background:#FF6600;border-radius:5px;font-size:15px;color:#FFF;}
+.order .paied{display:inline-block;vertical-align:top;margin-top:15px;margin-right:10px;font-size:12px;color:#585858;}
+.order .paied .i{margin-right:3px;margin-bottom:-2px;}
 
 
 /* cartItem */
@@ -226,6 +246,8 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 .prodList .prod:nth-child(2n+1){margin-right:2%;}
 .prodList .prod:nth-child(2n){margin-left:2%;float:right;clear:right;}
 
+.prodPills{height:43px;}
+.prodPillWrap{position:fixed;z-index:99;width:100%;top:0;left:0;right:0;border-bottom:1px solid #D9D9D9;}
 
 /* ---------- 3- detail ---------- */
 
@@ -515,5 +537,28 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 /* ---------- 32 payResult ---------- */
 
 
+/* ---------- pop pic ---------- */
+.popPic{position:absolute;z-index:999;top:0;right:0;bottom:0;left:0;width:100%;height:100%;overflow:hidden;background:#000;}
+
+.popPic .toShut{position:absolute;top:0;left:0;}
+.popPic .toShut img{width:13px;margin:0 3px 2px;}
+.popPic .toShut a{display:block;font-size:12px;color:#F3F3F3;padding:12px;}
+.popPic .toLarger{position:absolute;bottom:0;left:0;}
+.popPic .toLarger img{width:16px;}
+.popPic .toLarger a{display:block;padding:12px;}
+
+.popPic .roolPics{position:absolute;top:0;right:0;bottom:45px;left:0;}
+.popPic .roolWrap{overflow:hidden;}
+.popPic .roolPics .pic{float:left;
+    display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-ms-flex;display:flex;
+    -webkit-box-orient:vertical;-moz-box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+    -webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;align-items:center;
+    -webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;justify-content:center;
+    text-align: center;
+}
+
+.popPic .roolStatus{position:absolute;right:0;bottom:0;left:0;height:45px;line-height:45px;text-align:center;font-size:0;border-top:1px solid #393939;}
+.popPic .roolStatus .dot{display:inline-block;vertical-align:top;width:7px;height:7px;margin:19px 3px;background:#B3B3B3;}
+.popPic .roolStatus .dot_on{background:#FF7700;}
 
 

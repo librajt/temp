@@ -1,0 +1,27 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+
+</head>
+<body>
+
+<div class="popPic" style="height:600px;width:320px;"><!-- 需要js动态计算 -->
+    <div class="toShut"><a href="#3"><img src="../image/shutPopPic.gif" alt="">关闭</a></div>
+    <div class="roolPics">
+        <div class="wrap roolWrap" style="width:960px;"><!-- 总宽度 -->
+            <div class="pic" style="height:555px;width:320px;"><img src="../image/d/1.jpg" alt=""></div><!-- 总高度-45 -->
+            <div class="pic" style="height:555px;width:320px;"><img src="../image/d/1.jpg" alt=""></div>
+            <div class="pic" style="height:555px;width:320px;"><img src="../image/d/1.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="roolStatus">
+        <div class="dot dot_on"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <div class="toLarger"><a href="#3"><img src="../image/larger.gif" alt=""></a></div>
+</div>
+
+
+</body>
+</html>
