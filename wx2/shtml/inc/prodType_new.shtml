@@ -4,13 +4,19 @@
         <div class="aside"><div class="count">共计24款商品</div></div>
     </div>
     <div class="bd">
-        <div class="prodList cfx">
+        <div class="prodList">
+            <div class="group cfx">
 <!--#include file="prod.shtml"-->
 <!--#include file="prod.shtml"-->
+            </div>
+            <div class="group cfx">
 <!--#include file="prod.shtml"-->
 <!--#include file="prod.shtml"-->
+            </div>
+            <div class="group cfx">
 <!--#include file="prod.shtml"-->
 <!--#include file="prod.shtml"-->
+            </div>
         </div>
     </div>
 </div>

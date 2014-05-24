@@ -20,14 +20,10 @@
     </div>
     
     <div class="orderList">
-        <div class="orderStatus"><i class="i iG iG_D2"></i>已付款</div>
-        <div class="orderDate">2014-02-13 购买</div>
 <!--#include file="inc/order.shtml"-->
     </div>
     
     <div class="orderList">
-        <div class="orderStatus">未付款</div>
-        <div class="orderDate">2014-02-12 购买</div>
 <!--#include file="inc/order.shtml"-->
     </div>
 

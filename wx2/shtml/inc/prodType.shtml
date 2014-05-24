@@ -4,11 +4,15 @@
         <div class="aside"><a href="#3" class="toMore">查看全部&gt;</a></div>
     </div>
     <div class="bd">
-        <div class="prodList cfx">
+        <div class="prodList">
+            <div class="group cfx">
 <!--#include file="prod.shtml"-->
 <!--#include file="prod.shtml"-->
+            </div>
+            <div class="group cfx">
 <!--#include file="prod.shtml"-->
 <!--#include file="prod.shtml"-->
+            </div>
         </div>
     </div>
 </div>
