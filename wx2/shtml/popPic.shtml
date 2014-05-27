@@ -22,8 +22,8 @@
 <script src="../js/jquery.bxslider.min.js"></script>
 <script>
 var resizePopPic = function() {
-    var w = window.screen.width;
-    var h = window.screen.height;
+    var w = window.innerWidth;
+    var h = window.innerHeight;
     $("#image_fore_show").width(w).height(h);
     $("#image_fore_show .pic").width(w).height(h-30);
 };
@@ -36,7 +36,7 @@ var show = function() {
     });
     $('#image_fore_show').css('opacity', 1);
 }
-$(window).on('orientationChange', function(e) {
+$(window).on('orientationchange', function(e) {
     clearTimeout(window.__resizing);
     window.__resizing = setTimeout(resizePopPic, 300);
 });
