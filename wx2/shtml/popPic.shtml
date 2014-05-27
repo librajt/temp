@@ -4,24 +4,46 @@
 
 </head>
 <body>
+<a href="#3" onclick="show();">open it</a>
 
-<div class="popPic" style="height:600px;width:320px;"><!-- 需要js动态计算 -->
-    <div class="toShut"><a href="#3"><img src="../image/shutPopPic.gif" alt="">关闭</a></div>
+<div class="popPic" id="image_fore_show" style="height:500px;width:320px;display:none;"><!-- 需要js动态计算 -->
     <div class="roolPics">
         <div class="wrap roolWrap" style="width:960px;"><!-- 总宽度 -->
-            <div class="pic" style="height:555px;width:320px;"><img src="../image/d/1.jpg" alt=""></div><!-- 总高度-45 -->
-            <div class="pic" style="height:555px;width:320px;"><img src="../image/d/1.jpg" alt=""></div>
-            <div class="pic" style="height:555px;width:320px;"><img src="../image/d/1.jpg" alt=""></div>
+            <div class="pic" style="height:470px;width:320px;"><img src="../image/d/1.jpg" alt=""></div><!-- 总高度-30 -->
+            <div class="pic" style="height:470px;width:320px;"><img src="../image/thanks.jpg" alt=""></div>
+            <div class="pic" style="height:470px;width:320px;"><img src="../image/d/1.jpg" alt=""></div>
         </div>
     </div>
-    <div class="roolStatus">
-        <div class="dot dot_on"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-    </div>
+    <div class="toShut"><a href="#3"><img src="../image/shutPopPic.gif" alt="">关闭</a></div>
     <div class="toLarger"><a href="#3"><img src="../image/larger.gif" alt=""></a></div>
 </div>
 
+<script src="../js/jquery-2.0.3.min.js"></script>
+<script src="../js/jquery.bxslider.min.js"></script>
+<script>
+var resizePopPic = function() {
+    var w = window.screen.width;
+    var h = window.screen.height;
+    $("#image_fore_show").width(w).height(h);
+    $("#image_fore_show .pic").width(w).height(h-30);
+};
+var show = function() {
+    $('#image_fore_show').css('opacity', 0).show();
+    resizePopPic();
+    $('.roolPics .roolWrap').bxSlider({
+        controls: false,
+        infiniteLoop: false
+    });
+    $('#image_fore_show').css('opacity', 1);
+}
+$(window).on('orientationChange', function(e) {
+    clearTimeout(window.__resizing);
+    window.__resizing = setTimeout(resizePopPic, 300);
+});
+
+
+
+</script>
 
 </body>
 </html>
