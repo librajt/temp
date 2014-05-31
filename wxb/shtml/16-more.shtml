@@ -8,6 +8,13 @@
 
     <div class="ap card">
         <a href="#3" class="main">
+            <div class="title">修改密码</div>
+            <div class="toDetail"><i class="i iG iG_A1"></i></div>
+        </a>
+    </div>
+
+    <div class="ap card">
+        <a href="#3" class="main">
             <div class="title">关于</div>
             <div class="toDetail"><i class="i iG iG_A1"></i></div>
         </a>

@@ -66,8 +66,14 @@ body{background:#F3F3F3;color:#585858;min-height:100%;min-width:320px;margin:aut
 .btnB{display:block;width:100%;background:#FFF;line-height:50px;color:#585858;font-size:18px;}
 .btnC{display:block;width:100%;background:#FFF;line-height:50px;color:#888888;font-size:18px;}
 .btnD{display:block;width:100%;background:#B2B2B2;line-height:50px;color:#FFF;font-size:18px;}
+.btnE{display:block;width:100%;background:#1BA939;line-height:50px;color:#FFF;font-size:18px;}
 
-.btn_disabled{background:#FAFAFA;color:#BBBBBB;}
+.btnV{display:block;width:100%;line-height:29px;font-size:15px;color:#585858;
+    background-image:-webkit-linear-gradient(#FFF,#E2E1E1 50%,#FFF)
+}
+
+
+.btn_disabled{background:#D6D6D6;color:#747474;}
 
 /* sel */
 .sel{background:#FFFFFF;display:block;text-align:center;position:relative;}
@@ -411,6 +417,22 @@ body.guide_show > .prodAdd{display:none;}
 .moreNav .card{margin:10px;}
 .moreNav .opt{margin:30px;}
 
+/*-------------- 17 passwords ----------------*/
+.pwdSetup{padding:10px;}
+.pwdSetup .app{margin-bottom:10px;}
+.pwdSetup .app .hd{padding:5px;font-size:18px;line-height:1.4;}
+.pwdSetup .app .ft .tip{padding:5px;font-size:15px;line-height:1.4;color:#585858;}
+.pwdSetup .app .ft .tip_err{color:#FF0000;}
+.pwdSetup .opt{margin-top:30px;}
+
+.pwdSetup .txt{border:1px solid #B1B1B1;}
+.pwdSetup .txt input{padding:8px 5px;}
+
+.verifyCode{}
+.verifyCode .code{float:left;width:125px;margin-right:5px;}
+.verifyCode .get{float:left;}
+.verifyCode .get .btns{float:left;margin-right:10px;width:100px;border:1px solid #BDBDBD;}
+.verifyCode .get .elaps{float:left;line-height:31px;font-size:15px;color:#999999;}
 
 /*-------------- 21 client ----------------*/
 .client{background:#FFF;padding:10px;font-size:12px;color:#585858;line-height:1.4;}
