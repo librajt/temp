@@ -1,0 +1,8 @@
+<div class="tabs tabs_pills prodPills">
+    <div class="wrap tabWrap prodPillWrap cfx">
+        <div class="tab tab_on"><a href="javascript:">爆款</a></div><!-- @后端： 增加类名 tab_on 为选中状态 -->
+        <div class="tab"><a href="javascript:">新款</a></div>
+        <div class="tab"><a href="javascript:">特价</a></div>
+        <div class="tab"><a href="javascript:">热卖</a></div>
+    </div>
+</div>

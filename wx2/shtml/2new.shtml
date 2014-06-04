@@ -4,6 +4,7 @@
 </head>
 <body>
 
+<!--#include file="inc/prodPills.shtml"-->
 <!--#include file="inc/prodType_new.shtml"-->
 
 
