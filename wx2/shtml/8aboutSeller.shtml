@@ -6,11 +6,34 @@
 
 <div class="aboutSeller">
 
+    <div class="app appBrand">
+        <div class="slidePics">
+            <div class="wrap slidePicWrap">
+                <div class="slidePic"><img src="../image/d/1.jpg" alt=""></div>
+                <div class="slidePic"><img src="../image/thanks.jpg" alt=""></div>
+                <div class="slidePic"><img src="../image/d/1.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </div>
+<script src="../js/jquery-2.0.3.min.js"></script>
+<script src="../js/jquery.bxslider.min.js"></script>
+<script>
+$(window).on('load', function(e) {
+    var slidePics = $('.slidePics .slidePicWrap').bxSlider({
+        controls: false,
+        auto: true,
+        autoHover: true,
+        pause: 5000,
+        onSlideAfter: function(){
+            slidePics.startAuto();
+        }
+    });
+});
+</script>
+
     <div class="ap apIntro">
         <div class="bd">
-            <div class="brand">
-                <div class="img"><img src="../image/d/1.jpg" alt=""></div>
-            </div>
             <div class="intro">
                 <div class="des"><!-- @后端：以下为内容输出，包括居右的样式 -->
                     <p>Buduturry诚信经营10余年，服装质量、售后服务和品牌信誉有口皆碑，请您放心选购！</p>

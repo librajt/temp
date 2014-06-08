@@ -370,7 +370,7 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
 /* ---------- 8- seller ---------- */
 .aboutSeller .ap{border:0;margin:10px;background:#FFFFFF;}
 .apIntro .brand img{width:100%;}
-.apIntro .intro{padding:20px 10px;}
+.apIntro .intro{padding:10px;}
 .apIntro .intro p{font-size:18px;color:#585858;min-height:1em;}
 
 .apProgress .steps{margin:10px 0;font-size:15px;color:#585858;line-height:1.6;}
@@ -554,6 +554,19 @@ body{min-height:100%;min-width:320px;margin:auto;background:#F3F3F3;word-break:b
     text-align: center;
 }
 .popPic .roolPics .pic img{max-width:100%;max-height:100%;}
+
+
+/* ---------- slide pic ---------- */
+.slidePics{overflow:hidden;width:320px;height:188px;margin:auto;}
+.slidePics .slidePicWrap{overflow:hidden;width:320px;height:162px;}
+.slidePics .slidePic{float:left;width:320px;height:162px;
+    display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-ms-flex;display:flex;
+    -webkit-box-orient:vertical;-moz-box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+    -webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;align-items:center;
+    -webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;justify-content:center;
+    text-align: center;
+}
+.slidePics .slidePic img{max-width:100%;max-height:100%;}
 
 
 
