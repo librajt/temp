@@ -1,0 +1,11 @@
+<link rel="stylesheet/less" type="text/css" href="../_c/##filename##.less">
+<script>
+less = {
+    dumpLineNumbers: "all"
+};
+setTimeout(function() {
+    less.watch();
+    localStorage.clear();
+}, 2000);
+</script>
+<script src="/h5/css/lib/less/less.js" type="text/javascript"></script>

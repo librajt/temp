@@ -1,0 +1,8 @@
+body,p,form,select,input,button,textarea{margin:0;padding:0;}
+img{border:0;vertical-align:middle;}
+a{text-decoration:none;outline:0;color:#144B9C;}
+body,input,textarea,select,button{font-size:14px;font-size:18px\9;line-height:1.5;color:#333;word-wrap:break-word;}
+textarea {line-height:1.5;max-height:348px;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body{min-width:240px;}

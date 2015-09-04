@@ -1,0 +1,4 @@
+body{background:url('png.png?base64') no-repeat;}
+h1{background:url('png.png') no-repeat;}
+body{background:url('../test/png.png?base64') no-repeat;}
+h1{background:url('png.png') no-repeat;}

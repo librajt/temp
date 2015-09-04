@@ -1,0 +1,11 @@
+@import url('../_reset_h5_base/1.css');
+
+/* 防止横竖屏字体放大 */
+html{-webkit-text-size-adjust:none;}
+
+/* 去除高亮 */
+*{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+
+/* 输入框bug修正 */
+textarea.fixAndroidKeyboard:focus,input.fixAndroidKeyboard:focus{-webkit-tap-highlight-color:rgba(255, 255, 255, 0);-webkit-user-modify:read-write-plaintext-only;}
+textarea::-webkit-input-placeholder{word-break:break-all;word-wrap:break-word;}

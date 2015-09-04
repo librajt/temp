@@ -1,0 +1,28 @@
+@import '../../../../lib/com/_projectInfo/1.css';
+@import '../../../../lib/com/flex/codio/Flex.less';
+@import '_reset.less';
+@import '_mix.less';
+
+@burl: "../../i/";
+
+html,body{min-height:100%;}
+html{overflow-x:hidden;-webkit-text-size-adjust:none;}
+body{font-family:Arial,Helvetica,sans-serif;}
+.cfix{&:after{content:'';clear:both;display:table;}}
+
+.i{display:inline-block;vertical-align:middle;margin-top:-.24em;background:url("@{burl}i.png");.background-size(300px auto);}
+
+a {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+@import '_common.less';
+
