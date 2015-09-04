@@ -4,6 +4,40 @@
 </head>
 <body>
 
+<div class="page_brand">
+    <div class="cover"></div>
+    <div class="follow"></div>
+    <div class="profile_card">
+        <div class="avat"><div class="img"><img src="" alt=""></div></div>
+        <div class="uname">ABC</div>
+        <div class="sign">ABCDEFG</div>
+    </div>
+</div>
+
+<div class="navs profile_page_navs">
+    <div class="navs_wrap profile_page_nav_wrap cfix">
+        <a href="javascript:" class="nav">
+            <div class="h4">相册</div>
+            <div class="des">124</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">相册</div>
+            <div class="des">124</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">相册</div>
+            <div class="des">124</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">相册</div>
+            <div class="des">124</div>
+        </a>
+    </div>
+</div>
+
+<div class="profile_page_main">
+    
+</div>
 
 </body>
 </html>
