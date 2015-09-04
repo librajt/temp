@@ -14,29 +14,34 @@
     </div>
 </div>
 
-<div class="navs profile_page_navs">
-    <div class="navs_wrap profile_page_nav_wrap cfix">
-        <a href="javascript:" class="nav">
+<div class="page_navs profile_page_navs">
+    <div class="page_navs_wrap profile_page_nav_wrap cfix">
+        <a href="javascript:" class="nav active">
             <div class="h4">相册</div>
             <div class="des">124</div>
         </a>
         <a href="javascript:" class="nav">
-            <div class="h4">相册</div>
+            <div class="h4">喜欢</div>
             <div class="des">124</div>
         </a>
         <a href="javascript:" class="nav">
-            <div class="h4">相册</div>
+            <div class="h4">粉丝</div>
             <div class="des">124</div>
         </a>
         <a href="javascript:" class="nav">
-            <div class="h4">相册</div>
+            <div class="h4">关注</div>
             <div class="des">124</div>
         </a>
     </div>
 </div>
 
-<div class="profile_page_main">
-    
+<div class="page_main">
+    <div class="profile_albums">
+        <a href="javascript:" class="album"><div class="img"><img src="" alt=""></div></a>
+        <a href="javascript:" class="album"><div class="img"><img src="" alt=""></div></a>
+        <a href="javascript:" class="album"><div class="img"><img src="" alt=""></div></a>
+        <a href="javascript:" class="album"><div class="img"><img src="" alt=""></div></a>
+    </div>
 </div>
 
 </body>
