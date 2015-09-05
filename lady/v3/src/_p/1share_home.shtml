@@ -67,9 +67,9 @@
         <div class="text"><p>ABCDE</p></div>
     </div>
     <div class="opts">
-        <a href="javascript:" class="opt"><i class="i iG iG_2"></i><div class="cnt">12</div></a>
-        <a href="javascript:" class="opt"><i class="i iG iG_3"></i><div class="cnt">12</div></a>
-        <a href="javascript:" class="opt"><i class="i iG iG_4"></i><div class="cnt">12</div></a>
+        <a href="javascript:" class="opt"><i class="i iG iG_2"></i><div class="count">12</div></a>
+        <a href="javascript:" class="opt"><i class="i iG iG_3"></i><div class="count">12</div></a>
+        <a href="javascript:" class="opt"><i class="i iG iG_4"></i><div class="count">12</div></a>
     </div>
 </div>
 
