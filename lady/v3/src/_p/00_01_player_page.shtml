@@ -1,0 +1,54 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+<div class="page_brand player_page_brand">
+    <div class="cover"><div class="bg" style="background-image:url(../../upload/cover.jpg)"></div></div>
+    <div class="follow"><i class="i iC iC_small iC_white"></i>关注</div>
+    <div class="player_card">
+        <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+        <div class="uname">ABC</div>
+        <div class="sign">ABCDEFG</div>
+    </div>
+</div>
+
+<div class="page_navs player_page_navs">
+    <div class="page_navs_wrap player_page_nav_wrap cfix">
+        <a href="javascript:" class="nav active">
+            <div class="h4">相册</div>
+            <div class="des">124</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">喜欢</div>
+            <div class="des">124</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">粉丝</div>
+            <div class="des">124</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">关注</div>
+            <div class="des">124</div>
+        </a>
+    </div>
+</div>
+
+<div class="page_main">
+    <div class="player_album_list cfix">
+<!--#include file="inc/album.shtml"-->
+<!--#include file="inc/album.shtml"-->
+<!--#include file="inc/album.shtml"-->
+<!--#include file="inc/album.shtml"-->
+<!--#include file="inc/album.shtml"-->
+    </div>
+</div>
+
+
+<!--#include file="inc/download_app.shtml"-->
+
+
+
+</body>
+</html>

@@ -23,8 +23,6 @@
             console.log('destory');
         }
 
-
-
     });
 
     var space = new Workspace();

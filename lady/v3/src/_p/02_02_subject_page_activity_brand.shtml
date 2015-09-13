@@ -1,0 +1,25 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+
+<!--#include file="inc/subject_page_brand.shtml"-->
+
+
+
+<div class="activity_brand_list cfix">
+<!--#include file="inc/activity_brand.shtml"-->
+<!--#include file="inc/activity_brand.shtml"-->
+<!--#include file="inc/activity_brand.shtml"-->
+<!--#include file="inc/activity_brand.shtml"-->
+</div>
+
+<div class="activity_brand_list_tabs">
+    <a href="#3" class="tab active">正在进行</a>
+    <a href="#3" class="tab">往期活动</a>
+</div>
+
+</body>
+</html>

@@ -2,38 +2,143 @@
     img{width:100%;height:100%;vertical-align:top;}
 }
 
-.download_app{height:60px;background:#CCC;
-    .wrap{position:fixed;height:60px;}
-    .logo{float:left;}
-    .opt{float:right;}
+.round_img{overflow:hidden;border-radius:999px;
+    img{border-radius:999px;}
 }
 
-.page_brand{position:relative;height:150px;background:#CCC;
-	.cover{}
-	.follow{}
+.text_overflow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+.download_app{height:70px;
+    .wrap{position:fixed;z-index:99;left:0;bottom:0;width:100%;height:70px;background:#FFF;}
+    .logo{float:left;margin:20px;
+        .img{width:136px;height:32px;background:url("@{burl}logo1.png");.background-size(100%);}
+    }
+    .opt{float:right;margin:16px;
+        .btn{display:block;height:40px;line-height:40px;text-align:center;color:#000;font-size:16px;padding:0 15px;background:#FFD800;border-radius:3px;}
+    }
+}
+
+.cover{position:absolute;width:100%;height:100%;z-index:0;
+    .bg{position:absolute;width:100%;height:100%;background:no-repeat 50% 0;.background-size(cover);}
+}
+
+.album{
+    .img{border-top:1px solid #FFF;border-right:1px solid #FFF;}
+}
+
+/* brand头部 */
+.page_brand{position:relative;}
+.player_card{position:absolute;top:38px;left:15px;padding:30px 0 30px 120px;
+    .avat{position:absolute;top:0;left:0;
+        .img{width:100px;height:100px;border:2px solid rgba(0,0,0,.3);}
+    }
+    .uname{font-size:20px;color:#FFF;}
+    .sign{font-size:16px;color:#FFF;}
 }
 
 
-.page_navs{border-bottom:1px solid #ADADAD;
-	&_wrap{.display(flex);.flex-direction(row);}
-    .nav{height:58px;padding-bottom:2px;.flex(1);
-        .display(flex);.flex-direction(column);.justify-content(center);.align-content(center);.align-items(center);
-        &:nth-child(n+1){border-left:1px solid #ADADAD;}
-        &.active{padding-bottom:0;border-bottom:2px solid #FFD800;}
 
-        .h4{font-size:16px;color:#484848;}
-        .des{font-size:16px;color:#B2B2B2;}
+.player_page_brand{position:relative;height:180px;background:#CCC;
+    .follow{position:absolute;z-index:9;top:12px;right:10px;width:80px;height:32px;background:rgba(0,0,0,.5);border-radius:3px;text-align:center;line-height:32px;font-size:16px;color:#FFF;
+        .i{margin-right:5px;}
     }
 }
 
 
+.subject_card{position:absolute;top:50px;left:20px;height:80px;
+    .title{font-size:20px;color:#FFF;}
+    .sub_title{font-size:14px;color:#FFF;max-width:140px;}
+}
+
+.subject_page_brand{position:relative;height:180px;background:#CCC;
+    .dreaming{position:absolute;z-index:9;top:12px;right:10px;width:100px;height:32px;background:rgba(0,0,0,.5);border-radius:3px;text-align:center;line-height:32px;font-size:16px;color:#FFF;
+        .i{margin-right:5px;}
+    }
+}
 
 
+/* 带brand头部的page的导航栏结构，水平排列 */
+.page_navs{position:relative;
+    &_wrap{.display(flex);.flex-direction(row);}
+    .nav{.flex(1);
+        .display(flex);.flex-direction(column);.justify-content(center);.align-content(center);.align-items(center);
+    }
+}
+
+/* 混合列表页中用来展示的样式 */
+.subject{display:block;position:relative;width:155px;height:80px;
+    .cover{border-radius:3px;overflow:hidden;}
+    .card{position:absolute;z-index:1;top:30px;left:10px;
+        .title{font-size:20px;color:#FFF;}
+        .sub_title{font-size:14px;color:#FFF;max-width:140px;}
+    }
+}
+
+.player{display:block;position:relative;width:100px;text-align:center;
+    .avat{display:inline-block;vertical-align:top;width:80px;}
+    .uname{font-size:15px;color:#484848;}
+    .playing{font-size:14px;color:#B2B2B2;}
+}
 
 
+.activity{display:block;position:relative;width:155px;height:80px;
+    .cover{border-radius:3px;overflow:hidden;}
+    .card{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;
+        .title{position:absolute;top:30px;left:10px;right:10px;font-size:16px;color:#FFF;text-align:center;line-height:20px;}
+        .fense{position:absolute;bottom:5px;right:10px;font-size:14px;color:#FFF;max-width:140px;}
+    }
+}
+
+.label,.coach{display:block;position:relative;width:100px;text-align:center;
+    .avat{display:inline-block;vertical-align:top;width:80px;}
+    .title{font-size:15px;color:#484848;}
+}
+
+/* 单一列表页中用来展示的样式 */
+.subject_brand{display:block;position:relative;height:150px;
+    .i{position:absolute;z-index:1;top:50%;right:15px;}
+    .cover{overflow:hidden;
+        &:after{content:'';position:absolute;width:100%;height:100%;background:rgba(0,0,0,.3);}
+    }
+    .card{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;text-align:center;
+        .title{position:absolute;bottom:50%;width:100%;font-size:24px;color:#FFF;}
+        .sub_title{position:absolute;top:50%;width:100%;font-size:12px;color:#FFF;}
+    }
+}
 
 
+.player_brand{display:block;
+    .brand_head{margin-bottom:10px;}
+    .user_card{float:left;padding:10px 0 10px 70px;position:relative;height:40px;margin-left:5px;}
+    .avat{position:absolute;top:0;left:0;width:60px;}
+    .uname{font-size:16px;color:#484848;}
+    .info{font-size:14px;color:#B2B2B2;
+        .inf{display:inline-block;vertical-align:middle;}
+    }
+    .opts{float:right;margin:10px;}
+    .opt{display:inline-block;vertical-align:middle;}
+    .add_like{display:block;text-align:center;width:34px;height:34px;border-radius:999px;background:#E1E1E1;
+        .i{margin-top:10px;}
+    }
+    .add_like.active{background:#FFD800;
+        .i{margin-top:5px;}
+    }
+    .album{width:25%;height:25%;float:left;}
+}
 
+.activity_brand{display:block;position:relative;height:150px;
+    .i{position:absolute;z-index:1;top:50%;right:15px;}
+    .cover{overflow:hidden;
+        &:after{content:'';position:absolute;width:100%;height:100%;background:rgba(0,0,0,.3);}
+    }
+    .card{position:absolute;z-index:1;top:35%;left:20px;right:50px;
+        .title{font-size:18px;color:#FFF;line-height:1.2;}
+        .info{font-size:14px;color:#FFF;margin-top:5px;
+            .inf{display:inline-block;vertical-align:middle;}
+            .tip{font-size:12px;color:#000;background:#FFF;padding:0 3px;border-radius:3px;margin-left:3px;}
+        }
+    }
+}
 
 
 
