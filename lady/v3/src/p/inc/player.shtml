@@ -1,0 +1,6 @@
+
+<a href="#3" class="player">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">小菲菲</div>
+    <div class="playing">滑雪</div>
+</a>
