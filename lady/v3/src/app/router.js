@@ -2,15 +2,15 @@ define(['backbone'], function () {
 
     var routesMap = {
         'test': 'module1/controller1.js',
-        'discovery(/:name)': 'discovery/discoveryController.js',
-        '*actions': 'defaultAction'
+        'discovery(/:name)': 'discovery/discovery.js',
+        '*actions': '404'
     };
 
     var Router = Backbone.Router.extend({
 
         routes: routesMap,
 
-        defaultAction: function () {
+        404: function () {
             console.log('404');
             location.hash = 'test';
         }
@@ -20,6 +20,9 @@ define(['backbone'], function () {
     var router = new Router();
     //彻底用on route接管路由的逻辑，这里route是路由对应的value
     router.on('route', function (route, params) {
+        if (route === '404') {
+            return;
+        }
         require([route], function (controller) {
             if(router.currentController && router.currentController !== controller){
                 router.currentController.onRouteChange && router.currentController.onRouteChange();
