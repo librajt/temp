@@ -1,9 +1,8 @@
 
-define(['discovery/discoveryModel', 'discovery/discoveryView'], function (Model, View) {
+define(['discovery/discoveryModel', 'discovery/discoveryView'], function (Model, DiscoveryView) {
 
     var controller = function () {
-        var discoveryView = new DiscoveryView();
-        discoveryView.render();
+        var view = new DiscoveryView();
 
         controller.onRouteChange = function () {
             console.log('change');

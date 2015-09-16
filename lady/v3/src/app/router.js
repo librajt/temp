@@ -2,6 +2,7 @@ define(['backbone'], function () {
 
     var routesMap = {
         'test': 'module1/controller1.js',
+        'module2': 'module2/controller2.js',
         'discovery(/:name)': 'discovery/discovery.js',
         '*actions': '404'
     };
