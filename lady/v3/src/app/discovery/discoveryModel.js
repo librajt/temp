@@ -2,19 +2,16 @@
 define([], function () {
     var Model2 = Backbone.Model.extend({
 
+        url: 'data/discovery.json',
+
         defaults: function () {
             return {
-                name: "noname"
+                // name: "noname"
             };
         },
-
-        fetch: function () {
-            var o = this;
-            //可以做一些http请求
-            setTimeout(function(){
-                o.set({name:'vivi'});
-                o.trigger('nameEvent');
-            }, 1000);
+        parse: function (response, options) {
+            // debugger;
+            return response;
         }
 
     });

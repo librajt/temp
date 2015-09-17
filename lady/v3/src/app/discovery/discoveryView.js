@@ -1,17 +1,19 @@
 
 define([
         'text!discovery/tpl.html', 
+        'discovery/discoveryModel',
         'common/list/listCollectionView',
-        'common/subject/subjectView',
-        'common/player/playerView',
-        'common/activity/activityView',
-        'common/label/labelView', 'common/label/labelModel',
+        'common/subject/SubjectView', 'common/subject/SubjectModel',
+        'common/player/PlayerView', 'common/player/PlayerModel',
+        'common/activity/activityView', 'common/activity/activityModel',
+        'common/label/labelView', 'common/label/labelModel'
     ], function (
         tpl, 
+        DiscoveryModel,
         ListCollectionView,
-        SubjectView,
-        PlayerView,
-        ActivityView,
+        SubjectView, SubjectModel,
+        PlayerView, PlayerModel,
+        ActivityView, ActivityModel,
         LabelView, LabelModel
     ) {
 
@@ -19,13 +21,11 @@ define([
 
         initialize: function () {
             this.render();
-            this.collection = new DiscoveryCollection();
 
-            // this.listenTo(this.collection, 'change', this.render);
-            // this.listenTo(this.collection, 'remove', this.render);
-            this.listenTo(this.collection, 'add', this.renderDiscovery);
+            this.model = new DiscoveryModel();
+            this.listenTo(this.model, 'change', this.renderDiscovery);
 
-            this.collection.fetch();
+            this.model.fetch();
         },
 
         render: function () {
@@ -35,37 +35,56 @@ define([
         renderDiscovery: function () {
             var self = this;
 
-            var collection = this.collection.models[0];
+            var explores = this.model.get('explores');
+            var labels = this.model.get('labels');
+            var experiences = this.model.get('experiences');
+            var clubs = this.model.get('clubs');
+            var activities = this.model.get('activities');
 
-            var explores = collection.get('explores');
-            var labels = collection.get('labels');
-            var experiences = collection.get('experiences');
-            var clubs = collection.get('clubs');
-            var activities = collection.get('activities');
+            var subjectCollectionView = new ListCollectionView({
+                data: labels,
+                $el: this.$('#subject'),
+                viewClass: SubjectView,
+                modelClass: SubjectModel
+            });
+
+            // _.each(labels, function(obj, index) {
+            //     var view = new SubjectView({}, {obj: obj});
+            //     var html = view.render().$el;
+            //     self.$el.find('#subject').append(html);
+            // });
+
+            var playerCollectionView = new ListCollectionView({
+                data: labels,
+                $el: this.$('#player'),
+                viewClass: PlayerView,
+                modelClass: PlayerModel
+            });
+
+            // _.each(labels, function(obj, index) {
+            //     var view = new PlayerView({}, {obj: obj});
+            //     var html = view.render().$el;
+            //     self.$el.find('#player').append(html);
+            // });
+
+            var activityCollectionView = new ListCollectionView({
+                data: labels,
+                $el: this.$('#activity'),
+                viewClass: ActivityView,
+                modelClass: ActivityModel
+            });
+
+            // _.each(labels, function(obj, index) {
+            //     var view = new ActivityView({}, {obj: obj});
+            //     var html = view.render().$el;
+            //     self.$el.find('#activity').append(html);
+            // });
 
             var labelCollectionView = new ListCollectionView({
-                data: label,
-                $el: this.$('#label'),
+                data: labels,
+                $el: this.$('#labels'),
                 viewClass: LabelView,
                 modelClass: LabelModel
-            });
-
-            _.each(labels, function(obj, index) {
-                var view = new SubjectView({}, {obj: obj});
-                var html = view.render().$el;
-                self.$el.find('#subject').append(html);
-            });
-
-            _.each(labels, function(obj, index) {
-                var view = new PlayerView({}, {obj: obj});
-                var html = view.render().$el;
-                self.$el.find('#player').append(html);
-            });
-
-            _.each(labels, function(obj, index) {
-                var view = new ActivityView({}, {obj: obj});
-                var html = view.render().$el;
-                self.$el.find('#activity').append(html);
             });
 
             // _.each(labels, function(obj, index) {

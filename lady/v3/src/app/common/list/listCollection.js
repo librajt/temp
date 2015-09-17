@@ -2,5 +2,5 @@ define([], function() {
 
     var ListCollection = Backbone.Collection.extend({});
 
-    return DiscoverCollection;
+    return ListCollection;
 });
