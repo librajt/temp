@@ -1,18 +1,18 @@
 
 define([
         'text!discovery/tpl.html', 
-        'discovery/discoveryCollection',
+        'common/list/listCollectionView',
         'common/subject/subjectView',
         'common/player/playerView',
         'common/activity/activityView',
-        'common/label/labelView',
+        'common/label/labelView', 'common/label/labelModel',
     ], function (
         tpl, 
-        DiscoveryCollection, 
+        ListCollectionView,
         SubjectView,
         PlayerView,
         ActivityView,
-        LabelView
+        LabelView, LabelModel
     ) {
 
     var DiscoveryView = Backbone.View.extend({
@@ -43,6 +43,13 @@ define([
             var clubs = collection.get('clubs');
             var activities = collection.get('activities');
 
+            var labelCollectionView = new ListCollectionView({
+                data: label,
+                $el: this.$('#label'),
+                viewClass: LabelView,
+                modelClass: LabelModel
+            });
+
             _.each(labels, function(obj, index) {
                 var view = new SubjectView({}, {obj: obj});
                 var html = view.render().$el;
@@ -61,11 +68,11 @@ define([
                 self.$el.find('#activity').append(html);
             });
 
-            _.each(labels, function(obj, index) {
-                var view = new LabelView({}, {obj: obj});
-                var html = view.render().$el;
-                self.$el.find('#labels').append(html);
-            });
+            // _.each(labels, function(obj, index) {
+            //     var view = new LabelView({}, {obj: obj});
+            //     var html = view.render().$el;
+            //     self.$el.find('#labels').append(html);
+            // });
 
         }
 

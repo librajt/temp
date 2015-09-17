@@ -1,5 +1,5 @@
 
-define(['discovery/discoveryModel', 'discovery/discoveryView'], function (Model, DiscoveryView) {
+define(['discovery/discoveryView'], function (DiscoveryView) {
 
     var controller = function () {
         var view = new DiscoveryView();
