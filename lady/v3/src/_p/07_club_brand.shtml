@@ -1,0 +1,48 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+
+<div class="home_block">
+    <div class="home_block_title">
+        <div class="h2"><i class="i iG iG_flag"></i>俱乐部</div>
+    </div>
+    <div class="home_block_content">
+
+        <div class="club_list cfix">
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+        </div>
+    </div>
+</div>
+
+
+<div class="home_block">
+    <div class="home_block_title">
+        <div class="h2"><i class="i iG iG_rocket"></i>活动</div>
+    </div>
+    <div class="home_block_content">
+
+        <div class="club_brand_list cfix">
+<!--#include file="inc/club_brand.shtml"-->
+<!--#include file="inc/club_brand.shtml"-->
+<!--#include file="inc/club_brand.shtml"-->
+<!--#include file="inc/club_brand.shtml"-->
+        </div>
+    </div>
+</div>
+
+
+<div class="brand_list_tabs club_brand_list_tabs">
+    <a href="#3" class="tab active">正在进行</a>
+    <a href="#3" class="tab">往期活动</a>
+</div>
+
+</body>
+</html>

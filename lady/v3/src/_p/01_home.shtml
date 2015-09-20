@@ -54,6 +54,11 @@
         <div class="h2"><i class="i iG iG_location"></i>去哪玩</div>
     </div>
     <div class="home_block_content">
+        <div class="club_list cfix">
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+        </div>
         <div class="activity_list cfix">
 <!--#include file="inc/activity.shtml"-->
 <!--#include file="inc/activity.shtml"-->
