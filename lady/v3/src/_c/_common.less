@@ -118,6 +118,9 @@
 
 
 .player_brand{display:block;
+    .cover{overflow:hidden;
+        &:after{content:'';position:absolute;width:100%;height:100%;background:rgba(0,0,0,.3);}
+    }
     .brand_head{margin-bottom:10px;}
     .user_card{float:left;padding:10px 0 10px 70px;position:relative;height:40px;margin-left:5px;}
     .avat{position:absolute;top:0;left:0;width:60px;}
