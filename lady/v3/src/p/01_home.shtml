@@ -5,10 +5,15 @@
 <body>
 
 
-<div class="croll_slider">
-    <div class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></div>
-</div>
 
+<div class="croll_slider" id="slider">
+    <div class="slides">
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+    </div>
+    <div class="pages"></div>
+</div>
 
 <div class="home_block">
     <div class="home_block_title">
@@ -39,6 +44,8 @@
 <!--#include file="inc/player.shtml"-->
 <!--#include file="inc/player.shtml"-->
 <!--#include file="inc/player.shtml"-->
+<!--#include file="inc/player.shtml"-->
+<!--#include file="inc/player.shtml"-->
         </div>
     </div>
     <div class="home_block_footer">
@@ -54,6 +61,11 @@
         <div class="h2"><i class="i iG iG_location"></i>去哪玩</div>
     </div>
     <div class="home_block_content">
+        <div class="club_list cfix">
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+        </div>
         <div class="activity_list cfix">
 <!--#include file="inc/activity.shtml"-->
 <!--#include file="inc/activity.shtml"-->
@@ -72,7 +84,7 @@
 
 <div class="home_block">
     <div class="home_block_title">
-        <div class="h2"><i class="i iG iG_label"></i>热门标签</div>
+        <div class="h2"><i class="i iG iG_label"></i>标签</div>
     </div>
     <div class="home_block_content">
         <div class="label_list cfix">
@@ -80,15 +92,24 @@
 <!--#include file="inc/label.shtml"-->
 <!--#include file="inc/label.shtml"-->
 <!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
         </div>
-    </div>
-    <div class="home_block_footer">
-        <a href="#3" class="show_more text_overflow">更多热门的标签<i class="i iA iA_middle iA_right iA_gray"></i></a>
     </div>
 </div>
 
 
-
+<link ref="stylesheet/less" href="../lib/slider/carousel-image.css"></script>
+<script src="../lib/zepto.js"></script>
+<script src="../lib/slider/carousel-image.js"></script>
+<script>
+$('#slider').CarouselImage({
+    num: this.$('#slider .pages')
+});
+</script>
 
 </body>
 </html>

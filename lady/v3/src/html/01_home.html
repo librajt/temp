@@ -12,10 +12,15 @@
 <body>
 
 
-<div class="croll_slider">
-    <div class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></div>
-</div>
 
+<div class="croll_slider" id="slider">
+    <div class="slides">
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+    </div>
+    <div class="pages"></div>
+</div>
 
 <div class="home_block">
     <div class="home_block_title">
@@ -106,6 +111,20 @@
     <div class="playing">滑雪</div>
 </a>
 
+
+<a href="#3" class="player">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">小菲菲</div>
+    <div class="playing">滑雪</div>
+</a>
+
+
+<a href="#3" class="player">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">小菲菲</div>
+    <div class="playing">滑雪</div>
+</a>
+
         </div>
     </div>
     <div class="home_block_footer">
@@ -121,6 +140,29 @@
         <div class="h2"><i class="i iG iG_location"></i>去哪玩</div>
     </div>
     <div class="home_block_content">
+        <div class="club_list cfix">
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+        </div>
         <div class="activity_list cfix">
 
 <a href="#3" class="activity">
@@ -175,7 +217,7 @@
 
 <div class="home_block">
     <div class="home_block_title">
-        <div class="h2"><i class="i iG iG_label"></i>热门标签</div>
+        <div class="h2"><i class="i iG iG_label"></i>标签</div>
     </div>
     <div class="home_block_content">
         <div class="label_list cfix">
@@ -203,15 +245,49 @@
     <div class="title text_overflow">小菲菲</div>
 </a>
 
+
+<a href="#3" class="label">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="title text_overflow">小菲菲</div>
+</a>
+
+
+<a href="#3" class="label">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="title text_overflow">小菲菲</div>
+</a>
+
+
+<a href="#3" class="label">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="title text_overflow">小菲菲</div>
+</a>
+
+
+<a href="#3" class="label">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="title text_overflow">小菲菲</div>
+</a>
+
+
+<a href="#3" class="label">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="title text_overflow">小菲菲</div>
+</a>
+
         </div>
-    </div>
-    <div class="home_block_footer">
-        <a href="#3" class="show_more text_overflow">更多热门的标签<i class="i iA iA_middle iA_right iA_gray"></i></a>
     </div>
 </div>
 
 
-
+<link ref="stylesheet/less" href="../lib/slider/carousel-image.css"></script>
+<script src="../lib/zepto.js"></script>
+<script src="../lib/slider/carousel-image.js"></script>
+<script>
+$('#slider').CarouselImage({
+    num: this.$('#slider .pages')
+});
+</script>
 
 </body>
 </html>

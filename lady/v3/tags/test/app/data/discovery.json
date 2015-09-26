@@ -1,56 +1,267 @@
 {
-    "status": 0,
-    "message": "",
-    "explores": [
-        {
-            "a": 1
+    "status": 100,
+    "ads": [{
+        "adId": 1,
+        "adName": "自行车",
+        "adPic": "http://img3.3lian.com/2006/007/04/244.jpg",
+        "adUrl": "http://img3.3lian.com/2006/007/04/244.jpg"
+    },
+    {
+        "adId": 2,
+        "adName": "足球",
+        "adPic": "http://img3.3lian.com/2006/007/04/248.jpg",
+        "adUrl": "http://img3.3lian.com/2006/007/04/248.jpg"
+    },
+    {
+        "adId": 3,
+        "adName": "跑步",
+        "adPic": "http://img2.3lian.com/2014/f2/101/d/104.jpg",
+        "adUrl": "http://img2.3lian.com/2014/f2/101/d/104.jpg"
+    }],
+    "explores": [{
+        "userId": 1,
+        "userName": "麻宝国",
+        "userIcon": "http://localhost:9000/nbsc/images/avatar/1_1433247453928.png",
+        "userSex": 1,
+        "birthday": "2015-06-06",
+        "address": "北京",
+        "userDes": "爱好登山",
+        "ifFavorite": 0,
+        "fansNum": 19,
+        "images": [{
+            "dynamicId": 553,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/553/small_1441948918754.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/553/middle_1441948918670.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/553/big_1441948918554.jpg",
+            "bigImageSize": "683*1024"
+        }]
+    },
+    {
+        "userId": 2,
+        "userName": "张冠华",
+        "userIcon": "http://localhost:9000/nbsc/images/avatar/2_1433248058488.png",
+        "userSex": 1,
+        "birthday": "2015-06-06",
+        "address": "北京",
+        "userDes": "爱好攀岩",
+        "ifFavorite": 0,
+        "fansNum": 4,
+        "images": []
+    },
+    {
+        "userId": 10,
+        "userName": "吐槽槽",
+        "userIcon": "http://182.92.243.56:8080/nbsc_image/images/avatar/10_1438584662644.jpg",
+        "userSex": 1,
+        "birthday": "1989-7-7",
+        "address": "北京",
+        "userDes": "不看美女就闹心",
+        "ifFavorite": 0,
+        "fansNum": 25,
+        "images": [{
+            "dynamicId": 480,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/480/small_1441876124295.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/480/big_1441876124222.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/480/big_1441876124222.jpg",
+            "bigImageSize": "1024*577"
         },
         {
-            "a": 2
-        }
-    ],
-    "labels": [
-        {
-            "a": 1
+            "dynamicId": 400,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/400/small_1441700094846.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/400/middle_1441700094737.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/400/big_1441700094595.jpg",
+            "bigImageSize": "1920*1200"
         },
         {
-            "a": 2
+            "dynamicId": 381,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/381/small_1441693885967.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/381/big_1441693885937.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/381/big_1441693885937.jpg",
+            "bigImageSize": "720*405"
         },
         {
-            "a": 3
+            "dynamicId": 149,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/149/small_1441188302507.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/149/middle_1441188301955.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/149/big_1441188300870.jpg",
+            "bigImageSize": "960*960"
+        }]
+    },
+    {
+        "userId": 22,
+        "userName": "小敏",
+        "userIcon": "http://182.92.243.56:8080/nbsc_image/images/avatar/22_1440589122087.jpg",
+        "userSex": 0,
+        "birthday": "1990-10-17",
+        "address": "北京市",
+        "userDes": "嗨！我是upladyCEO助理",
+        "ifFavorite": 0,
+        "fansNum": 15,
+        "images": [{
+            "dynamicId": 1157,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1157/small_1442838934629.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1157/big_1442838934563.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1157/big_1442838934563.jpg",
+            "bigImageSize": "750*518"
         },
         {
-            "a": 4
+            "dynamicId": 1156,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1156/small_1442838316405.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1156/big_1442838316348.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1156/big_1442838316348.jpg",
+            "bigImageSize": "750*499"
         },
         {
-            "a": 5
+            "dynamicId": 1095,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1095/small_1442732102250.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1095/middle_1442732102178.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1095/big_1442732102091.jpg",
+            "bigImageSize": "750*940"
         },
         {
-            "a": 6
-        }
-    ],
-    "experiences": [
-        {
-            "a": 1
+            "dynamicId": 1094,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1094/big_1442718854048.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1094/big_1442718854048.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1094/big_1442718854048.jpg",
+            "bigImageSize": "750*256"
+        }]
+    },
+    {
+        "userId": 23,
+        "userName": "马嘉mjason777",
+        "userIcon": "http://182.92.243.56:8080/nbsc_image/images/avatar/23_1442469927695.jpg",
+        "userSex": 1,
+        "userDes": "我就是狮子王",
+        "ifFavorite": 0,
+        "fansNum": 6,
+        "images": [{
+            "dynamicId": 1091,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1091/small_1442668003338.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1091/big_1442668003309.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1091/big_1442668003309.jpg",
+            "bigImageSize": "640*480"
         },
         {
-            "a": 2
-        }
-    ],
-    "clubs": [
-        {
-            "a": 1
+            "dynamicId": 1089,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1089/small_1442667907554.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1089/big_1442667907519.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1089/big_1442667907519.jpg",
+            "bigImageSize": "640*427"
         },
         {
-            "a": 2
-        }
-    ],
-    "activities": [
-        {
-            "a": 1
+            "dynamicId": 1084,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1084/small_1442639025590.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1084/big_1442639025536.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1084/big_1442639025536.jpg",
+            "bigImageSize": "640*853"
         },
         {
-            "a": 2
-        }
-    ]
+            "dynamicId": 1083,
+            "smallImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1083/small_1442638989495.jpg",
+            "middleImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1083/big_1442638989457.jpg",
+            "bigImage": "http://182.92.243.56:8080/nbsc_image/images/dynamic/1083/big_1442638989457.jpg",
+            "bigImageSize": "640*480"
+        }]
+    },
+    {
+        "userId": 24,
+        "userName": "酷儿",
+        "userIcon": "http://182.92.243.56:8080/nbsc_image/images/avatar/24_1441090762175.jpg",
+        "userSex": 0,
+        "userDes": "我就是狮子王",
+        "birthday": "1997-06-29",
+        "ifFavorite": 0,
+        "fansNum": 4,
+        "images": []
+    }],
+    "labels": [{
+        "labelId": 3,
+        "labelTitle": "滑雪1",
+        "labelImg": "http://182.92.243.56:8080/nbsc_image/images/label/3/1436085859869.jpg",
+        "labelBgImg": "http://182.92.243.56:8080/nbsc_image/images/label/3/1436085859869.jpg",
+        "labelDes": "滑雪",
+        "fansNum": 10,
+        "ifFavorite": false
+    },
+    {
+        "labelId": 4,
+        "labelTitle": "冲浪",
+        "labelImg": "http://182.92.243.56:8080/nbsc_image/images/label/4/1436085814762.jpg",
+        "labelBgImg": "http://182.92.243.56:8080/nbsc_image/images/label/4/1436085814763.jpg",
+        "labelDes": "冲浪标签",
+        "fansNum": 8,
+        "ifFavorite": false
+    },
+    {
+        "labelId": 5,
+        "labelTitle": "攀岩",
+        "labelImg": "http://182.92.243.56:8080/nbsc_image/images/label/5/1436085778801.jpg",
+        "labelBgImg": "http://182.92.243.56:8080/nbsc_image/images/label/5/1436085778801.jpg",
+        "labelDes": "攀岩标签",
+        "fansNum": 10,
+        "ifFavorite": false
+    },
+    {
+        "labelId": 6,
+        "labelTitle": "登山",
+        "labelImg": "http://182.92.243.56:8080/nbsc_image/images/label/6/1436085742324.jpg",
+        "labelBgImg": "http://182.92.243.56:8080/nbsc_image/images/label/6/1436085742325.jpg",
+        "labelDes": "登山标签",
+        "fansNum": 7,
+        "ifFavorite": false
+    },
+    {
+        "labelId": 7,
+        "labelTitle": "骑行",
+        "labelImg": "http://182.92.243.56:8080/nbsc_image/images/label/7/1436085699276.jpg",
+        "labelBgImg": "http://182.92.243.56:8080/nbsc_image/images/label/7/1436085699277.jpg",
+        "labelDes": "骑行标签",
+        "fansNum": 8,
+        "ifFavorite": false
+    },
+    {
+        "labelId": 8,
+        "labelTitle": "网球",
+        "labelImg": "http://182.92.243.56:8080/nbsc_image/images/label/8/1436085627553.jpg",
+        "labelBgImg": "http://182.92.243.56:8080/nbsc_image/images/label/8/1436085627557.jpg",
+        "labelDes": "网球标签",
+        "fansNum": 7,
+        "ifFavorite": false
+    }],
+    "clubs": [{
+        "clubId": 7,
+        "clubName": "丛老湿",
+        "clubLogo": "http://182.92.243.56:8080/nbsc_image/images/avatar/7_1437496517075.jpg",
+        "fansNum": 26
+    },
+    {
+        "clubId": 8,
+        "clubName": "鹤掌门",
+        "clubLogo": "http://182.92.243.56:8080/nbsc_image/images/avatar/8_1438333374615.jpg",
+        "fansNum": 27
+    },
+    {
+        "clubId": 9,
+        "clubName": "张少方",
+        "clubLogo": "http://182.92.243.56:8080/nbsc_image/images/avatar/9_1437302433650.jpg",
+        "fansNum": 1
+    }],
+    "activities": [{
+        "activityId": 1,
+        "activityName": "100米障碍接力赛",
+        "activityLogo": "http://a4.att.hudong.com/73/22/01300000343431123409222759077.jpg",
+        "activityPrice": "免费"
+    },
+    {
+        "activityId": 2,
+        "activityName": "100米障碍接力赛1",
+        "activityLogo": "http://a4.att.hudong.com/73/22/01300000343431123409222759077.jpg",
+        "activityPrice": "免费"
+    },
+    {
+        "activityId": 3,
+        "activityName": "100米障碍接力赛2",
+        "activityLogo": "http://a4.att.hudong.com/73/22/01300000343431123409222759077.jpg",
+        "activityPrice": "免费"
+    }]
 }

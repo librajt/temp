@@ -5,10 +5,15 @@
 <body>
 
 
-<div class="croll_slider">
-    <div class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></div>
-</div>
 
+<div class="croll_slider" id="slider">
+    <div class="slides">
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
+    </div>
+    <div class="pages"></div>
+</div>
 
 <div class="home_block">
     <div class="home_block_title">
@@ -97,7 +102,14 @@
 </div>
 
 
-
+<link ref="stylesheet/less" href="../lib/slider/carousel-image.css"></script>
+<script src="../lib/zepto.js"></script>
+<script src="../lib/slider/carousel-image.js"></script>
+<script>
+$('#slider').CarouselImage({
+    num: this.$('#slider .pages')
+});
+</script>
 
 </body>
 </html>
