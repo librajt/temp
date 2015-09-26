@@ -1,0 +1,8 @@
+
+<div class="club_brand">
+    <a href="#3" class="club_owner">
+        <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+        <div class="uname text_overflow">新蜂女子车队训练基地</div>
+    </a>
+<!--#include file="activity_brand.shtml"-->
+</div>

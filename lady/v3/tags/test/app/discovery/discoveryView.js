@@ -6,6 +6,7 @@ define([
         'common/list/listCollectionView',
         'common/subject/SubjectView', 'common/subject/SubjectModel',
         'common/player/PlayerView', 'common/player/PlayerModel',
+        'common/club/clubView', 'common/club/clubModel',
         'common/activity/activityView', 'common/activity/activityModel',
         'common/label/labelView', 'common/label/labelModel'
     ], function (
@@ -15,6 +16,7 @@ define([
         ListCollectionView,
         SubjectView, SubjectModel,
         PlayerView, PlayerModel,
+        ClubView, ClubModel,
         ActivityView, ActivityModel,
         LabelView, LabelModel
     ) {
@@ -39,17 +41,18 @@ define([
         renderDiscovery: function () {
             var self = this;
 
-            var explores = this.model.get('explores');
-            var labels = this.model.get('labels');
+            var ads = this.model.get('ads');  // 广告列表
+            var labels = this.model.get('labels');  // 玩什么
+            var explores = this.model.get('explores');  // 跟谁玩
+            var clubs = this.model.get('clubs');  // 去哪玩
+            var activities = this.model.get('activities');  // 去哪玩
             var experiences = this.model.get('experiences');
-            var clubs = this.model.get('clubs');
-            var activities = this.model.get('activities');
 
-            var slider = new Slider();
-            slider.init({
-                target: this.$('#slider'),
-                num: this.$('#slider .pages')
-            });
+            // var slider = new Slider();
+            // slider.init({
+            //     target: this.$('#slider'),
+            //     num: this.$('#slider .pages')
+            // });
 
             var subjectCollectionView = new ListCollectionView({
                 data: labels,
@@ -59,21 +62,28 @@ define([
             });
 
             var playerCollectionView = new ListCollectionView({
-                data: labels,
+                data: explores,
                 $el: this.$('#player'),
                 viewClass: PlayerView,
                 modelClass: PlayerModel
             });
 
+            var clubCollectionView = new ListCollectionView({
+                data: clubs,
+                $el: this.$('#club'),
+                viewClass: ClubView,
+                modelClass: ClubModel
+            });
+
             var activityCollectionView = new ListCollectionView({
-                data: labels,
+                data: activities,
                 $el: this.$('#activity'),
                 viewClass: ActivityView,
                 modelClass: ActivityModel
             });
 
             var labelCollectionView = new ListCollectionView({
-                data: labels,
+                data: activities,
                 $el: this.$('#label'),
                 viewClass: LabelView,
                 modelClass: LabelModel
