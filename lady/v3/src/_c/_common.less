@@ -6,6 +6,10 @@
     img{border-radius:999px;}
 }
 
+.avat{position:relative;
+    .img{position:absolute;top:0;left:0;width:100%;height:100%;}
+}
+
 .text_overflow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 
 .download_app{height:70px;
@@ -50,8 +54,11 @@
     .sub_title{font-size:14px;color:#FFF;max-width:140px;}
 }
 
+.dreaming{width:100px;height:32px;background:rgba(0,0,0,.5);border-radius:3px;text-align:center;line-height:32px;font-size:16px;color:#FFF;
+    .i{margin-right:5px;}
+}
 .subject_page_brand{position:relative;height:180px;background:#CCC;
-    .dreaming{position:absolute;z-index:9;top:12px;right:10px;width:100px;height:32px;background:rgba(0,0,0,.5);border-radius:3px;text-align:center;line-height:32px;font-size:16px;color:#FFF;
+    .dreaming{position:absolute;z-index:9;top:12px;right:10px;
         .i{margin-right:5px;}
     }
 }
@@ -83,7 +90,7 @@
 }
 
 .club{display:block;position:relative;width:100px;text-align:center;
-    .avat{display:inline-block;vertical-align:top;width:80px;}
+    .avat{display:inline-block;vertical-align:top;width:80px;height:80px;}
     .uname{font-size:15px;color:#484848;margin-top:3px;}
     .popular{font-size:14px;color:#B2B2B2;}
 }
@@ -105,14 +112,23 @@
 }
 
 /* 单一列表页中用来展示的样式 */
-.subject_brand{display:block;position:relative;height:150px;
-    .i{position:absolute;z-index:1;top:50%;right:15px;}
+.subject_brand{display:block;position:relative;height:180px;
+    .iA{position:absolute;z-index:1;top:50%;right:15px;border-width:1px 1px 0 0;}
     .cover{overflow:hidden;
         &:after{content:'';position:absolute;width:100%;height:100%;background:rgba(0,0,0,.3);}
     }
     .card{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;text-align:center;
-        .title{position:absolute;bottom:50%;width:100%;font-size:24px;color:#FFF;}
-        .sub_title{position:absolute;top:50%;width:100%;font-size:12px;color:#FFF;}
+        .title{position:absolute;bottom:60%;width:100%;font-size:24px;color:#FFF;}
+        .cnt{position:absolute;top:45%;width:100%;}
+        .sub_title{font-size:12px;color:#FFF;}
+        .opt{padding-top:10px;}
+        .dreaming{display:inline-block;vertical-align:middle;background:#000;
+            .i{position:relative;top:0;right:0;}
+            &.active{background:#FFD749;color:#000;
+                .i{top:-1px;}
+            }
+        }
+
     }
 }
 
@@ -123,7 +139,7 @@
     }
     .brand_head{margin-bottom:10px;}
     .user_card{float:left;padding:10px 0 10px 70px;position:relative;height:40px;margin-left:5px;}
-    .avat{position:absolute;top:0;left:0;width:60px;}
+    .avat{position:absolute;top:0;left:0;width:60px;height:60px;}
     .uname{font-size:16px;color:#484848;}
     .info{font-size:14px;color:#B2B2B2;
         .inf{display:inline-block;vertical-align:middle;}
@@ -140,7 +156,7 @@
 }
 
 .activity_brand{display:block;position:relative;height:150px;
-    .i{position:absolute;z-index:1;top:50%;right:15px;}
+    .iA{position:absolute;z-index:1;top:50%;right:15px;border-width:1px 1px 0 0;}
     .cover{overflow:hidden;
         &:after{content:'';position:absolute;width:100%;height:100%;background:rgba(0,0,0,.3);}
     }
@@ -157,7 +173,7 @@
 
 .club_brand{position:relative;padding-top:40px;
     .club_owner{position:absolute;z-index:9;left:10px;top:10px;padding-left:70px;height:60px;
-        .avat{position:absolute;left:0;top:0;width:60px;
+        .avat{position:absolute;left:0;top:0;width:60px;width:60px;height:60px;
             .img{border:1px solid #FFF;}
         }
         .uname{font-size:16px;color:#105DB8;padding-top:5px;}

@@ -11,37 +11,38 @@
 
 .home_block_footer{border:1px solid #ADADAD;border-width:1px 0;background:#EAEAEA;
     .show_more{display:block;position:relative;padding:0 30px;height:45px;line-height:45px;text-align:center;font-size:15px;color:#484848;
-        .i{position:absolute;right:15px;top:50%;}
+        .i{position:absolute;right:15px;top:50%;border-width:1px 1px 0 0;}
     }
 }
 
-.croll_slider{width:100%;overflow: hidden;position: relative;height:200px;
-    .slides{position: absolute;}
-    .slide{display: block;float:left;background-color: #f2f2f2;}
-    .pages{position: absolute;bottom:.2rem;margin:0 auto;width:100%;text-align: center;
-        i{font-size:0px;opacity:.5;cursor: pointer; font-style:normal;background:#FFF;color:#FFF;font-size: 0;height: 7px;width: 7px;border-radius:  4px;overflow: hidden;margin-left: 10px;display: inline-block;background-clip:padding-box;}
-        i.current{opacity:1;}
-    }
+.croll_slider{position:relative;}
+.slider{height:167px;
+    ul{overflow:hidden;position:relative;}
+    li{position:absolute;}
+}
+.slider_pages{position: absolute;bottom:.2rem;margin:0 auto;width:100%;text-align: center;
+    i{font-size:0px;opacity:.5;cursor: pointer; font-style:normal;background:#FFF;color:#FFF;font-size: 0;height: 7px;width: 7px;border-radius:  4px;overflow: hidden;margin-left: 10px;display: inline-block;background-clip:padding-box;}
+    i.current{opacity:1;}
 }
 
-.subject_list{font-size:0;padding:0 2px;
-    .subject{display:inline-block;vertical-align:top;margin:0 3px 10px;width:48%;}
+.subject_list{font-size:0;padding:0 1%;
+    .subject{float:left;margin:0 1% 10px;width:48%;}
 }
 
 .player_list{font-size:0;
-    .player{display:inline-block;vertical-align:top;margin:0 2px 10px;width:32%;}
+    .player{float:left;margin:0 1% 10px;width:31%;}
 }
 
-.club_list{font-size:0;padding:0 2px;
-    .club{display:inline-block;vertical-align:top;margin:0 2px 10px;width:32%;}
+.club_list{font-size:0;padding:0 1%;
+    .club{float:left;margin:0 1% 10px;width:31%;}
 }
 
 .activity_list{font-size:0;padding:0 2px;
-    .activity{display:inline-block;vertical-align:top;margin:0 3px 10px;width:48%;}
+    .activity{float:left;margin:0 1% 10px;width:48%;}
 }
 
 .label_list{font-size:0;
-    .label{display:inline-block;vertical-align:top;margin:0 2px 10px;width:32%;}
+    .label{float:left;margin:0 1% 10px;width:31%;}
 }
 
 /* 01-02 */
@@ -197,7 +198,7 @@
 
 .dream_settings_tip{margin:10px 0;text-align:center;font-size:12px;color:#484848;}
 
-.dream_settings_opts{text-align:center;padding:5px;background:#FFF;
+.dream_settings_opts{text-align:center;padding:5px;background:#FFF;position:fixed;bottom:0;width:100%;left:0;
     .opt{display:inline-block;vertical-align:middle;margin:0 3px;}
     .btn{display:block;height:32px;line-height:32px;font-size:16px;color:#000;padding:0 10px;border-radius:3px;background:#FFD800;
     }

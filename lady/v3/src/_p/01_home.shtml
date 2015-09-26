@@ -6,13 +6,9 @@
 
 
 
-<div class="croll_slider" id="slider">
-    <div class="slides">
-       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
-       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
-       <a class="slide"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></a>
-    </div>
-    <div class="pages"></div>
+<div class="croll_slider">
+    <div class="slider" id="slider"></div>
+    <div class="slider_pages" id="slider_pages"></div>
 </div>
 
 <div class="home_block">
@@ -102,12 +98,34 @@
 </div>
 
 
-<link ref="stylesheet/less" href="../lib/slider/carousel-image.css"></script>
 <script src="../lib/zepto.js"></script>
-<script src="../lib/slider/carousel-image.js"></script>
+<script src="../lib/islider.js"></script>
 <script>
-$('#slider').CarouselImage({
-    num: this.$('#slider .pages')
+// api: http://be-fe.github.io/iSlider/index.html
+var data = [{
+    content: "../../upload/uavat.jpg",
+},{
+    content: "../../upload/cover.jpg",
+},{
+    content: "../../upload/cover.jpg",
+}];
+
+var html = '';
+for (var i = 0; i < data.length; i++) {
+    html += '<i' + (i == 0 ? ' class="current"' : '') + '>' + (i + 1) + '</i>';
+}
+$('#slider_pages').html(html);
+
+var islider = new iSlider({
+    dom: $('#slider')[0],
+    data: data,
+    isLooping: true,
+    isAutoplay: true,
+    duration: 3000,
+    onslidechange: function(current) {
+        $('#slider_pages').find('i').removeClass('current');
+        $($('#slider_pages').find('i').get(current)).addClass('current');
+    }
 });
 </script>
 
