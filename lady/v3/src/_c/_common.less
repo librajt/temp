@@ -67,37 +67,41 @@
 
 /* 混合列表页中用来展示的样式 */
 .subject{display:block;position:relative;width:155px;height:80px;
-    .cover{border-radius:3px;overflow:hidden;}
-    .card{position:absolute;z-index:1;top:30px;left:10px;
+    .cover{border-radius:5px;overflow:hidden;position:relative;
+        &:after{content:'';position:absolute;top:0;left:0;top:0;right:0;bottom:0;background:rgba(0,0,0,.3);z-index:1;}
+    }
+    .card{position:absolute;z-index:1;top:30px;left:10px;text-align:left;
         .title{font-size:20px;color:#FFF;}
         .sub_title{font-size:14px;color:#FFF;max-width:140px;}
     }
 }
 
 .player{display:block;position:relative;width:100px;text-align:center;
-    .avat{display:inline-block;vertical-align:top;width:80px;}
-    .uname{font-size:15px;color:#484848;}
+    .avat{display:inline-block;vertical-align:top;width:80px;height:80px;}
+    .uname{font-size:15px;color:#484848;margin-top:3px;}
     .playing{font-size:14px;color:#B2B2B2;}
 }
 
 .club{display:block;position:relative;width:100px;text-align:center;
     .avat{display:inline-block;vertical-align:top;width:80px;}
-    .uname{font-size:15px;color:#484848;}
+    .uname{font-size:15px;color:#484848;margin-top:3px;}
     .popular{font-size:14px;color:#B2B2B2;}
 }
 
 
 .activity{display:block;position:relative;width:155px;height:80px;
-    .cover{border-radius:3px;overflow:hidden;}
-    .card{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;
-        .title{position:absolute;top:30px;left:10px;right:10px;font-size:16px;color:#FFF;text-align:center;line-height:20px;}
+    .cover{border-radius:5px;overflow:hidden;position:relative;
+        &:after{content:'';position:absolute;top:0;left:0;top:0;right:0;bottom:0;background:rgba(0,0,0,.3);z-index:1;}
+    }
+    .card{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;.display(flex);.align-items(center);.justify-content(center);
+        .title{padding:0 10px;font-size:16px;color:#FFF;text-align:center;line-height:20px;}
         .fense{position:absolute;bottom:5px;right:10px;font-size:14px;color:#FFF;max-width:140px;}
     }
 }
 
 .label,.coach{display:block;position:relative;width:100px;text-align:center;
-    .avat{display:inline-block;vertical-align:top;width:80px;}
-    .title{font-size:15px;color:#484848;}
+    .avat{display:inline-block;vertical-align:top;width:80px;height:80px;}
+    .title{font-size:15px;color:#484848;margin-top:3px;}
 }
 
 /* 单一列表页中用来展示的样式 */

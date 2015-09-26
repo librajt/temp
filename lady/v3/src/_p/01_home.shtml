@@ -39,6 +39,8 @@
 <!--#include file="inc/player.shtml"-->
 <!--#include file="inc/player.shtml"-->
 <!--#include file="inc/player.shtml"-->
+<!--#include file="inc/player.shtml"-->
+<!--#include file="inc/player.shtml"-->
         </div>
     </div>
     <div class="home_block_footer">
@@ -77,7 +79,7 @@
 
 <div class="home_block">
     <div class="home_block_title">
-        <div class="h2"><i class="i iG iG_label"></i>热门标签</div>
+        <div class="h2"><i class="i iG iG_label"></i>标签</div>
     </div>
     <div class="home_block_content">
         <div class="label_list cfix">
@@ -85,10 +87,12 @@
 <!--#include file="inc/label.shtml"-->
 <!--#include file="inc/label.shtml"-->
 <!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
+<!--#include file="inc/label.shtml"-->
         </div>
-    </div>
-    <div class="home_block_footer">
-        <a href="#3" class="show_more text_overflow">更多热门的标签<i class="i iA iA_middle iA_right iA_gray"></i></a>
     </div>
 </div>
 
