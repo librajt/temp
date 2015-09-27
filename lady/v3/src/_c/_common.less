@@ -49,7 +49,7 @@
 }
 
 
-.subject_card{position:absolute;top:50px;left:20px;height:80px;
+.subject_card{position:absolute;top:35px;left:20px;height:80px;
     .title{font-size:20px;color:#FFF;}
     .sub_title{font-size:14px;color:#FFF;max-width:140px;}
 }
@@ -57,12 +57,25 @@
 .dreaming{width:100px;height:32px;background:rgba(0,0,0,.5);border-radius:3px;text-align:center;line-height:32px;font-size:16px;color:#FFF;
     .i{margin-right:5px;}
 }
-.subject_page_brand{position:relative;height:180px;background:#CCC;
+.subject_page_brand{position:relative;height:185px;background:#CCC;
     .dreaming{position:absolute;z-index:9;top:12px;right:10px;
         .i{margin-right:5px;}
     }
 }
 
+
+/* 带brand头部的page的导航栏结构，水平排列 */
+.expand_navs{position:relative;z-index:99;height:30px;
+    &_wrap{border-bottom:1px solid #CCC;position:absolute;top:0;left:0;width:100%;background:#FFF;
+        &.expended .nav:nth-child(n+6){display:block;}
+    }
+    .nav{float:left;text-align:center;width:20%;padding-bottom:2px;height:28px;line-height:28px;
+        &.active{padding-bottom:0;border-bottom:2px solid #FFD800;}
+        &.toggle{}
+        &:nth-child(n+6){display:none;}
+        .h4{font-size:16px;color:#484848;}
+    }
+}
 
 /* 带brand头部的page的导航栏结构，水平排列 */
 .page_navs{position:relative;
@@ -112,7 +125,7 @@
 }
 
 /* 单一列表页中用来展示的样式 */
-.subject_brand{display:block;position:relative;height:180px;
+.subject_brand{display:block;position:relative;height:190px;
     .iA{position:absolute;z-index:1;top:50%;right:15px;border-width:1px 1px 0 0;}
     .cover{overflow:hidden;
         &:after{content:'';position:absolute;width:100%;height:100%;background:rgba(0,0,0,.3);}
