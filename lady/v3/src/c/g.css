@@ -202,6 +202,16 @@ body {
   height: 20px;
   background-position: -40px -60px;
 }
+.iG_building {
+  width: 20px;
+  height: 20px;
+  background-position: -60px -60px;
+}
+.iG_rocket {
+  width: 20px;
+  height: 20px;
+  background-position: -80px -60px;
+}
 .iG_phone {
   width: 20px;
   height: 30px;
@@ -211,6 +221,16 @@ body {
   width: 30px;
   height: 30px;
   background-position: -20px -80px;
+}
+.iG_more {
+  width: 50px;
+  height: 30px;
+  background-position: -50px -80px;
+}
+.iG_time2 {
+  width: 20px;
+  height: 20px;
+  background-position: 0 -110px;
 }
 a {
   -webkit-user-select: none;
@@ -247,6 +267,12 @@ html {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.plus {
+  color: #1FA300;
+}
+.minus {
+  color: #FF0000;
 }
 .download_app {
   height: 70px;
@@ -358,7 +384,7 @@ html {
 }
 .subject_card {
   position: absolute;
-  top: 50px;
+  top: 35px;
   left: 20px;
   height: 80px;
 }
@@ -386,7 +412,7 @@ html {
 }
 .subject_page_brand {
   position: relative;
-  height: 180px;
+  height: 185px;
   background: #CCC;
 }
 .subject_page_brand .dreaming {
@@ -397,6 +423,42 @@ html {
 }
 .subject_page_brand .dreaming .i {
   margin-right: 5px;
+}
+/* 可展开的导航栏，能 expended 类名控制 */
+.expand_navs {
+  position: relative;
+  z-index: 99;
+  height: 40px;
+}
+.expand_navs_wrap {
+  border-bottom: 1px solid #ADADAD;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FFF;
+}
+.expand_navs_wrap.expended .nav:nth-child(n+6) {
+  display: block;
+}
+.expand_navs .nav {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding-bottom: 2px;
+  height: 38px;
+  line-height: 40px;
+}
+.expand_navs .nav.active {
+  padding-bottom: 0;
+  border-bottom: 2px solid #FFD800;
+}
+.expand_navs .nav:nth-child(n+6) {
+  display: none;
+}
+.expand_navs .nav .h4 {
+  font-size: 16px;
+  color: #484848;
 }
 /* 带brand头部的page的导航栏结构，水平排列 */
 .page_navs {
@@ -630,13 +692,14 @@ html {
 .subject_brand {
   display: block;
   position: relative;
-  height: 180px;
+  height: 190px;
 }
-.subject_brand .i {
+.subject_brand .iA {
   position: absolute;
   z-index: 1;
   top: 50%;
   right: 15px;
+  border-width: 1px 1px 0 0;
 }
 .subject_brand .cover {
   overflow: hidden;
@@ -659,14 +722,14 @@ html {
 }
 .subject_brand .card .title {
   position: absolute;
-  bottom: 50%;
+  bottom: 60%;
   width: 100%;
   font-size: 24px;
   color: #FFF;
 }
 .subject_brand .card .cnt {
   position: absolute;
-  top: 50%;
+  top: 45%;
   width: 100%;
 }
 .subject_brand .card .sub_title {
@@ -674,7 +737,7 @@ html {
   color: #FFF;
 }
 .subject_brand .card .opt {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 .subject_brand .card .dreaming {
   display: inline-block;
@@ -770,11 +833,12 @@ html {
   position: relative;
   height: 150px;
 }
-.activity_brand .i {
+.activity_brand .iA {
   position: absolute;
   z-index: 1;
   top: 50%;
   right: 15px;
+  border-width: 1px 1px 0 0;
 }
 .activity_brand .cover {
   overflow: hidden;
@@ -1002,7 +1066,7 @@ html {
   position: absolute;
   right: 15px;
   top: 50%;
-  border-width: 2px 2px 0 0;
+  border-width: 1px 1px 0 0;
 }
 .croll_slider {
   position: relative;
@@ -1100,7 +1164,7 @@ html {
   background: rgba(0, 0, 0, 0.3);
 }
 .subject_page_navs .nav {
-  height: 58px;
+  height: 51px;
   padding-bottom: 2px;
 }
 .subject_page_navs .nav.active {
@@ -1165,6 +1229,9 @@ html {
   padding-bottom: 0;
   border-bottom: 2px solid #FFD800;
 }
+.activity_page {
+  background: #f0f0f2;
+}
 .activity_block + .activity_block {
   margin-top: 10px;
 }
@@ -1185,7 +1252,9 @@ html {
   margin: 0 10px;
 }
 .activity_detail_special,
-.activity_detail_intro {
+.activity_detail_intro,
+.activity_detail_host,
+.activity_detail_time {
   padding: 10px;
   border: 1px solid #CCC;
   background: #FFF;
@@ -1221,6 +1290,37 @@ html {
 .activity_detail_advice .inf .fense {
   font-size: 16px;
   color: #FFD800;
+}
+.activity_detail_host {
+  padding-left: 80px;
+  padding-right: 30px;
+  position: relative;
+  min-height: 60px;
+}
+.activity_detail_host .avat {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.activity_detail_host .avat .img {
+  border: 1px solid #8B8688;
+}
+.activity_detail_host .i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  border-width: 1px 1px 0 0;
+}
+.activity_detail_host .title {
+  font-size: 16px;
+  color: #484848;
+  margin-top: 10px;
+}
+.activity_detail_host .desc {
+  font-size: 12px;
+  color: #868686;
 }
 .activity_detail_advice .h3 {
   font-size: 16px;
@@ -1267,8 +1367,9 @@ html {
   text-align: center;
 }
 .activity_detail_coach_list .coach {
-  display: inline-block;
-  vertical-align: middle;
+  float: left;
+  margin: 0 1% 10px;
+  width: 31%;
   text-align: center;
 }
 .sign_to_activiey {
@@ -1313,13 +1414,19 @@ html {
 }
 /* 05 */
 .player_page_brand2 {
-  height: 220px;
+  height: 245px;
+}
+.player_page_brand2 .edit {
+  position: absolute;
+  z-index: 9;
+  top: 10px;
+  right: 10px;
 }
 .player_card2 {
   text-align: center;
   left: 20px;
   right: 20px;
-  top: 20px;
+  top: 25px;
   padding: 110px 0 0 0;
 }
 .player_card2 .avat {
@@ -1332,20 +1439,34 @@ html {
 }
 .player_card2 .uname {
   font-size: 16px;
+  margin-bottom: 5px;
 }
 .player_card2 .sign {
   font-size: 12px;
+  line-height: 1.5;
 }
 .subject_brand_list_title .h2 {
-  height: 32px;
-  line-height: 32px;
-  font-size: 14px;
+  height: 49px;
+  line-height: 49px;
+  font-size: 20px;
   color: #484848;
   text-align: center;
 }
+.subject_brand_list_title_gray {
+  background: #E5E5E5;
+}
 .dream_list_opts {
+  height: 42px;
+}
+.dream_list_opts .dream_list_opts_wrap {
   text-align: center;
   padding: 5px;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFF;
 }
 .dream_list_opts .opt {
   display: inline-block;
@@ -1364,6 +1485,80 @@ html {
 }
 .dream_list_opts .btn .i {
   margin-right: 3px;
+}
+.dream_list_helpers {
+  padding: 5px 15px;
+}
+.dream_list_helper {
+  position: relative;
+  margin: 5px 0;
+  padding-left: 60px;
+  min-height: 50px;
+}
+.dream_list_helper .avat {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.dream_list_helper .avat .img {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.dream_list_helper .info {
+  font-size: 16px;
+  color: #484848;
+  padding-top: 5px;
+}
+.dream_list_helper .desc {
+  font-size: 16px;
+  color: #484848;
+}
+.dream_list_helper_total {
+  height: 90px;
+}
+.dream_list_helper_total .dream_list_helper_total_wrap {
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #E5E5E5;
+}
+.dream_list_helper_total .help_total {
+  font-size: 16px;
+  color: #484848;
+}
+.dream_list_helper_total .plus,
+.dream_list_helper_total .minus {
+  font-size: 20px;
+}
+.dream_list_helper_total .opts {
+  padding-top: 10px;
+}
+.dream_list_helper_total .opt {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 3px;
+}
+.dream_list_helper_total .btn {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  padding: 0 20px;
+  border-radius: 3px;
+}
+.dream_list_helper_total .btn_help {
+  background: #2895DC;
+  color: #FFF;
+}
+.dream_list_helper_total .btn_join {
+  background: #FFD800;
+  color: #000;
 }
 /* 06 */
 .dream_settings .setting {
@@ -1504,4 +1699,14 @@ html {
   padding: 0 10px;
   border-radius: 3px;
   background: #FFD800;
+}
+.club_list_slider .slider {
+  height: 266px;
+}
+.club_list_slider .slider_pages {
+  position: relative;
+  bottom: 0;
+}
+.club_list_slider .slider_pages i {
+  background: #000;
 }

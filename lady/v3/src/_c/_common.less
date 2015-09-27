@@ -12,6 +12,10 @@
 
 .text_overflow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 
+.plus{color:#1FA300;}
+.minus{color:#FF0000;}
+
+
 .download_app{height:70px;
     .wrap{position:fixed;z-index:99;left:0;bottom:0;width:100%;height:70px;background:#FFF;}
     .logo{float:left;margin:20px;
@@ -64,12 +68,12 @@
 }
 
 
-/* 带brand头部的page的导航栏结构，水平排列 */
-.expand_navs{position:relative;z-index:99;height:30px;
-    &_wrap{border-bottom:1px solid #CCC;position:absolute;top:0;left:0;width:100%;background:#FFF;
+/* 可展开的导航栏，能 expended 类名控制 */
+.expand_navs{position:relative;z-index:99;height:40px;
+    &_wrap{border-bottom:1px solid #ADADAD;position:absolute;top:0;left:0;width:100%;background:#FFF;
         &.expended .nav:nth-child(n+6){display:block;}
     }
-    .nav{float:left;text-align:center;width:20%;padding-bottom:2px;height:28px;line-height:28px;
+    .nav{float:left;text-align:center;width:20%;padding-bottom:2px;height:38px;line-height:40px;
         &.active{padding-bottom:0;border-bottom:2px solid #FFD800;}
         &.toggle{}
         &:nth-child(n+6){display:none;}

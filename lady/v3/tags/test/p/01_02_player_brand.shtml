@@ -4,6 +4,7 @@
 </head>
 <body>
 
+<!--#include file="inc/expand_nav.shtml"-->
 
 <div class="player_brand_list cfix">
 <!--#include file="inc/player_brand.shtml"-->

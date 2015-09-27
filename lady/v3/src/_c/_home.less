@@ -83,6 +83,9 @@
     }
 }
 
+
+.activity_page{background:#f0f0f2;}
+
 .activity_block + .activity_block{margin-top:10px;}
 
 .activity_block_title{
@@ -95,7 +98,7 @@
 
 .activity_detail{margin:0 10px;}
 
-.activity_detail_special,.activity_detail_intro{padding:10px;border:1px solid #CCC;background:#FFF;font-size:12px;color:#484848;}
+.activity_detail_special,.activity_detail_intro,.activity_detail_host,.activity_detail_time{padding:10px;border:1px solid #CCC;background:#FFF;font-size:12px;color:#484848;}
 .activity_detail_price,.activity_detail_notice,.activity_detail_advice{
     .inf{padding:10px;border:1px solid #CCC;background:#FFF;
         & + .inf{border-top:0;}
@@ -104,6 +107,16 @@
         .fense{font-size:16px;color:#FFD800;}
     }
 }
+
+.activity_detail_host{padding-left:80px;padding-right:30px;position:relative;min-height:60px;
+    .avat{width:60px;height:60px;position:absolute;left:10px;top:10px;
+        .img{border:1px solid #8B8688;}
+    }
+    .i{position:absolute;right:15px;top:50%;border-width:1px 1px 0 0;}
+    .title{font-size:16px;color:#484848;margin-top:10px;}
+    .desc{font-size:12px;color:#868686;}
+}
+
 .activity_detail_advice{
     .h3{font-size:16px;color:#484848;}
     .inf{position:relative;padding-left:80px;min-height:60px;
@@ -125,7 +138,7 @@
 }
 
 .activity_detail_coach_list{font-size:0;margin:0;text-align:center;
-    .coach{display:inline-block;vertical-align:middle;text-align:center;}
+    .coach{float:left;margin:0 1% 10px;width:31%;text-align:center;}
 }
 
 .sign_to_activiey{height:50px;
@@ -141,7 +154,9 @@
 }
 
 /* 05 */
-.player_page_brand2{height:245px;}
+.player_page_brand2{height:245px;
+    .edit{position:absolute;z-index:9;top:10px;right:10px;}
+}
 .player_card2{text-align:center;left:20px;right:20px;top:25px;padding:110px 0 0 0;
     .avat{top:0;left:50%;margin-left:-50px;
         .img{border:0;}
@@ -151,8 +166,10 @@
 }
 
 .subject_brand_list_title{
-    .h2{height:49px;line-height:49px;font-size:16px;color:#484848;text-align:center;}
+    .h2{height:49px;line-height:49px;font-size:20px;color:#484848;text-align:center;}
 }
+
+.subject_brand_list_title_gray{background:#E5E5E5;}
 
 .dream_list_opts{height:42px;
     .dream_list_opts_wrap{text-align:center;padding:5px;position:fixed;z-index:99;bottom:0;left:0;right:0;background:#FFF;}
@@ -160,6 +177,28 @@
     .btn{display:block;height:32px;line-height:32px;font-size:16px;color:#000;padding:0 10px;border-radius:3px;background:#FFD800;
         .i{margin-right:3px;}
     }
+}
+
+.dream_list_helpers{padding:5px 15px;}
+
+.dream_list_helper{position:relative;margin:5px 0;padding-left:60px;min-height:50px;
+    .avat{position:absolute;width:50px;height:50px;top:0;left:0;
+        .img{border-radius:5px;overflow:hidden;}
+    }
+    .info{font-size:16px;color:#484848;padding-top:5px;}
+    .desc{font-size:16px;color:#484848;}
+}
+
+.dream_list_helper_total{height:90px;
+    .dream_list_helper_total_wrap{text-align:center;padding:10px;position:fixed;z-index:99;bottom:0;left:0;right:0;background:#E5E5E5;}
+    .help_total{font-size:16px;color:#484848;}
+    .plus,.minus{font-size:20px;}
+    .opts{padding-top:10px;}
+    .opt{display:inline-block;vertical-align:middle;margin:0 3px;}
+    .btn{display:block;height:32px;line-height:32px;font-size:16px;padding:0 20px;border-radius:3px;
+    }
+    .btn_help{background:#2895DC;color:#FFF;}
+    .btn_join{background:#FFD800;color:#000;}
 }
 
 /* 06 */
@@ -213,7 +252,6 @@
         i{background:#000;}
     }
 }
-
 
 
 

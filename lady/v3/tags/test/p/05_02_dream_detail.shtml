@@ -1,0 +1,40 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+
+<!--#include file="inc/player_page_brand2.shtml"-->
+
+<div class="dream_list_helpers">
+<!--#include file="inc/dream_list_helper.shtml"-->
+<!--#include file="inc/dream_list_helper.shtml"-->
+<!--#include file="inc/dream_list_helper.shtml"-->
+<!--#include file="inc/dream_list_helper.shtml"-->
+<!--#include file="inc/dream_list_helper.shtml"-->
+</div>
+
+<div class="subject_brand_list_title subject_brand_list_title_gray">
+    <div class="h2">我的梦想清单</div>
+</div>
+
+<div class="subject_brand_list cfix">
+<!--#include file="inc/subject_brand.shtml"-->
+<!--#include file="inc/subject_brand.shtml"-->
+<!--#include file="inc/subject_brand.shtml"-->
+<!--#include file="inc/subject_brand.shtml"-->
+</div>
+
+<div class="dream_list_helper_total">
+    <div class="dream_list_helper_total_wrap">
+        <div class="total_info">共有54人帮李鹤助力了<span class="plus">320元</span></div> <!-- 增：plus, 减：minus -->
+        <div class="opts">
+            <div class="opt"><a href="#3" class="btn btn_help">帮TA助力</a></div>
+            <div class="opt"><a href="#3" class="btn btn_join">我也要玩</a></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

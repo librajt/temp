@@ -12,58 +12,102 @@
 <body>
 
 
+
+<div class="expand_navs">
+    <div class="expand_navs_wrap cfix">
+        <a href="javascript:" class="nav active">
+            <div class="h4">潜水</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">滑雪</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">攀岩</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">冲浪</div>
+        </a>
+        <a href="javascript:" class="nav toggle" onclick="this.parentNode.className += ' expended'"> <!-- 点击后为父元素添加类名 expended -->
+            <i class="i iG iG_more"></i>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">潜水</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">滑雪</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">攀岩</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">冲浪</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">冲浪</div>
+        </a>
+    </div>
+</div>
+
+
+
 <div class="home_block">
     <div class="home_block_title">
         <div class="h2"><i class="i iG iG_flag"></i>俱乐部</div>
     </div>
     <div class="home_block_content">
-
-        <div class="club_list cfix">
-
-<a href="#3" class="club">
-    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
-    <div class="uname text_overflow">剑元上至</div>
-    <div class="popular">2万人关注</div>
-</a>
-
-
-<a href="#3" class="club">
-    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
-    <div class="uname text_overflow">剑元上至</div>
-    <div class="popular">2万人关注</div>
-</a>
-
-
-<a href="#3" class="club">
-    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
-    <div class="uname text_overflow">剑元上至</div>
-    <div class="popular">2万人关注</div>
-</a>
-
-
-<a href="#3" class="club">
-    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
-    <div class="uname text_overflow">剑元上至</div>
-    <div class="popular">2万人关注</div>
-</a>
-
-
-<a href="#3" class="club">
-    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
-    <div class="uname text_overflow">剑元上至</div>
-    <div class="popular">2万人关注</div>
-</a>
-
-
-<a href="#3" class="club">
-    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
-    <div class="uname text_overflow">剑元上至</div>
-    <div class="popular">2万人关注</div>
-</a>
-
+        <div class="club_list_slider">
+            <div class="slider" id="club_list_slider_content"></div>
+            <div class="slider_pages" id="club_list_slider_pages"></div>
         </div>
     </div>
 </div>
+<script type="text/template" id="club_list_template">
+<div class="club_list cfix">
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+
+<a href="#3" class="club">
+    <div class="avat"><div class="img round_img"><img src="../../upload/uavat.jpg" alt=""></div></div>
+    <div class="uname text_overflow">剑元上至</div>
+    <div class="popular">2万人关注</div>
+</a>
+
+</div>
+</script>
+
 
 
 <div class="home_block">
@@ -166,10 +210,48 @@
 </div>
 
 
-<div class="brand_list_tabs club_brand_list_tabs">
+<!-- <div class="brand_list_tabs club_brand_list_tabs">
     <a href="#3" class="tab active">正在进行</a>
     <a href="#3" class="tab">往期活动</a>
 </div>
+ -->
+
+
+<script src="../lib/zepto.js"></script>
+<script src="../lib/islider.js"></script>
+<script>
+// api: http://be-fe.github.io/iSlider/index.html
+var data = [{
+    content: $('#club_list_template').html(),
+},{
+    content: $('#club_list_template').html(),
+},{
+    content: $('#club_list_template').html(),
+}];
+
+var html = '';
+for (var i = 0; i < data.length; i++) {
+    html += '<i' + (i == 0 ? ' class="current"' : '') + '>' + (i + 1) + '</i>';
+}
+$('#club_list_slider_pages').html(html);
+if (data.length === 1) {
+    $('#club_list_slider_pages').hide();
+}
+
+var islider = new iSlider({
+    dom: $('#club_list_slider_content')[0],
+    data: data,
+    type: 'dom',
+    isLooping: true,
+    isAutoplay: true,
+    duration: 3000,
+    onslidechange: function(current) {
+        $('#club_list_slider_pages').find('i').removeClass('current');
+        $($('#club_list_slider_pages').find('i').get(current)).addClass('current');
+    }
+});
+</script>
+
 
 </body>
 </html>

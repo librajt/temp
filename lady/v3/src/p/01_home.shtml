@@ -101,6 +101,7 @@
 <script src="../lib/zepto.js"></script>
 <script src="../lib/islider.js"></script>
 <script>
+// api: http://be-fe.github.io/iSlider/index.html
 var data = [{
     content: "../../upload/uavat.jpg",
 },{
@@ -120,6 +121,7 @@ var islider = new iSlider({
     data: data,
     isLooping: true,
     isAutoplay: true,
+    duration: 3000,
     onslidechange: function(current) {
         $('#slider_pages').find('i').removeClass('current');
         $($('#slider_pages').find('i').get(current)).addClass('current');

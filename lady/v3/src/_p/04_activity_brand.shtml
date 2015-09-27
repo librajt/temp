@@ -13,10 +13,10 @@
 <!--#include file="inc/activity_brand.shtml"-->
 </div>
 
-<div class="brand_list_tabs activity_brand_list_tabs">
+<!-- <div class="brand_list_tabs activity_brand_list_tabs">
     <a href="#3" class="tab active">正在进行</a>
     <a href="#3" class="tab">往期活动</a>
 </div>
-
+ -->
 </body>
 </html>
