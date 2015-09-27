@@ -1,5 +1,5 @@
 /* ../../../../lib/com/_projectInfo/1.css */
-#PROJECTINFO{name:"lady_v3";version:"test";update:"Sun Sep 27 2015 22:46:09 GMT+0800";}
+#PROJECTINFO{name:"lady_v3";version:"test";update:"Sun Sep 27 2015 23:47:27 GMT+0800";}
 /* /--- */
 
 /* ../../../../lib/com/_reset_h5/1.css */
@@ -299,7 +299,7 @@ html {
   bottom: 0;
   width: 100%;
   height: 70px;
-  background: #FFF;
+  background: #F6F6F6;
 }
 .download_app .logo {
   float: left;
@@ -447,7 +447,7 @@ html {
 }
 .expand_navs_wrap {
   border-bottom: 1px solid #ADADAD;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -1247,8 +1247,8 @@ html {
 .activity_page {
   background: #f0f0f2;
 }
-.activity_block + .activity_block {
-  margin-top: 10px;
+.activity_block {
+  padding-top: 10px;
 }
 .activity_block_title .h2 {
   position: relative;

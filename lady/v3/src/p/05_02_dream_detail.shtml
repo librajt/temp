@@ -28,7 +28,7 @@
 
 <div class="dream_list_helper_total">
     <div class="dream_list_helper_total_wrap">
-        <div class="total_info">共有54人帮李鹤助力了<span class="plus">320元</span></div> <!-- 增：plus, 减：minus -->
+        <div class="total_info">共有54人帮李鹤助力了<span class="plus">320梦想币</span></div> <!-- 增：plus, 减：minus -->
         <div class="opts">
             <div class="opt"><a href="#3" class="btn btn_help">帮TA助力</a></div>
             <div class="opt"><a href="#3" class="btn btn_join">我也要玩</a></div>

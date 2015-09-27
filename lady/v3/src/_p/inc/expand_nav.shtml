@@ -13,7 +13,7 @@
         <a href="javascript:" class="nav">
             <div class="h4">冲浪</div>
         </a>
-        <a href="javascript:" class="nav toggle" onclick="this.parentNode.className += ' expended'"> <!-- 点击后为父元素添加类名 expended -->
+        <a href="javascript:" class="nav toggle" onclick="this.parentNode.classList.toggle('expended')"> <!-- 点击后为父元素添加类名 expended -->
             <i class="i iG iG_more"></i>
         </a>
         <a href="javascript:" class="nav">

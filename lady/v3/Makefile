@@ -16,7 +16,9 @@ build:
 	node ../../lib/pack/pack -p lady -c v3
     
 	date
-
+	
+	rm src/html -rf
+	shtml2html -s src/p/ -d src/html
 #
 # usage: make watch
 #
