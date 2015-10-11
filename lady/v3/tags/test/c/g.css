@@ -1,5 +1,5 @@
 /* ../../../../lib/com/_projectInfo/1.css */
-#PROJECTINFO{name:"lady_v3";version:"test";update:"Tue Sep 29 2015 09:25:52 GMT+0800";}
+#PROJECTINFO{name:"lady_v3";version:"test";update:"Sun Oct 11 2015 22:12:40 GMT+0800";}
 /* /--- */
 
 /* ../../../../lib/com/_reset_h5/1.css */
@@ -473,6 +473,7 @@ html {
   padding-bottom: 2px;
   height: 38px;
   line-height: 40px;
+  overflow: hidden;
 }
 .expand_navs .nav.active {
   padding-bottom: 0;
@@ -1029,11 +1030,12 @@ html {
 }
 .share_post .opts {
   text-align: center;
+  padding-bottom: 20px;
 }
 .share_post .opts .opt {
   display: inline-block;
   vertical-align: top;
-  margin: 0 10px;
+  margin: 0 5px;
   position: relative;
   padding-top: 32px;
   width: 60px;

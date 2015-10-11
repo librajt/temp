@@ -18,7 +18,6 @@
         <div class="text"><p>ABCDE</p></div>
         <div class="pic"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></div>
         <div class="pic"><div class="img"><img src="../../upload/cover.jpg" alt=""></div></div>
-        <div class="text"><p>ABCDE</p></div>
     </div>
     <div class="opts">
         <a href="javascript:" class="opt"><i class="i iG iG_heart"></i><div class="count text_overflow">12</div></a>
