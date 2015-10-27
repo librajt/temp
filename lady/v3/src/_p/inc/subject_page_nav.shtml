@@ -2,8 +2,12 @@
 <div class="page_navs subject_page_navs">
     <div class="page_navs_wrap player_page_nav_wrap cfix">
         <a href="javascript:" class="nav active">
-            <div class="h4">达人</div>
-            <div class="des">124</div>
+            <div class="h4">俱乐部</div>
+            <div class="des">24</div>
+        </a>
+        <a href="javascript:" class="nav">
+            <div class="h4">活动</div>
+            <div class="des">12</div>
         </a>
         <a href="javascript:" class="nav">
             <div class="h4">活动</div>

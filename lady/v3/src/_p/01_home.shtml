@@ -11,6 +11,26 @@
     <div class="slider_pages" id="slider_pages"></div>
 </div>
 
+
+<div class="home_block">
+    <div class="home_block_title">
+        <div class="h2"><i class="i iG iG_location"></i>去哪玩</div>
+    </div>
+    <div class="home_block_content">
+        <div class="activity_list cfix">
+<!--#include file="inc/activity.shtml"-->
+<!--#include file="inc/activity.shtml"-->
+<!--#include file="inc/activity.shtml"-->
+<!--#include file="inc/activity.shtml"-->
+        </div>
+    </div>
+    <div class="home_block_footer">
+        <a href="#3" class="show_more text_overflow">更多好玩的活动<i class="i iA iA_middle iA_right iA_gray"></i></a>
+    </div>
+</div>
+
+
+
 <div class="home_block">
     <div class="home_block_title">
         <div class="h2"><i class="i iG iG_plane"></i>玩什么</div>
@@ -54,23 +74,20 @@
 
 <div class="home_block">
     <div class="home_block_title">
-        <div class="h2"><i class="i iG iG_location"></i>去哪玩</div>
+        <div class="h2"><i class="i iG iG_location"></i>俱乐部</div>
     </div>
     <div class="home_block_content">
         <div class="club_list cfix">
 <!--#include file="inc/club.shtml"-->
 <!--#include file="inc/club.shtml"-->
 <!--#include file="inc/club.shtml"-->
-        </div>
-        <div class="activity_list cfix">
-<!--#include file="inc/activity.shtml"-->
-<!--#include file="inc/activity.shtml"-->
-<!--#include file="inc/activity.shtml"-->
-<!--#include file="inc/activity.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
         </div>
     </div>
     <div class="home_block_footer">
-        <a href="#3" class="show_more text_overflow">更多好玩的活动<i class="i iA iA_middle iA_right iA_gray"></i></a>
+        <a href="#3" class="show_more text_overflow">更多酷炫的俱乐部<i class="i iA iA_middle iA_right iA_gray"></i></a>
     </div>
 </div>
 

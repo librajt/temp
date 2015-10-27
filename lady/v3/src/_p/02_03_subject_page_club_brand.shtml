@@ -1,0 +1,79 @@
+<!--#include file="inc/_head.shtml"-->
+<title></title>
+<!--#include file="inc/_link_g.shtml"-->
+</head>
+<body>
+
+
+<!--#include file="inc/subject_page_brand.shtml"-->
+
+<div class="club_list_slider">
+    <div class="club_list cfix">
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+    </div>
+</div>
+// 静态
+
+<div class="club_list_slider">
+    <div class="slider" id="club_list_slider_content"></div>
+    <div class="slider_pages" id="club_list_slider_pages"></div>
+</div>
+// 动态
+
+<script type="text/template" id="club_list_template">
+<div class="club_list cfix">
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+<!--#include file="inc/club.shtml"-->
+</div>
+</script>
+
+
+<script src="../lib/zepto.js"></script>
+<script src="../lib/islider.js"></script>
+<script>
+// api: http://be-fe.github.io/iSlider/index.html
+var data = [{
+    content: $('#club_list_template').html(),
+},{
+    content: $('#club_list_template').html(),
+},{
+    content: $('#club_list_template').html(),
+}];
+
+var html = '';
+for (var i = 0; i < data.length; i++) {
+    html += '<i' + (i == 0 ? ' class="current"' : '') + '>' + (i + 1) + '</i>';
+}
+$('#club_list_slider_pages').html(html);
+if (data.length === 1) {
+    $('#club_list_slider_pages').hide();
+}
+
+var islider = new iSlider({
+    dom: $('#club_list_slider_content')[0],
+    data: data,
+    type: 'dom',
+    isLooping: true,
+    isAutoplay: true,
+    duration: 3000,
+    onslidechange: function(current) {
+        $('#club_list_slider_pages').find('i').removeClass('current');
+        $($('#club_list_slider_pages').find('i').get(current)).addClass('current');
+    }
+});
+</script>
+
+
+
+</body>
+</html>
